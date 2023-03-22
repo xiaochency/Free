@@ -1,0 +1,90 @@
+[08:27:57]: [string "../mods/workshop-2656551380/modmain.lua"]:684: attempt to index field 'target' (a nil value)
+LUA ERROR stack traceback:
+../mods/workshop-2656551380/modmain.lua:684 in (field) fn (Lua) <661-715>
+   act = 给予 nil With Inv: 165745 - bluegem(LIMBO) (valid:true)
+   cangive = true
+   ents = table: 0xa125310
+   count = 0
+scripts/bufferedaction.lua:25 in (method) Do (Lua) <21-35>
+   self (valid:true) =
+      forced = true
+      action = table: 0xd579b70
+      doer = 101147 - wilson (valid:true)
+      onfail = table: 0x15010240
+      doerownsobject = true
+      rotation = 0
+      options = table: 0x2ae5d930
+      onsuccess = table: 0x2c0f0990
+      invobject = 165745 - bluegem(LIMBO) (valid:true)
+      pos = 351.86, -293.04 on nil
+scripts/entityscript.lua:1463 in (method) PerformBufferedAction (Lua) <1450-1474>
+   self (valid:true) =
+      _PostActivateHandshakeState_Client = 0
+      EnableLoadingProtection = function - scripts/prefabs/player_common.lua:988
+      inlimbo = false
+      GetMoistureRateScale = function - scripts/prefabs/player_common.lua:247
+      SetCameraDistance = function - scripts/prefabs/player_common.lua:1409
+      CanSeePointOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:805
+      skeleton_prefab = skeleton_player
+      player_classified = 101148 - player_classified (valid:true)
+      playercolour = table: 0x2a64f030
+      MakeGenericCommander = function - scripts/prefabs/player_common_extensions.lua:816
+      wallupdatecomponents = table: 0x39ccda20
+      IsActing = function - scripts/prefabs/player_common_extensions.lua:857
+      Light = Light (0xd6ba0b0)
+      _isrezattuned = false
+      OnRemoveEntity = function - scripts/prefabs/player_common.lua:1029
+      pendingtasks = table: 0x3e718a60
+      ShowHUD = function - scripts/prefabs/player_common.lua:1389
+      ResetMinimapOffset = function - scripts/prefabs/player_common.lua:1401
+      sg = sg="wilson", state="give", time=0.43, tags = "giving,"
+      IsHUDVisible = function - scripts/prefabs/player_common.lua:1379
+      data_player = table: 0x117da470
+      SetGhostMode = function - scripts/prefabs/player_common.lua:843
+      ShowActions = function - scripts/prefabs/player_common.lua:1383
+      OnWakeUp = function - scripts/prefabs/player_common.lua:1249
+      Transform = Transform (0x2bc306a0)
+      actionreplica = table: 0xf184200
+      event_listening = table: 0x121924e0
+      actioncomponents = table: 0xc3713b0
+      GetStormLevel = function - scripts/prefabs/player_common.lua:257
+      lower_components_shadow = table: 0x261baa00
+      GetMaxMoisture = function - scripts/prefabs/player_common.lua:237
+      OnPostActivateHandshake_Server = function - scripts/prefabs/player_common_extensions.lua:891
+      ScreenFlash = function - scripts/prefabs/player_common.lua:1471
+      CanUseTouchStone = function - scripts/prefabs/player_common.lua:187
+      updatecomponents = table: 0x2b883760
+      xpgeneration_task = PERIODIC 101147: 480.000000
+      ShakeCamera = function - scripts/prefabs/player_common.lua:1429
+      OnPostActivateHandshake_Client = function - scripts/prefabs/player_common_extensions.lua:873
+      OnLoad = function - local _G = GLOBAL
+local TheNet = _G.TheNet
+local lang = TheNet:GetDefaultServerLanguage()
+local Vector3 = _G.Vector3
+local IsMaster = _G.TheShard:IsMaster()
+
+local checkingdays = GetModConfigData("clean_day")
+
+local cleanlist = { ------------------------ \232\163\133\229\164\135\231\177\187 ------------------------
+"spear", -- \233\149\191\231\159\155
+"spear_wathgrithr", -- \230\136\152\230\150\151\233\149\191\231\159\155
+"torch", -- \231\129\171\231\130\172
+"strawhat", -- \232\141\137\229\184\189
+"earmuffshat", -- \229\133\148\232\128\179\231\189\169
+"footballhat", -- \230\169\132\230\166\132\231\144\131\229\164\180\231\155\148
+"armorwood", -- \230\156\168\231\148\178
+"axe", -- \230\150\167\229\164\180
+"pickaxe", -- \233\185\164\229\152\180\233\148\132
+"shovel", -- \233\147\178\229\173\144
+"umbrella", -- \233\155\168\228\188\158
+"machete", -- \231\160\141\229\136\128(\230\181\183\23
+[08:27:57]: [string "../mods/workshop-2656551380/modmain.lua"]:684: attempt to index field 'target' (a nil value)
+LUA ERROR stack traceback:
+    ../mods/workshop-2656551380/modmain.lua:684 in (field) fn (Lua) <661-715>
+    scripts/bufferedaction.lua:25 in (method) Do (Lua) <21-35>
+    scripts/entityscript.lua:1463 in (method) PerformBufferedAction (Lua) <1450-1474>
+    scripts/stategraphs/SGwilson.lua:9053 in (field) fn (Lua) <9052-9054>
+    scripts/stategraph.lua:641 in (method) UpdateState (Lua) <609-653>
+    scripts/stategraph.lua:679 in (method) Update (Lua) <672-698>
+    scripts/stategraph.lua:128 in (method) Update (Lua) <109-146>
+    scripts/update.lua:285 in () ? (Lua) <221-295>
