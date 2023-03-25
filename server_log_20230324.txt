@@ -1,0 +1,192 @@
+[06:40:00]: Spawning player at: [Fixed] (135.93, 0.00, -256.13)	
+[06:40:00]: Enabling Spawn Protection for	212983 - wanda	
+[06:40:00]: Serializing user: session/FFFDA007B6A72A2F/A7NBG3LSSD6N/0000000032
+[06:40:01]: Invalid skilltree characterprefab to ValidateCharacterData:	212983 - wanda	wanda	
+[06:40:04]: Could not find anim [death] in bank [ghost]
+[06:40:04]: Serializing user: session/FFFDA007B6A72A2F/A7G2Q0NNIB7L/0000000032
+[06:40:04]: Health:SetPenalty	true	
+[06:40:08]: Could not find anim [idle_loop] in bank [ghost]
+[06:40:10]: Could not find anim [idle_loop] in bank [ghost]
+[06:40:11]: Could not find anim [transform] in bank [wilson]
+[06:40:12]: Serializing user: session/FFFDA007B6A72A2F/A7G9R8GC2NOF/0000000032
+[06:40:13]: Could not find anim [transform] in bank [wilson]
+[06:40:14]: Serializing user: session/FFFDA007B6A72A2F/A7G2Q0NNIB7L/0000000032
+[06:40:38]: Could not find anim [death] in bank [ghost]
+[06:40:38]: Serializing user: session/FFFDA007B6A72A2F/A7KFRB0FQRUH/0000000032
+[06:40:56]: Could not find anim [idle_loop] in bank [ghost]
+[06:40:59]: Could not find anim [transform] in bank [wilson]
+[06:41:01]: Serializing user: session/FFFDA007B6A72A2F/A7KFRB0FQRUH/0000000032
+[06:41:06]: Could not find anim [death] in bank [ghost]
+[06:41:06]: Serializing user: session/FFFDA007B6A72A2F/A7G2Q0NNIB7L/0000000032
+[06:41:13]: Could not find anim [idle_loop] in bank [ghost]
+[06:41:16]: Could not find anim [transform] in bank [wilson]
+[06:41:17]: Serializing user: session/FFFDA007B6A72A2F/A7G2Q0NNIB7L/0000000032
+[06:41:44]: Could not find anim [death] in bank [ghost]
+[06:41:44]: Serializing user: session/FFFDA007B6A72A2F/A7KFRB0FQRUH/0000000032
+[06:41:48]: Could not find anim [death] in bank [ghost]
+[06:41:48]: Serializing user: session/FFFDA007B6A72A2F/A7G2Q0NNIB7L/0000000032
+[06:42:08]: [Steam] SendUserDisconnect for '76561199280746681'
+[06:42:08]: [Shard] (KU_wu3hpZJN) disconnected from [SHDMASTER](1)
+[06:42:08]: Serializing user: session/FFFDA007B6A72A2F/A7NBG3LSSD6N/0000000032
+[06:42:18]: Could not find anim [idle_loop] in bank [ghost]
+[06:42:21]: Could not find anim [transform] in bank [wilson]
+[06:42:22]: Serializing user: session/FFFDA007B6A72A2F/A7G2Q0NNIB7L/0000000032
+[06:42:29]: Could not find anim [death] in bank [ghost]
+[06:42:29]: Serializing user: session/FFFDA007B6A72A2F/A7G2Q0NNIB7L/0000000032
+[06:43:24]: Could not find anim [idle_loop] in bank [ghost]
+[06:43:27]: Could not find anim [transform] in bank [wilson]
+[06:43:28]: Serializing user: session/FFFDA007B6A72A2F/A7G2Q0NNIB7L/0000000032
+[06:44:21]: Could not find anim [death] in bank [ghost]
+[06:44:21]: Serializing user: session/FFFDA007B6A72A2F/A7H0T9AKHF7Q/0000000032
+[06:44:49]: wiped	5	海盗头巾  monkey_smallhat	
+[06:44:49]: wiped	1	月光玻璃斧  moonglassaxe	
+[06:44:49]: wiped	1	鳞甲  armordragonfly	
+[06:44:49]: wiped	1	冰帽  icehat	
+[06:44:49]: wiped	1	猫尾  coontail	
+[06:44:49]: wiped	1	月亮蘑菇  moon_cap	
+[06:44:49]: wiped	1	加州卷食谱卡  cookingrecipecard	
+[06:44:49]: wiped	2	电子元件  transistor	
+[06:44:49]: wiped	1	黄金园艺锄  golden_farm_hoe	
+[06:44:49]: wiped	2	种壳  waterplant_bomb	
+[06:44:49]: wiped	1	种子  seeds	
+[06:44:49]: wiped	2	牛毛  beefalowool	
+[06:44:49]: wiped	2	蜗壳护甲  armorsnurtleshell	
+[06:44:49]: wiped	1	木头  log	
+[06:44:49]: wiped	10	月岩雕像  moonrockidol	
+[06:44:49]: wiped	1	捆绑包装  bundlewrap	
+[06:44:49]: wiped	1	触手尖刺  tentaclespike	
+[06:44:49]: wiped	1	石头  rocks	
+[06:44:49]: wiped	1	雨伞  umbrella	
+[06:44:49]: wiped	2	黄金铲子  goldenshovel	
+[06:44:49]: wiped	2	蝴蝶松饼食谱卡  cookingrecipecard	
+[06:44:49]: wiped	1	棕榈松果树鳞片  palmcone_scale	
+[06:44:49]: wiped	1	铥矿  thulecite	
+[06:44:49]: wiped	1	战桨  oar_monkey	
+[06:44:49]: wiped	1	尖刺灌木  dug_marsh_bush	
+[06:44:49]: wiped	2	船长的三角帽  monkey_mediumhat	
+[06:44:49]: wiped	1	针线包  sewing_kit	
+[06:44:49]: wiped	1	清洁扫把  reskin_tool	
+[06:44:49]: wiped	1	硝石  nitre	
+[06:44:49]: wiped	1	蜘蛛帽  spiderhat	
+[06:44:49]: wiped	1	犬牙  houndstooth	
+[06:44:49]: wiped	1	高礼帽  tophat	
+[06:44:49]: wiped	1	脓鼻涕  phlegm	
+[06:44:49]: wiped	3	蛞蝓龟黏液  slurtleslime	
+[06:44:49]: wiped	1	强心针  lifeinjector	
+[06:44:49]: wiped	3	晨星锤  nightstick	
+[06:44:49]: wiped	2	外壳碎片  slurtle_shellpieces	
+[06:44:49]: wiped	2	盐晶  saltrock	
+[06:44:49]: wiped	2	桦栗果  acorn	
+[06:44:49]: wiped	1	树果酱  treegrowthsolution	
+[06:44:49]: wiped	2	强化电路  wx78module_maxhealth	
+[06:44:49]: wiped	1	鼹鼠帽  molehat	
+[06:44:49]: wiped	3	大理石甲  armormarble	
+[06:44:49]: wiped	2	花衬衫  hawaiianshirt	
+[06:44:49]: wiped	2	冬帽  winterhat	
+[06:44:49]: wiped	1	黄金鹤嘴锄  goldenpickaxe	
+[06:44:49]: wiped	1	红色羽毛  feather_robin	
+[06:44:49]: wiped	3	骨头碎片  boneshard	
+[06:44:49]: wiped	16	森林地皮  turf_forest	
+[06:44:49]: wiped	1	吹箭  blowdart_pipe	
+[06:44:49]: wiped	1	松果  pinecone	
+[06:44:49]: wiped	1	烂电线  trinket_6	
+[06:44:49]: wiped	3	胡须  beardhair	
+[06:44:49]: wiped	1	蜘蛛丝  silk	
+[06:44:49]: wiped	1	战斗长矛  spear_wathgrithr	
+[06:44:49]: wiped	4	兔耳罩  earmuffshat	
+[06:44:49]: wiped	1	黑旗  blackflag	
+[06:44:49]: wiped	7	木板  boards	
+[06:44:49]: wiped	1	棕榈松果树芽  palmcone_seed	
+[06:44:49]: wiped	3	石砖  cutstone	
+[06:44:49]: wiped	1	鹤嘴锄  pickaxe	
+[06:44:49]: wiped	1	战斗头盔  wathgrithrhat	
+[06:44:49]: wiped	3	树枝  twigs	
+[06:44:49]: wiped	2	锤子  hammer	
+[06:44:49]: wiped	2	采下的芦苇  cutreeds	
+[06:44:49]: wiped	2	黄金斧头  goldenaxe	
+[06:44:49]: wiped	1	乳白物  milkywhites	
+[06:44:49]: wiped	1	木炭  charcoal	
+[06:44:49]: wiped	1	甲板照明灯  mastupgrade_lamp_item	
+[06:44:49]: wiped	1	地毯地板  turf_carpetfloor	
+[06:44:49]: wiped	1	空鸟嘴壶  premiumwateringcan	
+[06:44:49]: wiped	2	草帽  strawhat	
+[06:44:49]: wiped	2	蜂刺  stinger	
+[06:44:49]: wiped	1	木甲  armorwood	
+[06:44:49]: wiped	1	龙蝇雕塑草图  sketch	
+[06:44:49]: wiped	1	蜘蛛腺  spidergland	
+[06:44:49]: wiped	3	桨  oar	
+[06:44:49]: wiped	1	多用斧镐  multitool_axe_pickaxe	
+[06:44:49]: wiped	4	斧头  axe	
+[06:44:49]: wiped	1	蜘蛛卵  spidereggsack	
+[06:44:49]: wiped	5	火炬  torch	
+[06:44:49]: wiped	5	腐烂物  spoiled_food	
+[06:44:49]: wiped	4	采下的草  cutgrass	
+[06:44:49]: wiped	5	木头短剑  cutless	
+[06:44:49]: wiped	1	橄榄球头盔  footballhat	
+[06:44:49]: wiped	1	催眠吹箭  blowdart_sleep	
+[06:44:49]: wiped	2	噩梦燃料  nightmarefuel	
+[06:44:49]: wiped	2	园艺锄  farm_hoe	
+[06:44:49]: wiped	1	猴尾草  dug_monkeytail	
+[06:44:49]: Wiping Done!	
+[06:44:50]: Available disk space for save files: 83649 MB
+[06:44:50]: Serializing user: session/FFFDA007B6A72A2F/A7LBIHI801SV/0000000032
+[06:44:50]: Serializing user: session/FFFDA007B6A72A2F/A7G2Q0NNIB7L/0000000032
+[06:44:50]: Serializing user: session/FFFDA007B6A72A2F/A7MPC0NL5P08/0000000032
+[06:44:50]: Stale Component Reference: GUID 179605, scripts/entityscript.lua:254
+[06:44:50]: Stale Component Reference: GUID 179384, scripts/entityscript.lua:254
+[06:44:50]: Serializing user: session/FFFDA007B6A72A2F/A7G9R8GC2NOF/0000000032
+[06:44:50]: Serializing user: session/FFFDA007B6A72A2F/A7H0T9AKHF7Q/0000000032
+[06:44:50]: Serializing user: session/FFFDA007B6A72A2F/A7HJTLP4QGP9/0000000032
+[06:44:50]: Serializing user: session/FFFDA007B6A72A2F/A7KFRB0FQRUH/0000000032
+[06:44:50]: Serializing world: session/FFFDA007B6A72A2F/0000000032
+[06:44:55]: Could not find anim [spawn] in bank [squiderp]
+[06:44:55]: Could not find anim [spawn] in bank [squiderp]
+[06:44:57]: Could not find anim [idle_loop] in bank [ghost]
+[06:45:00]: Could not find anim [transform] in bank [wilson]
+[06:45:01]: Could not find anim [idle_loop] in bank [ghost]
+[06:45:01]: Serializing user: session/FFFDA007B6A72A2F/A7H0T9AKHF7Q/0000000033
+[06:45:04]: Could not find anim [transform] in bank [wilson]
+[06:45:05]: Serializing user: session/FFFDA007B6A72A2F/A7KFRB0FQRUH/0000000033
+[06:45:08]: Could not find anim [death] in bank [ghost]
+[06:45:08]: Serializing user: session/FFFDA007B6A72A2F/A7H0T9AKHF7Q/0000000033
+[06:45:48]: Could not find anim [idle] in bank [oceanfishing_hook]
+[06:46:22]: Could not find anim [death] in bank [ghost]
+[06:46:22]: Serializing user: session/FFFDA007B6A72A2F/A7KFRB0FQRUH/0000000033
+[06:46:23]: Could not find anim [death] in bank [ghost]
+[06:46:23]: Serializing user: session/FFFDA007B6A72A2F/A7G2Q0NNIB7L/0000000033
+[06:46:23]: Could not find anim [death] in bank [ghost]
+[06:46:23]: Serializing user: session/FFFDA007B6A72A2F/A7HJTLP4QGP9/0000000033
+[06:46:24]: Could not find anim [idle_loop] in bank [ghost]
+[06:46:27]: Could not find anim [transform] in bank [wilson]
+[06:46:28]: Serializing user: session/FFFDA007B6A72A2F/A7KFRB0FQRUH/0000000033
+[06:46:38]: Could not find anim [idle_loop] in bank [ghost]
+[06:46:41]: Could not find anim [transform] in bank [wilson]
+[06:46:42]: Serializing user: session/FFFDA007B6A72A2F/A7HJTLP4QGP9/0000000033
+[06:46:55]: Could not find anim [death] in bank [ghost]
+[06:46:55]: Serializing user: session/FFFDA007B6A72A2F/A7KFRB0FQRUH/0000000033
+[06:47:45]: Could not find anim [idle_loop] in bank [ghost]
+[06:47:48]: Could not find anim [transform] in bank [wilson]
+[06:47:48]: Serializing user: session/FFFDA007B6A72A2F/A7KFRB0FQRUH/0000000033
+[06:47:50]: Could not find anim [death] in bank [ghost]
+[06:47:50]: Serializing user: session/FFFDA007B6A72A2F/A7KFRB0FQRUH/0000000033
+[06:47:59]: Can't find prefab driftwood_tall2	
+[06:48:06]: Could not find anim [idle_loop] in bank [ghost]
+[06:48:08]: Could not find anim [shudder] in bank [wilson]
+[06:48:08]: Serializing user: session/FFFDA007B6A72A2F/A7G2Q0NNIB7L/0000000033
+[06:48:47]: Could not find anim [idle_loop] in bank [ghost]
+[06:48:50]: Could not find anim [transform] in bank [wilson]
+[06:48:51]: Serializing user: session/FFFDA007B6A72A2F/A7KFRB0FQRUH/0000000033
+[06:48:57]: Health:SetPenalty	true	
+[06:49:05]: Could not find anim [idle_loop] in bank [ghost]
+[06:49:08]: Could not find anim [transform] in bank [wilson]
+[06:49:09]: Serializing user: session/FFFDA007B6A72A2F/A7H0T9AKHF7Q/0000000033
+[06:49:10]: Could not find anim [death] in bank [ghost]
+[06:49:10]: Serializing user: session/FFFDA007B6A72A2F/A7KFRB0FQRUH/0000000033
+[06:49:21]: Could not find anim [death] in bank [ghost]
+[06:49:21]: Serializing user: session/FFFDA007B6A72A2F/A7H0T9AKHF7Q/0000000033
+[06:49:48]: Could not find anim [idle_loop] in bank [ghost]
+[06:49:51]: Could not find anim [transform] in bank [wilson]
+[06:49:52]: Serializing user: session/FFFDA007B6A72A2F/A7KFRB0FQRUH/0000000033
+[06:50:15]: [ERROR] Calling ReturnToScene on an invalid entity!	wx78module_maxhealth	
+[06:50:15]: Stale Component Reference: GUID 179605, scripts/entityscript.lua:381
+[06:50:15]: Stale Component Reference: GUID 179605, scripts/entityscript.lua:387
