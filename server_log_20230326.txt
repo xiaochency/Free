@@ -1,0 +1,90 @@
+[17:07:54]: [string "../mods/workshop-2656551380/modmain.lua"]:1221: attempt to perform arithmetic on local 'chance' (a nil value)
+LUA ERROR stack traceback:
+../mods/workshop-2656551380/modmain.lua:1221 in (method) GetDescription (Lua) <1213-1225>
+   self =
+      getstatus = function - scripts/prefabs/mushroomsprout.lua:168
+      inst = 138528 - mushroomsprout (valid:true)
+      GetDescription = function - ../mods/workshop-2656551380/modmain.lua:1213
+   viewer = 136579 - waxwell (valid:true)
+   desc = 我不喜欢那里面收集的那么多魔法。
+   chance = nil
+scripts/actions.lua:837 in () ? (Lua) <832-852>
+   act = 检查 138528 - mushroomsprout (valid:true)
+   targ = 138528 - mushroomsprout (valid:true)
+=(tail call):-1 in ()  (tail) <-1--1>
+scripts/bufferedaction.lua:25 in (method) Do (Lua) <21-35>
+   self (valid:true) =
+      action = table: 0xf1ec7d0
+      doer = 136579 - waxwell (valid:true)
+      onfail = table: 0xe87fa80
+      doerownsobject = false
+      rotation = 0
+      onsuccess = table: 0x34ba9ba0
+      options = table: 0xb551860
+      target = 138528 - mushroomsprout (valid:true)
+scripts/entityscript.lua:1436 in (method) PushBufferedAction (Lua) <1405-1448>
+   self (valid:true) =
+      _PostActivateHandshakeState_Client = 0
+      EnableLoadingProtection = function - scripts/prefabs/player_common.lua:988
+      inlimbo = false
+      GetMoistureRateScale = function - scripts/prefabs/player_common.lua:247
+      SetCameraDistance = function - scripts/prefabs/player_common.lua:1409
+      CanSeePointOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:805
+      skeleton_prefab = skeleton_player
+      player_classified = 136580 - player_classified (valid:true)
+      playercolour = table: 0xd6919e0
+      GetStormLevel = function - scripts/prefabs/player_common.lua:257
+      MakeGenericCommander = function - scripts/prefabs/player_common_extensions.lua:816
+      AnimState = AnimState (0xf900c60)
+      IsActing = function - scripts/prefabs/player_common_extensions.lua:857
+      Light = Light (0x349f3fe0)
+      _OnDespawn = function - scripts/prefabs/waxwell.lua:147
+      _isrezattuned = false
+      OnRemoveEntity = function - scripts/prefabs/player_common.lua:1029
+      pendingtasks = table: 0x30b7a0a0
+      ShowHUD = function - scripts/prefabs/player_common.lua:1389
+      _brain_pickup_ignorethese = table: 0x2cbf8070
+      sg = sg="wilson", state="idle", time=0.80, tags = "idle,canrotate,"
+      IsHUDVisible = function - scripts/prefabs/player_common.lua:1379
+      data_player = table: 0xec12030
+      IsActionsVisible = function - scripts/prefabs/player_common.lua:1373
+      SetGhostMode = function - scripts/prefabs/player_common.lua:843
+      ShowActions = function - scripts/prefabs/player_common.lua:1383
+      SetGymStartState = function - scripts/prefabs/player_common.lua:48
+      Transform = Transform (0xbd2dba0)
+      DynamicShadow = DynamicShadow (0xc7d4800)
+      SaveForReroll = function - scripts/prefabs/player_common.lua:1560
+      event_listening = table: 0xf279dd0
+      killtask = PERIODIC 136579: 3.000000
+      actioncomponents = table: 0xfe51c20
+      ScreenFlash = function - scripts/prefabs/player_common.lua:1471
+      lower_components_shadow = table: 0xb9cedc0
+      GetMaxMoisture = function - scripts/prefabs/player_common.lua:237
+      OnPostActivateHandshake_Server = function - scripts/prefabs/player_common_extensions.lua:891
+      EnableBoatCamera = function - scripts/prefabs/player_common.lua:834
+      IsNearDanger = function - scripts/prefabs/player_common.lua:17
+      prefab = waxwell
+      updatecomponents = table: 0x1e6b1460
+      xpgeneration_task = PERIODIC 136579: 480.000000
+      ShakeCamera = function - scripts/prefabs/player_common.lua:1429
+      OnDespawn = function - scripts/prefabs/player_common.lua:1271
+      Physics = Physics (0xf438ad0)
+      OnLoadCasino = function - scripts/prefabs/player_common.lua:1131
+      slotrolls = 0
+      IsFreezing = function - scripts/prefabs/player_common.lua:207
+      OnEntityWake = function - ../mods/workshop-2847908822/9.lua:1
+  
+[17:07:54]: [string "../mods/workshop-2656551380/modmain.lua"]:1221: attempt to perform arithmetic on local 'chance' (a nil value)
+LUA ERROR stack traceback:
+    ../mods/workshop-2656551380/modmain.lua:1221 in (method) GetDescription (Lua) <1213-1225>
+    scripts/actions.lua:837 in () ? (Lua) <832-852>
+    =(tail call):-1 in ()  (tail) <-1--1>
+    scripts/bufferedaction.lua:25 in (method) Do (Lua) <21-35>
+    scripts/entityscript.lua:1436 in (method) PushBufferedAction (Lua) <1405-1448>
+    scripts/components/locomotor.lua:709 in (method) PushAction (Lua) <670-754>
+    scripts/components/playercontroller.lua:3550 in (method) DoAction (Lua) <3477-3554>
+    scripts/components/playercontroller.lua:3758 in (method) OnRemoteLeftClick (Lua) <3712-3765>
+    scripts/networkclientrpc.lua:79 in () ? (Lua) <57-85>
+    =[C]:-1 in (method) CallRPC (C) <-1--1>
+    scripts/networkclientrpc.lua:1303 in (global) HandleRPCQueue (Lua) <1284-1353>
+    scripts/update.lua:42 in () ? (Lua) <33-135>
