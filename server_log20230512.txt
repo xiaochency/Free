@@ -1,0 +1,70 @@
+[00:08:23]: [string "scripts/prefabs/rift_portal_defs.lua"]:16: calling 'GetTileCenterPoint' on bad self (number expected, got nil)
+LUA ERROR stack traceback:
+=[C]:-1 in (method) GetTileCenterPoint (C) <-1--1>
+scripts/prefabs/rift_portal_defs.lua:16 in (field) GetNextRiftSpawnLocation (Lua) <13-18>
+   _map = Map (0xeb50420)
+   rift_def = table: 0xbf2f140
+   x = nil
+   y = nil
+   z = nil
+scripts/components/riftspawner.lua:93 in (method) SpawnRift (Lua) <82-109>
+   self =
+      _map = Map (0xeb50420)
+      spawnmode = 3
+      inst = 100029 - world (valid:true)
+      lunar_rifts_enabled = true
+      _worldsettingstimer = table: 0x257b7cf0
+      rifts_count = 0
+      rifts = table: 0x9d97590
+   forced_pos = nil
+   rift_prefab = lunarrift_portal
+   rift_def = table: 0xbf2f140
+   x = nil
+   z = nil
+scripts/components/riftspawner.lua:127 in (method) OnRiftTimerDone (Lua) <121-137>
+   self =
+      _map = Map (0xeb50420)
+      spawnmode = 3
+      inst = 100029 - world (valid:true)
+      lunar_rifts_enabled = true
+      _worldsettingstimer = table: 0x257b7cf0
+      rifts_count = 0
+      rifts = table: 0x9d97590
+scripts/components/riftspawner.lua:39 in (field) callback (Lua) <39-39>
+scripts/components/worldsettingstimer.lua:53 in (field) fn (Lua) <50-57>
+   inst = 100029 - world (valid:true)
+   self =
+      timers = table: 0x12211640
+      inst = 100029 - world (valid:true)
+      saved_timers = table: 0x12211670
+   name = rift_spawn_timer
+scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>
+   self =
+      running = table: 0xcb5cf40
+      waitingfortick = table: 0xbc13d60
+      hibernating = table: 0xbc13dc0
+      tasks = table: 0xc0b3b50
+      waking = table: 0xe7c2630
+      attime = table: 0xca34540
+   tick = 8412
+   k = PERIODIC 100029: 280.399889
+   v = true
+   already_dead = false
+scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>
+   tick = 8412
+scripts/update.lua:240 in () ? (Lua) <224-298>
+   dt = 0.033333335071802
+   tick = 8412
+   i = 8412
+
+[00:08:23]: [string "scripts/prefabs/rift_portal_defs.lua"]:16: calling 'GetTileCenterPoint' on bad self (number expected, got nil)
+LUA ERROR stack traceback:
+    =[C]:-1 in (method) GetTileCenterPoint (C) <-1--1>
+    scripts/prefabs/rift_portal_defs.lua:16 in (field) GetNextRiftSpawnLocation (Lua) <13-18>
+    scripts/components/riftspawner.lua:93 in (method) SpawnRift (Lua) <82-109>
+    scripts/components/riftspawner.lua:127 in (method) OnRiftTimerDone (Lua) <121-137>
+    scripts/components/riftspawner.lua:39 in (field) callback (Lua) <39-39>
+    scripts/components/worldsettingstimer.lua:53 in (field) fn (Lua) <50-57>
+    scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>
+    scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>
+    scripts/update.lua:240 in () ? (Lua) <224-298>
