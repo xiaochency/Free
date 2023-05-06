@@ -1,0 +1,187 @@
+[14:51:18]: Could not find anim [FROMNUM] in bank [eyeofterror]
+[14:51:18]: Could not find anim [FROMNUM] in bank [eyeofterror]
+[14:51:46]: Could not find anim [idle_loop] in bank [ghost]
+[14:51:48]: Could not find anim [transform] in bank [wilson]
+[14:51:50]: Serializing user: session/170FB40A90EC8A71/A7HDKAFF8AUF/0000000080
+[14:52:03]: wiped	1	饥饿腰带  armorslurper	
+[14:52:03]: wiped	2	黄金园艺锄  golden_farm_hoe	
+[14:52:03]: wiped	1	羽毛笔  featherpencil	
+[14:52:03]: wiped	1	透气背心  trunkvest_summer	
+[14:52:03]: wiped	2	蜘蛛丝  silk	
+[14:52:03]: wiped	1	怪物肉  monstermeat	
+[14:52:03]: wiped	1	犁地草膏  tillweedsalve	
+[14:52:03]: wiped	3	捕鸟陷阱  birdtrap	
+[14:52:03]: wiped	5	蛞蝓龟黏液  slurtleslime	
+[14:52:03]: wiped	1	小肉  smallmeat	
+[14:52:03]: wiped	1	蛙腿  froglegs	
+[14:52:03]: wiped	1	瓶中信  messagebottle	
+[14:52:03]: wiped	1	玻璃刀  glasscutter	
+[14:52:03]: wiped	2	鼹鼠帽  molehat	
+[14:52:03]: wiped	1	大理石豌豆  marblebean	
+[14:52:03]: wiped	1	熟怪物肉  cookedmonstermeat	
+[14:52:03]: wiped	1	漂浮灯笼  miniboatlantern	
+[14:52:03]: wiped	2	盐晶  saltrock	
+[14:52:03]: wiped	1	电子元件  transistor	
+[14:52:03]: wiped	1	蘑菇皮  shroom_skin	
+[14:52:03]: wiped	1	大理石甲  armormarble	
+[14:52:03]: wiped	1	叶肉  plantmeat	
+[14:52:03]: wiped	2	燧石  flint	
+[14:52:03]: wiped	1	香蕉  cave_banana	
+[14:52:03]: wiped	1	吹箭  blowdart_pipe	
+[14:52:03]: wiped	1	萤火虫  fireflies	
+[14:52:03]: wiped	1	烂电线  trinket_6	
+[14:52:03]: wiped	2	胡须  beardhair	
+[14:52:03]: wiped	1	蜂巢  honeycomb	
+[14:52:03]: wiped	2	草甲  armorgrass	
+[14:52:03]: wiped	1	浆果丛  dug_berrybush	
+[14:52:03]: wiped	2	木头  log	
+[14:52:03]: wiped	1	月岩雕像  moonrockidol	
+[14:52:03]: wiped	1	猫尾  coontail	
+[14:52:03]: wiped	1	深色花瓣  petals_evil	
+[14:52:03]: wiped	1	战争鞍具  saddle_war	
+[14:52:03]: wiped	3	骨头碎片  boneshard	
+[14:52:03]: wiped	10	树枝  twigs	
+[14:52:03]: wiped	1	牛毛  beefalowool	
+[14:52:03]: wiped	1	采下的芦苇  cutreeds	
+[14:52:03]: wiped	1	石头  rocks	
+[14:52:03]: wiped	1	松果  pinecone	
+[14:52:03]: wiped	1	蓝色羽毛  feather_robin_winter	
+[14:52:03]: wiped	1	Dubloons  dubloon	
+[14:52:03]: wiped	1	便便桶  fertilizer	
+[14:52:03]: wiped	1	肉  meat	
+[14:52:03]: wiped	1	水球  waterballoon	
+[14:52:03]: wiped	2	蜂刺  stinger	
+[14:52:03]: wiped	1	噩梦燃料  nightmarefuel	
+[14:52:03]: wiped	1	蓝宝石  bluegem	
+[14:52:03]: wiped	2	蜘蛛腺  spidergland	
+[14:52:03]: wiped	1	犬牙  houndstooth	
+[14:52:03]: wiped	1	木炭  charcoal	
+[14:52:03]: wiped	2	粪肥  poop	
+[14:52:03]: wiped	1	暗夜剑  nightsword	
+[14:52:03]: wiped	1	火炬  torch	
+[14:52:03]: wiped	1	雪天鱼饵广告  tacklesketch	
+[14:52:03]: wiped	14	采下的草  cutgrass	
+[14:52:03]: wiped	1	桨  oar	
+[14:52:03]: wiped	1	橄榄球头盔  footballhat	
+[14:52:03]: wiped	1	木板  boards	
+[14:52:03]: wiped	1	长猪  humanmeat	
+[14:52:03]: wiped	1	腐烂物  spoiled_food	
+[14:52:03]: wiped	1	园艺锄  farm_hoe	
+[14:52:03]: Wiping Done!	
+[14:52:04]: Available disk space for save files: 81101 MB
+[14:52:04]: Stale Component Reference: GUID 131692, scripts/entityscript.lua:254
+[14:52:04]: Serializing user: session/170FB40A90EC8A71/A7LHHQTL3E7S/0000000080
+[14:52:04]: Serializing user: session/170FB40A90EC8A71/A7HDKAFF8AUF/0000000080
+[14:52:04]: Serializing user: session/170FB40A90EC8A71/A7G264UT4NBR/0000000080
+[14:52:04]: Serializing user: session/170FB40A90EC8A71/A7I78KATS545/0000000080
+[14:52:04]: Serializing user: session/170FB40A90EC8A71/A7KE4P3OT3ON/0000000080
+[14:52:04]: Missing reference:	100142 - beefaloherd	->	100700	100700 - beefalo(LIMBO)	
+[14:52:04]: Serializing world: session/170FB40A90EC8A71/0000000080
+[14:52:38]: Could not find anim [dismount] in bank [wilson]
+[14:52:43]: Could not find anim [death_wanda] in bank [ghost]
+[14:52:43]: Serializing user: session/170FB40A90EC8A71/A7KE4P3OT3ON/0000000081
+[14:52:53]: [string "scripts/components/rider_replica.lua"]:249: attempt to index field 'inventoryitem' (a nil value)
+LUA ERROR stack traceback:
+scripts/components/rider_replica.lua:249 in (method) SetSaddle (Lua) <235-256>
+   self =
+      _isriding = net_bool (0x21600330)
+      classified = 102453 - player_classified (valid:true)
+      inst = 102452 - waxwell (valid:true)
+      _onmounthealthdelta = function - scripts/components/rider_replica.lua:8
+   saddle = 131692 - saddle_war(LIMBO) (valid:false)
+   old = nil
+scripts/components/rider.lua:18 in (field) ? (Lua) <17-19>
+   self =
+      inst = 102452 - waxwell (valid:true)
+      target_mount = 100700 - beefalo(LIMBO) (valid:true)
+      _ = table: 0xdc00600
+      _onSaddleChanged = function - scripts/components/rider.lua:29
+   saddle = 131692 - saddle_war(LIMBO) (valid:false)
+scripts/class.lua:43 in () ? (Lua) <36-45>
+   t = table: 0x23056af0
+   k = saddle
+   v = 131692 - saddle_war(LIMBO) (valid:false)
+   p = table: 0x2227dd20
+   old = nil
+scripts/components/rider.lua:52 in (method) StartTracking (Lua) <48-54>
+   self =
+      inst = 102452 - waxwell (valid:true)
+      target_mount = 100700 - beefalo(LIMBO) (valid:true)
+      _ = table: 0xdc00600
+      _onSaddleChanged = function - scripts/components/rider.lua:29
+   mount = 100700 - beefalo(LIMBO) (valid:true)
+scripts/components/rider.lua:149 in (method) Mount (Lua) <67-160>
+   self =
+      inst = 102452 - waxwell (valid:true)
+      target_mount = 100700 - beefalo(LIMBO) (valid:true)
+      _ = table: 0xdc00600
+      _onSaddleChanged = function - scripts/components/rider.lua:29
+   target = 100700 - beefalo(LIMBO) (valid:true)
+   instant = nil
+   rideable = table: 0xbed6a80
+   saddler = table: 0x21226000
+   x = 60.17024230957
+   y = -2.1571507247131e-08
+   z = 49.256702423096
+   tx = 59.579986572266
+   ty = 1.4575481266377e-08
+   tz = 50.174518585205
+scripts/actions.lua:2959 in (field) fn (Lua) <2937-2961>
+   act = 骑 100700 - beefalo(LIMBO) (valid:true)
+scripts/bufferedaction.lua:25 in (method) Do (Lua) <21-35>
+   self (valid:true) =
+      action = table: 0xd422550
+      doer = 102452 - waxwell (valid:true)
+      onfail = table: 0x240eb420
+      doerownsobject = false
+      rotation = 0
+      onsuccess = table: 0xa3bc070
+      options = table: 0x125f1c00
+      target = 100700 - beefalo(LIMBO) (valid:true)
+scripts/entityscript.lua:1463 in (method) PerformBufferedAction (Lua) <1450-1474>
+   self (valid:true) =
+      DynamicShadow = DynamicShadow (0x21592cb0)
+      EnableLoadingProtection = function - scripts/prefabs/player_common.lua:993
+      inlimbo = false
+      GetMoistureRateScale = function - scripts/prefabs/player_common.lua:247
+      SetCameraDistance = function - scripts/prefabs/player_common.lua:1414
+      ScreenFlash = function - scripts/prefabs/player_common.lua:1476
+      skeleton_prefab = skeleton_player
+      EnableBoatCamera = function - scripts/prefabs/player_common.lua:839
+      playercolour = table: 0x1b48c310
+      MakeGenericCommander = function - scripts/prefabs/player_common_extensions.lua:816
+      IsOverheating = function - scripts/prefabs/player_common.lua:217
+      IsActing = function - scripts/prefabs/player_common_extensions.lua:857
+      Light = Light (0x21a5d810)
+      _brain_pickup_ignorethese = table: 0xd9b0250
+      _OnDespawn = function - scripts/prefabs/waxwell.lua:147
+      _isrezattuned = false
+      OnRemoveEntity = function - scripts/prefabs/player_common.lua:1034
+      _PostActivateHandshakeState_Client = 0
+      pendingtasks = table: 0x230b7e30
+      ApplySkinOverrides = function - scripts/prefabs/player_common.lua:1555
+      ResetMinimapOffset = function - scripts/prefabs/player_common.lua:1406
+      customidlestate = waxwell_funnyidle
+      IsHUDVisible = function - scripts/prefabs/player_common.lua:1384
+      data_player = table: 0x34cab7a0
+      killtask = PERIODIC 102452: 3.000000
+      _announceshadowlevel = table: 0x21f73eb0
+      ShowActions = function - scripts/prefabs/player_common.lua:1388
+      _lunarportalmax = table: 0x206c3700
+      SetGymStartState = function - scr
+[14:52:53]: [string "scripts/components/rider_replica.lua"]:249: attempt to index field 'inventoryitem' (a nil value)
+LUA ERROR stack traceback:
+    scripts/components/rider_replica.lua:249 in (method) SetSaddle (Lua) <235-256>
+    scripts/components/rider.lua:18 in (field) ? (Lua) <17-19>
+    scripts/class.lua:43 in () ? (Lua) <36-45>
+    scripts/components/rider.lua:52 in (method) StartTracking (Lua) <48-54>
+    scripts/components/rider.lua:149 in (method) Mount (Lua) <67-160>
+    scripts/actions.lua:2959 in (field) fn (Lua) <2937-2961>
+    scripts/bufferedaction.lua:25 in (method) Do (Lua) <21-35>
+    scripts/entityscript.lua:1463 in (method) PerformBufferedAction (Lua) <1450-1474>
+    scripts/stategraphs/SGwilson.lua:5665 in (field) fn (Lua) <5658-5667>
+    scripts/stategraph.lua:641 in (method) UpdateState (Lua) <609-653>
+    scripts/stategraph.lua:679 in (method) Update (Lua) <672-698>
+    scripts/stategraph.lua:128 in (method) Update (Lua) <109-146>
+    scripts/update.lua:288 in () ? (Lua) <224-298>
+	
