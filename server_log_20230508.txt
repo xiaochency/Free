@@ -1,0 +1,77 @@
+[05:37:32]: Health:SetPenalty	true	
+[05:37:39]: [string "scripts/components/flotsamgenerator.lua"]:337: attempt to index field 'Physics' (a nil value)
+LUA ERROR stack traceback:
+scripts/components/flotsamgenerator.lua:337 in (method) SpawnFlotsam (Lua) <322-342>
+   self =
+      SpawnFlotsam = function - scripts/components/flotsamgenerator.lua:322
+      StopTracking = function - scripts/components/flotsamgenerator.lua:365
+      OnLoad = function - scripts/components/flotsamgenerator.lua:401
+      ToggleUpdate = function - scripts/components/flotsamgenerator.lua:299
+      GetDebugString = function - scripts/components/flotsamgenerator.lua:427
+      OnSave = function - scripts/components/flotsamgenerator.lua:377
+      setinsttoflotsam = function - scripts/components/flotsamgenerator.lua:303
+      StopTrackingFn = function - scripts/components/flotsamgenerator.lua:356
+      LoadPostPass = function - scripts/components/flotsamgenerator.lua:409
+      OnPostInit = function - scripts/components/flotsamgenerator.lua:282
+      ScheduleGuaranteedSpawn = function - scripts/components/flotsamgenerator.lua:369
+      SetSpawnTimes = function - scripts/components/flotsamgenerator.lua:293
+      StartTrackingFn = function - scripts/components/flotsamgenerator.lua:344
+      StartTracking = function - scripts/components/flotsamgenerator.lua:352
+      inst = 100040 - world (valid:true)
+   spawnpoint = (-27.04, -0.00, 18.02)
+   prefab = spore_moon
+   notrealflotsam = true
+   flotsam = 168991 - spore_moon (valid:true)
+scripts/components/periodicspawner.lua:110 in (method) TrySpawn (Lua) <62-119>
+   self =
+      basetime = 2
+      spawnoffscreen = false
+      onspawn = function - scripts/prefabs/mushgnome.lua:67
+      density = 10
+      inst = 168770 - mushgnome (valid:true)
+      range = 20
+      prefab = spore_moon
+      randtime = 4
+   prefab = spore_moon
+   x = -27.036981582642
+   y = -2.2737877358736e-08
+   z = 18.020107269287
+   inst = nil
+scripts/components/periodicspawner.lua:7 in (field) fn (Lua) <1-9>
+   inst = 168770 - mushgnome (valid:true)
+   self =
+      basetime = 2
+      spawnoffscreen = false
+      onspawn = function - scripts/prefabs/mushgnome.lua:67
+      density = 10
+      inst = 168770 - mushgnome (valid:true)
+      range = 20
+      prefab = spore_moon
+      randtime = 4
+scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>
+   self =
+      running = table: 0x21587c60
+      waitingfortick = table: 0x2174cf00
+      hibernating = table: 0x1cc2b0d0
+      tasks = table: 0x1d275170
+      waking = table: 0x24a23200
+      attime = table: 0x27e5e950
+   tick = 249959
+   k = PERIODIC 168770: 5.821551
+   v = true
+   already_dead = false
+scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>
+   tick = 249959
+scripts/update.lua:240 in () ? (Lua) <224-298>
+   dt = 0.033333335071802
+   tick = 249959
+   i = 249959
+
+[05:37:39]: [string "scripts/components/flotsamgenerator.lua"]:337: attempt to index field 'Physics' (a nil value)
+LUA ERROR stack traceback:
+    scripts/components/flotsamgenerator.lua:337 in (method) SpawnFlotsam (Lua) <322-342>
+    scripts/components/periodicspawner.lua:110 in (method) TrySpawn (Lua) <62-119>
+    scripts/components/periodicspawner.lua:7 in (field) fn (Lua) <1-9>
+    scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>
+    scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>
+    scripts/update.lua:240 in () ? (Lua) <224-298>
