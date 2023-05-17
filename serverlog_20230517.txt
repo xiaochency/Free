@@ -1,0 +1,128 @@
+[02:25:24]: Warning: Can't give item because it's not an inventory item.	
+[02:25:24]: [string "scripts/components/inventoryitem.lua"]:10: attempt to index field 'inventoryitem' (a nil value)
+LUA ERROR stack traceback:
+scripts/components/inventoryitem.lua:10 in (field) ? (Lua) <9-11>
+   self =
+      trappable = true
+      nobounce = true
+      ondropfn = function - scripts/standardcomponents.lua:622
+      isnew = false
+      is_landed = false
+      sinks = false
+      pushlandedevents = false
+      onpickupfn = function - scripts/components/butterflyspawner.lua:198
+      DoDropPhysics = function - ../mods/workshop-2847908822/7.lua:1
+      inst = 130637 - butterfly(LIMBO) (valid:false)
+      keepondeath = false
+      droprandomdir = false
+      canbepickedupalive = true
+      _ = table: 0xc6d1fd0
+      onputininventoryfn = function - scripts/standardcomponents.lua:615
+   owner = nil
+scripts/class.lua:43 in () ? (Lua) <36-45>
+   t = table: 0xc879df0
+   k = owner
+   v = nil
+   p = table: 0x2f6ae8b0
+   old = 100659 - wickerbottom (valid:true)
+scripts/components/inventoryitem.lua:131 in (method) ClearOwner (Lua) <130-132>
+   self =
+      trappable = true
+      nobounce = true
+      ondropfn = function - scripts/standardcomponents.lua:622
+      isnew = false
+      is_landed = false
+      sinks = false
+      pushlandedevents = false
+      onpickupfn = function - scripts/components/butterflyspawner.lua:198
+      DoDropPhysics = function - ../mods/workshop-2847908822/7.lua:1
+      inst = 130637 - butterfly(LIMBO) (valid:false)
+      keepondeath = false
+      droprandomdir = false
+      canbepickedupalive = true
+      _ = table: 0xc6d1fd0
+      onputininventoryfn = function - scripts/standardcomponents.lua:615
+scripts/components/inventoryitem.lua:213 in (method) OnRemoved (Lua) <209-216>
+   self =
+      trappable = true
+      nobounce = true
+      ondropfn = function - scripts/standardcomponents.lua:622
+      isnew = false
+      is_landed = false
+      sinks = false
+      pushlandedevents = false
+      onpickupfn = function - scripts/components/butterflyspawner.lua:198
+      DoDropPhysics = function - ../mods/workshop-2847908822/7.lua:1
+      inst = 130637 - butterfly(LIMBO) (valid:false)
+      keepondeath = false
+      droprandomdir = false
+      canbepickedupalive = true
+      _ = table: 0xc6d1fd0
+      onputininventoryfn = function - scripts/standardcomponents.lua:615
+scripts/components/inventory.lua:1183 in () ? (Lua) <1154-1219>
+   self =
+      opencontainerproxies = table: 0xdaf0e80
+      ignoreoverflow = false
+      silentfull = false
+      inst = 100659 - wickerbottom (valid:true)
+      equipslots = table: 0x28d9e240
+      dropondeath = false
+      isopen = true
+      opencontainers = table: 0x119c9690
+      isexternallyinsulated = table: 0x1dab52c0
+      ignorefull = false
+      ignoresound = false
+      isvisible = true
+      itemslots = table: 0x2b124c80
+      _ = table: 0x35f96ca0
+   item = 130637 - butterfly(LIMBO) (valid:false)
+   wholestack = nil
+   checkallcontainers = nil
+   prevslot = nil
+=(tail call):-1 in ()  (tail) <-1--1>
+scripts/components/inventory.lua:647 in (method) DropItem (Lua) <642-667>
+   self =
+      opencontainerproxies = table: 0xdaf0e80
+      ignoreoverflow = false
+      silentfull = false
+      inst = 100659 - wickerbottom (valid:true)
+      equipslots = table: 0x28d9e240
+      dropondeath = false
+      isopen = true
+      opencontainers = table: 0x119c9690
+      isexternallyinsulated = table: 0x1dab52c0
+      ignorefull = false
+      ignoresound = false
+      isvisible = true
+      itemslots = table: 0x2b124c80
+      _ = table: 0x35f96ca0
+   item = 130637 - butterfly(LIMBO) (valid:false)
+   wholestack = nil
+   randomdir = nil
+   pos = nil
+scripts/components/inventory.lua:532 in (method) ReturnActiveItem (Lua) <520-536>
+   self =
+      opencontainerproxies = table: 0xdaf0e80
+      ignoreoverflow = false
+      silentfull = false
+      inst = 100659 - wickerbottom (valid:true)
+      equipslots = table: 0x28d9e240
+      dropondeath = false
+      isopen = true
+      opencontainers = table: 0x119c9690
+      isexternallyinsulated = table: 0x1dab52c0
+      ignorefull = false
+[02:25:24]: [string "scripts/components/inventoryitem.lua"]:10: attempt to index field 'inventoryitem' (a nil value)
+LUA ERROR stack traceback:
+    scripts/components/inventoryitem.lua:10 in (field) ? (Lua) <9-11>
+    scripts/class.lua:43 in () ? (Lua) <36-45>
+    scripts/components/inventoryitem.lua:131 in (method) ClearOwner (Lua) <130-132>
+    scripts/components/inventoryitem.lua:213 in (method) OnRemoved (Lua) <209-216>
+    scripts/components/inventory.lua:1183 in () ? (Lua) <1154-1219>
+    =(tail call):-1 in ()  (tail) <-1--1>
+    scripts/components/inventory.lua:647 in (method) DropItem (Lua) <642-667>
+    scripts/components/inventory.lua:532 in (method) ReturnActiveItem (Lua) <520-536>
+    scripts/networkclientrpc.lua:431 in () ? (Lua) <428-433>
+    =[C]:-1 in (method) CallRPC (C) <-1--1>
+    scripts/networkclientrpc.lua:1303 in (global) HandleRPCQueue (Lua) <1284-1353>
+    scripts/update.lua:42 in () ? (Lua) <33-138>
