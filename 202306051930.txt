@@ -1,0 +1,135 @@
+[00:33:33]: Could not find anim build FROMNUM
+[00:34:41]: [string "scripts/stategraphs/SGhound.lua"]:275: attempt to index local 'data' (a nil value)
+LUA ERROR stack traceback:
+scripts/stategraphs/SGhound.lua:275 in (field) onenter (Lua) <272-280>
+   inst = 127905 - warglet (valid:true)
+   data = nil
+scripts/stategraph.lua:576 in (method) GoToState (Lua) <515-584>
+   self =
+      tags = table: 0x30cca248
+      mem = table: 0x49dfff48
+      statemem = table: 0x479fa160
+      currentstate = table: 0x49de28f8
+      timeinstate = 0
+      sg = Stategraph : hound
+      inst = 127905 - warglet (valid:true)
+      bufferedevents = table: 0x2a78d450
+      timelineindex = 1
+      lastupdatetime = 1707.1334223673
+      laststate = table: 0x49df3640
+      statestarttime = 1707.1000890322
+   statename = howl
+   params = nil
+   state = table: 0x49de28f8
+../mods/workshop-2981836044/scripts/brains/wargbrain.lua:25 in (field) action (Lua) <25-25>
+scripts/behaviourtree.lua:265 in (method) Visit (Lua) <264-267>
+   self =
+      parent = table: 0x489284a8
+      lastresult = READY
+      action = function - ../mods/workshop-2981836044/scripts/brains/wargbrain.lua:25
+      status = READY
+      id = 26352
+      nextupdatetick = 0
+      name = Summon Hound
+scripts/behaviourtree.lua:329 in (method) Visit (Lua) <319-339>
+   self =
+      idx = 2
+      parent = table: 0x489284d0
+      name = Sequence
+      id = 26354
+      status = READY
+      nextupdatetick = 0
+      children = table: 0x48928098
+      lastresult = READY
+   done = false
+   child = table: 0x48928070
+scripts/behaviours/minperiod.lua:22 in (method) Visit (Lua) <12-29>
+   self =
+      lastresult = READY
+      id = 26355
+      minperiod = 15
+      nextupdatetick = 0
+      name = MinPeriod
+      status = READY
+      parent = table: 0x489289c0
+      children = table: 0x489284f8
+      inst = 127905 - warglet (valid:true)
+   child = table: 0x489284a8
+scripts/behaviourtree.lua:609 in (method) Visit (Lua) <585-641>
+   self =
+      idx = 2
+      lasttime = 1707.4334223829
+      lastresult = RUNNING
+      id = 26358
+      nextupdatetick = 0
+      name = Priority
+      status = RUNNING
+      children = table: 0x48928008
+      period = 0.25
+   time = 1707.4334223829
+   do_eval = true
+   oldidx = 2
+   old_event = nil
+   found = false
+   idx = 1
+   child = table: 0x489284d0
+   should_test_anyway = nil
+scripts/behaviourtree.lua:22 in (method) Update (Lua) <20-27>
+   self =
+      root = table: 0x489289c0
+      inst = 127905 - warglet (valid:true)
+      forceupdate = false
+scripts/brain.lua:227 in (method) OnUpdate (Lua) <220-229>
+   self =
+      bt = Priority - RUNNING <RUNNING> (execute 2, eval in 0.25)>0.09
+   >MinPeriod - READY <READY> ()>0.00
+   >   >Sequence - READY <READY> ()>0.00
+   >   >   >needs follower - SUCCESS <READY> ()>0.00
+   >   >   >Summon Hound - READY <READY> ()>0.00
+   >ChaseAndAttack - RUNNING <RUNNING> ()>0.09
+   >StandStill - READY <READY> ()>0.00
+
+      events = table: 0x4890ac30
+      behaviourqueue = table: 0x4890ac08
+      stopped = false
+      inst = 127905 - warglet (valid:true)
+      paused = false
+scripts/brain.lua:146 in (method) Update (Lua) <106-157>
+   self =
+      _safe_updaters = table: 0x182a56f0
+      tickwaiters = table: 0xd9acda0
+      hibernaters = table: 0xd9acdc8
+      updaters = table: 0x182a56c8
+      instances = table: 0x182a56a0
+   current_tick = 51223
+   waiters = table: 0x322471e8
+   count = 9
+   i = 6
+   k = --brain--
+sleep time: 0.09
+Priority - RUNNING <RUNNING> (execute 2, eval in 0.25)>0.09
+   >MinPeriod - READY <READY> ()>0.00
+   >   >Sequence - READY <READY> ()>0.00
+   >   >   >needs follower - SUCCESS <READY> ()>0.00
+   >   >   >Summon Hound - READY <READY> ()>0.00
+   >ChaseAndAttack - RUNNING <RUNNING> ()>0.09
+   >StandStill - READY <READY> ()>0.00
+
+scripts/update.lua:292 in () ? (Lua) <224-298>
+   dt = 0.033333335071802
+   tick = 51223
+   i = 51223
+
+[00:34:41]: [string "scripts/stategraphs/SGhound.lua"]:275: attempt to index local 'data' (a nil value)
+LUA ERROR stack traceback:
+    scripts/stategraphs/SGhound.lua:275 in (field) onenter (Lua) <272-280>
+    scripts/stategraph.lua:576 in (method) GoToState (Lua) <515-584>
+    ../mods/workshop-2981836044/scripts/brains/wargbrain.lua:25 in (field) action (Lua) <25-25>
+    scripts/behaviourtree.lua:265 in (method) Visit (Lua) <264-267>
+    scripts/behaviourtree.lua:329 in (method) Visit (Lua) <319-339>
+    scripts/behaviours/minperiod.lua:22 in (method) Visit (Lua) <12-29>
+    scripts/behaviourtree.lua:609 in (method) Visit (Lua) <585-641>
+    scripts/behaviourtree.lua:22 in (method) Update (Lua) <20-27>
+    scripts/brain.lua:227 in (method) OnUpdate (Lua) <220-229>
+    scripts/brain.lua:146 in (method) Update (Lua) <106-157>
+    scripts/update.lua:292 in () ? (Lua) <224-298>
