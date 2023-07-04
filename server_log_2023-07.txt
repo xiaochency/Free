@@ -1,0 +1,63 @@
+[07:21:29]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[07:21:34]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[07:21:43]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[07:22:04]: Could not find anim build FROMNUM
+[07:22:07]: Could not find anim build FROMNUM
+[07:22:07]: Could not find anim build FROMNUM
+[07:22:19]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[07:22:24]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[07:22:26]: Could not find anim [breach_pst] in bank [lunarthrall_plant_vine_big]
+[07:22:27]: Stale Component Reference: GUID 158931, scripts/entityscript.lua:1235
+[07:22:27]: [string "scripts/util.lua"]:547: attempt to index local 'v1' (a number value)
+LUA ERROR stack traceback:
+scripts/util.lua:547 in () ? (Lua) <533-551>
+   v1 = 250.25830118648
+   v2 = -312.26734487171
+   v3 = nil
+   v4 = nil
+=(tail call):-1 in ()  (tail) <-1--1>
+scripts/prefabs/lunarthrall_plant.lua:655 in (method) ChooseAction (Lua) <607-711>
+   inst = 158902 - lunarthrall_plant_vine_end (valid:true)
+   dist = 0.29635521526948
+   pos = (248.41, 0.00, -310.58)
+   theta = -2.401333246947
+   radius = 0.54438517179427
+   ITERATIONS = 5
+   offset = (-0.40, 0.00, 0.37)
+   newpos = (250.26, 0.00, -312.27)
+   onwater = false
+   moveback = nil
+   i = 5
+   nub = 158931 - lunarthrall_plant_vine (valid:false)
+scripts/stategraphs/SGlunarthrall_plant_vine.lua:146 in (field) fn (Lua) <145-147>
+scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>
+   self =
+      running = table: 0xdba6a30
+      waitingfortick = table: 0xdba6a60
+      hibernating = table: 0xdba6ac0
+      tasks = table: 0xdba69e0
+      waking = table: 0x3cb40410
+      attime = table: 0xdba6af0
+   tick = 194711
+   k = PERIODIC 158902: 0.000000
+   v = true
+   already_dead = false
+scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>
+   tick = 194711
+scripts/update.lua:240 in () ? (Lua) <224-298>
+   dt = 0.033333335071802
+   tick = 194711
+   i = 194711
+
+[07:22:27]: [string "scripts/util.lua"]:547: attempt to index local 'v1' (a number value)
+LUA ERROR stack traceback:
+    scripts/util.lua:547 in () ? (Lua) <533-551>
+    =(tail call):-1 in ()  (tail) <-1--1>
+    scripts/prefabs/lunarthrall_plant.lua:655 in (method) ChooseAction (Lua) <607-711>
+    scripts/stategraphs/SGlunarthrall_plant_vine.lua:146 in (field) fn (Lua) <145-147>
+    scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>
+    scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>
+    scripts/update.lua:240 in () ? (Lua) <224-298>
+	
+[07:22:27]: Stale Component Reference: GUID 158931, scripts/entityscript.lua:1235
+[07:22:27]: Stale Component Reference: GUID 158931, scripts/entityscript.lua:1235
