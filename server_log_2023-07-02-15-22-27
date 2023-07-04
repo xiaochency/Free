@@ -1,0 +1,114 @@
+[14:23:48]: Missing reference:	107493 - beefaloherd	->	118303	118303 - beefalo	
+[14:23:48]: Missing reference:	107493 - beefaloherd	->	216173	216173 - beefalo	
+[14:23:48]: Serializing world: session/E1E88E50161935B6/0000000025
+[14:23:55]: Could not find anim [disappear] in bank [batbat]
+[14:24:05]: Could not find anim [disappear] in bank [plantregistryhat]
+[14:24:05]: Could not find anim [disappear] in bank [bone_shards]
+[14:24:49]: Could not find anim [disappear] in bank [FROMNUM]
+[14:24:54]: Could not find anim [dismount] in bank [wilson]
+[14:24:54]: Could not find anim [dismount] in bank [wilson]
+[14:24:57]: Could not find anim [disappear] in bank [armor_marble]
+[14:24:57]: [string "scripts/components/rider_replica.lua"]:249: attempt to index field 'inventoryitem' (a nil value)
+LUA ERROR stack traceback:
+scripts/components/rider_replica.lua:249 in (method) SetSaddle (Lua) <235-256>
+   self =
+      _isriding = net_bool (0xf4ffc80)
+      classified = 216147 - player_classified (valid:true)
+      inst = 216146 - wendy (valid:true)
+      _onmounthealthdelta = function - scripts/components/rider_replica.lua:8
+   saddle = 216175 - saddle_basic(LIMBO) (valid:false)
+   old = nil
+scripts/components/rider.lua:18 in (field) ? (Lua) <17-19>
+   self =
+      inst = 216146 - wendy (valid:true)
+      target_mount = 216173 - beefalo(LIMBO) (valid:true)
+      _ = table: 0x31a4f3c0
+      _onSaddleChanged = function - scripts/components/rider.lua:29
+   saddle = 216175 - saddle_basic(LIMBO) (valid:false)
+scripts/class.lua:43 in () ? (Lua) <36-45>
+   t = table: 0x21327460
+   k = saddle
+   v = 216175 - saddle_basic(LIMBO) (valid:false)
+   p = table: 0x2bafbac0
+   old = nil
+scripts/components/rider.lua:52 in (method) StartTracking (Lua) <48-54>
+   self =
+      inst = 216146 - wendy (valid:true)
+      target_mount = 216173 - beefalo(LIMBO) (valid:true)
+      _ = table: 0x31a4f3c0
+      _onSaddleChanged = function - scripts/components/rider.lua:29
+   mount = 216173 - beefalo(LIMBO) (valid:true)
+scripts/components/rider.lua:149 in (method) Mount (Lua) <67-160>
+   self =
+      inst = 216146 - wendy (valid:true)
+      target_mount = 216173 - beefalo(LIMBO) (valid:true)
+      _ = table: 0x31a4f3c0
+      _onSaddleChanged = function - scripts/components/rider.lua:29
+   target = 216173 - beefalo(LIMBO) (valid:true)
+   instant = nil
+   rideable = table: 0xcd18be0
+   saddler = table: 0x34deb4f0
+   x = -206.2307434082
+   y = 3.6956556925816e-08
+   z = 0.22738100588322
+   tx = -205.02032470703
+   ty = 3.9936768558846e-08
+   tz = 0.6857596039772
+scripts/actions.lua:2972 in (field) fn (Lua) <2950-2974>
+   act = 骑 216173 - beefalo(LIMBO) (valid:true)
+scripts/bufferedaction.lua:25 in (method) Do (Lua) <21-35>
+   self (valid:true) =
+      action = table: 0x1d8b21c0
+      doer = 216146 - wendy (valid:true)
+      onfail = table: 0x2e1b22d0
+      doerownsobject = false
+      rotation = 0
+      onsuccess = table: 0x11d0bba0
+      options = table: 0xff76580
+      target = 216173 - beefalo(LIMBO) (valid:true)
+scripts/entityscript.lua:1463 in (method) PerformBufferedAction (Lua) <1450-1474>
+   self (valid:true) =
+      _PostActivateHandshakeState_Client = 0
+      EnableLoadingProtection = function - scripts/prefabs/player_common.lua:1000
+      inlimbo = false
+      killtask = PERIODIC 216146: 3.000000
+      _lunarportalmax = table: 0x1dcd1e20
+      CanSeePointOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:807
+      skeleton_prefab = skeleton_player
+      EnableBoatCamera = function - scripts/prefabs/player_common.lua:846
+      playercolour = table: 0x273d87e0
+      IsNearDanger = function - scripts/prefabs/player_common.lua:17
+      IsOverheating = function - scripts/prefabs/player_common.lua:217
+      IsActing = function - scripts/prefabs/player_common_extensions.lua:859
+      Light = Light (0xeda6c50)
+      _OnDespawn = function - scripts/prefabs/wendy.lua:116
+      _serverpauseddirtyfn = function - scripts/prefabs/player_common.lua:919
+      _isrezattuned = false
+      OnRemoveEntity = function - scripts/prefabs/player_common.lua:1041
+      AnimState = AnimState (0x21e153b0)
+      pendingtasks = table: 0xc36dbc0
+      ApplySkinOverrides = function - scripts/prefabs/player_common.lua:1562
+      ResetMinimapOffset = function - scripts/prefabs/player_common.lua:1413
+      sg = sg="wilson", state="mount", time=0.00, tags = "nopredict,busy,doing,nomorph,"
+      IsHUDVisible = function - scripts/prefabs/player_common.lua:1391
+      ApplyScale = function - scripts/prefabs/player_common.lua:1500
+      SetGhostMode = function - scripts/prefabs/player_common.lua:855
+      ShowActions = function - scripts/prefabs/player_common.lua:1395
+      SetGymStartState = function - scripts/prefabs/player_common.lua:48
+   
+[14:24:57]: [string "scripts/components/rider_replica.lua"]:249: attempt to index field 'inventoryitem' (a nil value)
+LUA ERROR stack traceback:
+    scripts/components/rider_replica.lua:249 in (method) SetSaddle (Lua) <235-256>
+    scripts/components/rider.lua:18 in (field) ? (Lua) <17-19>
+    scripts/class.lua:43 in () ? (Lua) <36-45>
+    scripts/components/rider.lua:52 in (method) StartTracking (Lua) <48-54>
+    scripts/components/rider.lua:149 in (method) Mount (Lua) <67-160>
+    scripts/actions.lua:2972 in (field) fn (Lua) <2950-2974>
+    scripts/bufferedaction.lua:25 in (method) Do (Lua) <21-35>
+    scripts/entityscript.lua:1463 in (method) PerformBufferedAction (Lua) <1450-1474>
+    scripts/stategraphs/SGwilson.lua:5704 in (field) fn (Lua) <5697-5706>
+    scripts/stategraph.lua:656 in (method) UpdateState (Lua) <624-668>
+    scripts/stategraph.lua:694 in (method) Update (Lua) <687-713>
+    scripts/stategraph.lua:128 in (method) Update (Lua) <109-146>
+    scripts/update.lua:288 in () ? (Lua) <224-298>
+	
