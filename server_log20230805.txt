@@ -1,0 +1,141 @@
+
+[07:49:34]: [string "scripts/components/inventoryitem.lua"]:10: attempt to index field 'inventoryitem' (a nil value)
+LUA ERROR stack traceback:
+scripts/components/inventoryitem.lua:10 in (field) ? (Lua) <9-11>
+   self =
+      isnew = true
+      nobounce = false
+      pushlandedevents = true
+      is_landed = false
+      trappable = true
+      DoDropPhysics = function - ../mods/workshop-2847908822/7.lua:1
+      inst = 147863 - beard_sack_1 (valid:false)
+      keepondeath = false
+      droprandomdir = false
+      canbepickedupalive = false
+      _ = table: 0x254c0770
+      sinks = false
+   owner = nil
+scripts/class.lua:43 in () ? (Lua) <36-45>
+   t = table: 0x1fc04b00
+   k = owner
+   v = nil
+   p = table: 0x308e4720
+   old = nil
+scripts/components/inventoryitem.lua:143 in (method) ClearOwner (Lua) <142-144>
+   self =
+      isnew = true
+      nobounce = false
+      pushlandedevents = true
+      is_landed = false
+      trappable = true
+      DoDropPhysics = function - ../mods/workshop-2847908822/7.lua:1
+      inst = 147863 - beard_sack_1 (valid:false)
+      keepondeath = false
+      droprandomdir = false
+      canbepickedupalive = false
+      _ = table: 0x254c0770
+      sinks = false
+scripts/components/inventoryitem.lua:225 in (method) OnRemoved (Lua) <221-228>
+   self =
+      isnew = true
+      nobounce = false
+      pushlandedevents = true
+      is_landed = false
+      trappable = true
+      DoDropPhysics = function - ../mods/workshop-2847908822/7.lua:1
+      inst = 147863 - beard_sack_1 (valid:false)
+      keepondeath = false
+      droprandomdir = false
+      canbepickedupalive = false
+      _ = table: 0x254c0770
+      sinks = false
+scripts/components/inventory.lua:1136 in (method) Equip (Lua) <1062-1169>
+   self =
+      opencontainerproxies = table: 0xf4d32a0
+      ignoreoverflow = false
+      silentfull = false
+      inst = 102869 - wilson (valid:true)
+      equipslots = table: 0xf8e0010
+      dropondeath = false
+      isopen = false
+      isvisible = false
+      isexternallyinsulated = table: 0x2f980670
+      ignorefull = false
+      ignoresound = false
+      opencontainers = table: 0xf4d3270
+      itemslots = table: 0xf8dffe0
+      _ = table: 0x2081bcb0
+   item = 153703 - beard_sack_1 (valid:true)
+   old_to_active = nil
+   no_animation = nil
+   force_ui_anim = nil
+   eslot = beard
+   olditem = 147863 - beard_sack_1 (valid:false)
+   leftovers = nil
+scripts/components/beard.lua:278 in (method) UpdateBeardInventory (Lua) <253-290>
+   self =
+      prize = beardhair
+      callbacks = table: 0xe303190
+      isgrowing = true
+      onreset = function - scripts/prefabs/wilson.lua:82
+      insulation_factor = 1
+      bits = 1
+      inst = 102869 - wilson (valid:true)
+      daysgrowthaccumulator = -0.35
+      is_skinnable = true
+      daysgrowth = 5
+   level = beard_sack_1
+   beardsack = 147863 - beard_sack_1 (valid:false)
+   bearditems = table: 0x304e0490
+   newsack = 153703 - beard_sack_1 (valid:true)
+scripts/components/beard.lua:34 in (field) ? (Lua) <7-36>
+   self =
+      prize = beardhair
+      callbacks = table: 0xe303190
+      isgrowing = true
+      onreset = function - scripts/prefabs/wilson.lua:82
+      insulation_factor = 1
+      bits = 1
+      inst = 102869 - wilson (valid:true)
+      daysgrowthaccumulator = -0.35
+      is_skinnable = true
+      daysgrowth = 5
+   bonusdays = -0
+   skilltreeupdater = table: 0x245dc600
+scripts/components/worldstate.lua:32 in (upvalue) SetVariable (Lua) <24-48>
+   var = cycles
+   val = 28
+   togglename = nil
+   watchers = table: 0xe36bcd0
+   k = 102869 - wilson (valid:true)
+   v = table: 0x2f5acc20
+   i = 1
+   fn = table: 0x2614f5a0
+scripts/components/worldstate.lua:60 in (local) fn (Lua) <59-61>
+   src = 100029 - world (valid:true)
+   cycles = 28
+scripts/entityscript.lua:1160 in (method) PushEvent (Lua) <1147-1174>
+   self (valid:true) =
+      GUID = 100029
+      tile_id_conversion_map = table: 0xf3ee170
+      inlimbo = false
+      Pathfinder = Pathfinder (0xf30c190)
+      worldstatewatching = table: 0x1f681d20
+      spawntask = function - scripts/components/squidspawner.lua:153
+      
+[07:49:34]: [string "scripts/components/inventoryitem.lua"]:10: attempt to index field 'inventoryitem' (a nil value)
+LUA ERROR stack traceback:
+    scripts/components/inventoryitem.lua:10 in (field) ? (Lua) <9-11>
+    scripts/class.lua:43 in () ? (Lua) <36-45>
+    scripts/components/inventoryitem.lua:143 in (method) ClearOwner (Lua) <142-144>
+    scripts/components/inventoryitem.lua:225 in (method) OnRemoved (Lua) <221-228>
+    scripts/components/inventory.lua:1136 in (method) Equip (Lua) <1062-1169>
+    scripts/components/beard.lua:278 in (method) UpdateBeardInventory (Lua) <253-290>
+    scripts/components/beard.lua:34 in (field) ? (Lua) <7-36>
+    scripts/components/worldstate.lua:32 in (upvalue) SetVariable (Lua) <24-48>
+    scripts/components/worldstate.lua:60 in (local) fn (Lua) <59-61>
+    scripts/entityscript.lua:1160 in (method) PushEvent (Lua) <1147-1174>
+    scripts/components/clock.lua:391 in (method) OnUpdate (Lua) <322-440>
+    scripts/update.lua:262 in () ? (Lua) <224-298>
+	
