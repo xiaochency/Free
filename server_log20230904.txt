@@ -1,0 +1,145 @@
+[18:24:55]: [string "scripts/components/inventoryitem.lua"]:10: attempt to index field 'inventoryitem' (a nil value)
+LUA ERROR stack traceback:
+scripts/components/inventoryitem.lua:10 in (field) ? (Lua) <9-11>
+   self =
+      isnew = true
+      nobounce = false
+      pushlandedevents = true
+      is_landed = false
+      trappable = true
+      inst = 385024 - spoiled_food(LIMBO) (valid:false)
+      keepondeath = false
+      droprandomdir = false
+      canbepickedupalive = false
+      _ = table: 0x3c4e50a0
+      sinks = false
+   owner = nil
+scripts/class.lua:43 in () ? (Lua) <36-45>
+   t = table: 0x2e401f00
+   k = owner
+   v = nil
+   p = table: 0xf11cb90
+   old = 359382 - cherryling (valid:true)
+scripts/components/inventoryitem.lua:143 in (method) ClearOwner (Lua) <142-144>
+   self =
+      isnew = true
+      nobounce = false
+      pushlandedevents = true
+      is_landed = false
+      trappable = true
+      inst = 385024 - spoiled_food(LIMBO) (valid:false)
+      keepondeath = false
+      droprandomdir = false
+      canbepickedupalive = false
+      _ = table: 0x3c4e50a0
+      sinks = false
+scripts/components/inventoryitem.lua:225 in (method) OnRemoved (Lua) <221-228>
+   self =
+      isnew = true
+      nobounce = false
+      pushlandedevents = true
+      is_landed = false
+      trappable = true
+      inst = 385024 - spoiled_food(LIMBO) (valid:false)
+      keepondeath = false
+      droprandomdir = false
+      canbepickedupalive = false
+      _ = table: 0x3c4e50a0
+      sinks = false
+scripts/components/inventory.lua:1190 in () ? (Lua) <1171-1236>
+   self =
+      opencontainerproxies = table: 0x34d676d0
+      ignoreoverflow = false
+      acceptsstacks = true
+      silentfull = false
+      inst = 359382 - cherryling (valid:true)
+      equipslots = table: 0x2a9ba590
+      dropondeath = true
+      isopen = false
+      maxslots = 15
+      isexternallyinsulated = table: 0x384b7e70
+      ignorefull = false
+      ignoresound = false
+      opencontainers = table: 0x32eb82f0
+      isvisible = false
+      ignorescangoincontainer = false
+      itemslots = table: 0x2b5adf90
+      _ = table: 0x2c6522c0
+   item = 385024 - spoiled_food(LIMBO) (valid:false)
+   wholestack = true
+   checkallcontainers = nil
+   prevslot = 2
+   k = 2
+   v = 385024 - spoiled_food(LIMBO) (valid:false)
+=(tail call):-1 in ()  (tail) <-1--1>
+scripts/components/inventoryitem.lua:336 in (method) OnRemoveEntity (Lua) <335-338>
+   self =
+      isnew = true
+      nobounce = false
+      pushlandedevents = true
+      is_landed = false
+      trappable = true
+      inst = 385024 - spoiled_food(LIMBO) (valid:false)
+      keepondeath = false
+      droprandomdir = false
+      canbepickedupalive = false
+      _ = table: 0x3c4e50a0
+      sinks = false
+scripts/entityscript.lua:1520 in (method) Remove (Lua) <1500-1567>
+   self (valid:false) =
+      GUID = 385024
+      Transform = Transform (0x3d37e9c0)
+      inlimbo = true
+      actionreplica = table: 0x380bc010
+      _entitysleeptime = 15491.267474599
+      actioncomponents = table: 0x188c4e80
+      lower_components_shadow = table: 0x3f660ad0
+      overridedeployplacername = gridplacer_farmablesoil
+      entity = Entity (0x2b12f970)
+      AnimState = AnimState (0x2978c9e0)
+      prefab = spoiled_food
+      Network = Network (0x3a208230)
+      Physics = Physics (0x390ca030)
+      _custom_candeploy_fn = function - scripts/standardcomponents.lua:1439
+      name = 腐烂物
+      modactioncomponents = table: 0x3b994a90
+      spawntime = 15491.267474599
+      replica = table: 0x3a12a840
+      GetFertilizerKey = function - scripts/prefabs/spoiledfood.lua:60
+      components = table: 0xfa13610
+      persists = false
+   k = inventoryitem
+   v = table: 0x2e401f00
+scripts/entityscript.lua:1552 in (method) Remove (Lua) <1500-1567>
+   self (valid:true) =
+      GUID = 359382
+      inlimbo = false
+      brain = --brain--
+sleep time: 0.00
+Priority - RUNNING <RUNNING> (execute 11, eval in 0.07)>0.00
+   >Parallel - READY <FAILED> ()>0.00
+   >   >PanicHaunted - READY <FAILED> ()>0.00
+   >   >Panic - READY <READY> ()>0.00
+   >Parallel - READY <FAILED> 
+[18:24:55]: [string "scripts/components/inventoryitem.lua"]:10: attempt to index field 'inventoryitem' (a nil value)
+LUA ERROR stack traceback:
+    scripts/components/inventoryitem.lua:10 in (field) ? (Lua) <9-11>
+    scripts/class.lua:43 in () ? (Lua) <36-45>
+    scripts/components/inventoryitem.lua:143 in (method) ClearOwner (Lua) <142-144>
+    scripts/components/inventoryitem.lua:225 in (method) OnRemoved (Lua) <221-228>
+    scripts/components/inventory.lua:1190 in () ? (Lua) <1171-1236>
+    =(tail call):-1 in ()  (tail) <-1--1>
+    scripts/components/inventoryitem.lua:336 in (method) OnRemoveEntity (Lua) <335-338>
+    scripts/entityscript.lua:1520 in (method) Remove (Lua) <1500-1567>
+    scripts/entityscript.lua:1552 in (method) Remove (Lua) <1500-1567>
+    scripts/components/childspawner.lua:609 in () ? (Lua) <596-624>
+    =(tail call):-1 in ()  (tail) <-1--1>
+    scripts/bufferedaction.lua:25 in (method) Do (Lua) <21-35>
+    scripts/entityscript.lua:1471 in (method) PerformBufferedAction (Lua) <1458-1482>
+    ../mods/workshop-1289779251/scripts/stategraphs/SGcherryling.lua:111 in () ? (Lua) <110-112>
+    =(tail call):-1 in ()  (tail) <-1--1>
+    scripts/stategraph.lua:452 in (method) HandleEvent (Lua) <450-458>
+    scripts/stategraph.lua:466 in (method) HandleEvents (Lua) <460-475>
+    scripts/stategraph.lua:154 in (method) UpdateEvents (Lua) <148-157>
+    scripts/stategraph.lua:145 in (method) Update (Lua) <109-146>
+    scripts/update.lua:288 in () ? (Lua) <224-298>
