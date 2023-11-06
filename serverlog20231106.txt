@@ -1,0 +1,85 @@
+[string "scripts/prefabs/player_common.lua"]:468: attempt to index field 'action' (a nil value)
+LUA ERROR stack traceback:
+scripts/prefabs/player_common.lua:468 in (local) fn (Lua) <466-479>
+   inst = 457784 - wanda (valid:true)
+   data = table: 0x33e09980
+scripts/entityscript.lua:1178 in (method) PushEvent (Lua) <1165-1192>
+   self (valid:true) =
+      _PostActivateHandshakeState_Client = 0
+      GetMoistureRateScale = function - scripts/prefabs/player_common.lua:254
+      SetCameraDistance = function - scripts/prefabs/player_common.lua:1436
+      CanSeePointOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:807
+      EnableBoatCamera = function - scripts/prefabs/player_common.lua:859
+      MakeGenericCommander = function - scripts/prefabs/player_common_extensions.lua:818
+      IsOverheating = function - scripts/prefabs/player_common.lua:224
+      IsActing = function - scripts/prefabs/player_common_extensions.lua:859
+      Light = Light (0x2858a2b0)
+      ApplySkinOverrides = function - scripts/prefabs/player_common.lua:1577
+      ResetMinimapOffset = function - scripts/prefabs/player_common.lua:1428
+      overrideskinmode = normal_skin
+      ApplyScale = function - scripts/prefabs/player_common.lua:1515
+      SetGhostMode = function - scripts/prefabs/player_common.lua:868
+      ShowActions = function - scripts/prefabs/player_common.lua:1410
+      SetGymStartState = function - scripts/prefabs/player_common.lua:55
+      Transform = Transform (0x2d9a4c80)
+      actionreplica = table: 0x2492c0f0
+      event_listening = table: 0x2e4f84f0
+      actioncomponents = table: 0x2e1e2b90
+      SwapAllCharacteristics = function - scripts/prefabs/player_common.lua:1993
+      prefab = wanda
+      updatecomponents = table: 0x350d6ca0
+      YOTB_issetunlocked = function - scripts/prefabs/player_common.lua:85
+      ShakeCamera = function - scripts/prefabs/player_common.lua:1456
+      OnLoad = function - ../mods/workshop-2656551380/modmain.lua:772
+      OnLoadCasino = function - scripts/prefabs/player_common.lua:1156
+      MiniMapEntity = MiniMapEntity (0x2dcf2170)
+      replica = table: 0x1d4ff570
+      _wasnomorph = false
+      OnSleepIn = function - scripts/prefabs/player_common.lua:1246
+      _underleafcanopy = net_bool (0x34bb48a0)
+      SetCameraZoomed = function - scripts/prefabs/player_common.lua:1442
+      TargetForceAttackOnly = function - scripts/prefabs/player_common.lua:51
+      CanSeeTileOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:803
+      DisableLoadingProtection = function - scripts/prefabs/player_common.lua:1025
+      Network = Network (0xfabaa10)
+      userid = KU_NHBLlzDG
+      OnPreLoad = function - scripts/prefabs/player_common.lua:1146
+      name = Iamo
+      ScreenFade = function - scripts/prefabs/player_common.lua:1489
+      OnSaveCasino = function - scripts/prefabs/player_common.lua:1104
+      ChangeToMonkey = function - scripts/prefabs/player_common.lua:2012
+      _PostActivateHandshakeState_Server = 3
+      OnSave = function - ../mods/workshop-2656551380/modmain.lua:757
+      isplayer = true
+      _sharksoundparam = net_float (0x25d42720)
+      _serverpauseddirtyfn = function - scripts/prefabs/player_common.lua:932
+      talker_path_override = wanda2/characters/
+      customidleanim = idle_wanda
+      DynamicShadow = DynamicShadow (0x21daf7f0)
+      EnableLoadingProtection = function - scripts/prefabs/player_common.lua:1013
+      inlimbo = false
+      killtask = PERIODIC 457784: 3.000000
+      _lunarportalmax = table: 0x257534e0
+      age_state = normal
+      battlesong_count = 0
+      IsNearDanger = function - scripts/prefabs/player_common.lua:17
+      AnimState = AnimState (0xa205410)
+      _isrezattuned = false
+      OnRemoveEntity = function - scripts/prefabs/player_common.lua:1054
+      pendingtasks = table: 0x2ca0a930
+      sg = sg="wilson", state="idle", time=0.00, tags = "idle,canrotate,"
+      IsHUDVisible = function - scripts/prefabs/player_common.lua:1406
+      resurrect_multiplier = 0.4
+      IsInAnyStormOrCloud = function - scripts/prefabs/playe
+[12:10:05]: [string "scripts/prefabs/player_common.lua"]:468: attempt to index field 'action' (a nil value)
+LUA ERROR stack traceback:
+    scripts/prefabs/player_common.lua:468 in (local) fn (Lua) <466-479>
+    scripts/entityscript.lua:1178 in (method) PushEvent (Lua) <1165-1192>
+    scripts/entityscript.lua:1495 in (method) PerformBufferedAction (Lua) <1476-1500>
+    scripts/stategraphs/SGwilson.lua:12081 in () ? (Lua) <12078-12086>
+    =(tail call):-1 in ()  (tail) <-1--1>
+    scripts/stategraph.lua:453 in (method) HandleEvent (Lua) <451-459>
+    scripts/stategraph.lua:467 in (method) HandleEvents (Lua) <461-476>
+    scripts/stategraph.lua:154 in (method) UpdateEvents (Lua) <148-157>
+    scripts/stategraph.lua:145 in (method) Update (Lua) <109-146>
+    scripts/update.lua:288 in () ? (Lua) <224-298>
