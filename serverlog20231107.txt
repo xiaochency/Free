@@ -1,0 +1,66 @@
+第一个崩溃日志 第一个崩溃日志 第一个崩溃日志
+
+[04:52:45]Can't find prefab ping_generic	
+[04:52:45]: [string "../mods/workshop-2808279156/modmain.lua"]:673: attempt to index local 'ping' (a nil value)
+LUA ERROR stack traceback:
+../mods/workshop-2808279156/modmain.lua:673 in () ? (Lua) <646-678>
+   player = 100989 - wolfgang (valid:true)
+   pingtype = generic
+   x = -212.22639465332
+   y = 0
+   z = -65.513244628906
+   ping = nil
+=[C]:-1 in (method) CallRPC (C) <-1--1>
+scripts/networkclientrpc.lua:1325 in (global) HandleRPCQueue (Lua) <1306-1378>
+   RPC_Queue_new = table: 0xf36017a0
+   RPC_Queue_len = 1
+   i = 1
+   rpcdata = table: 0xf623cb0
+   fn = function - ../mods/workshop-2808279156/modmain.lua:646
+   sender = 100989 - wolfgang (valid:true)
+   data = table: 0xf36012c0
+   tick = false
+   limit = 0
+scripts/update.lua:42 in () ? (Lua) <33-138>
+   dt = 0.016768233850598
+   server_paused = false
+
+[04:52:45]: [string "../mods/workshop-2808279156/modmain.lua"]:673: attempt to index local 'ping' (a nil value)
+LUA ERROR stack traceback:
+    ../mods/workshop-2808279156/modmain.lua:673 in () ? (Lua) <646-678>
+    =[C]:-1 in (method) CallRPC (C) <-1--1>
+    scripts/networkclientrpc.lua:1325 in (global) HandleRPCQueue (Lua) <1306-1378>
+    scripts/update.lua:42 in () ? (Lua) <33-138>
+
+第2个崩溃日志 第2个崩溃日志 第2个崩溃日志
+
+[05:40:19]: ReceivePing	110842 - wortox	nil	nil	nil	nil	
+[05:40:19]: [string "../mods/workshop-2808279156/modmain.lua"]:672: attempt to concatenate local 'pingtype' (a nil value)
+LUA ERROR stack traceback:
+../mods/workshop-2808279156/modmain.lua:672 in () ? (Lua) <646-678>
+   player = 110842 - wortox (valid:true)
+   pingtype = nil
+   x = nil
+   y = nil
+   z = nil
+=[C]:-1 in (method) CallRPC (C) <-1--1>
+scripts/networkclientrpc.lua:1325 in (global) HandleRPCQueue (Lua) <1306-1378>
+   RPC_Queue_new = table: 0x23f13c30
+   RPC_Queue_len = 8
+   i = 1
+   rpcdata = table: 0xf0050980
+   fn = function - ../mods/workshop-2808279156/modmain.lua:646
+   sender = 110842 - wortox (valid:true)
+   data = table: 0xefe95440
+   tick = true
+   limit = 7
+scripts/update.lua:42 in () ? (Lua) <33-138>
+   dt = 0.016734251752496
+   server_paused = false
+
+[05:40:19]: [string "../mods/workshop-2808279156/modmain.lua"]:672: attempt to concatenate local 'pingtype' (a nil value)
+LUA ERROR stack traceback:
+    ../mods/workshop-2808279156/modmain.lua:672 in () ? (Lua) <646-678>
+    =[C]:-1 in (method) CallRPC (C) <-1--1>
+    scripts/networkclientrpc.lua:1325 in (global) HandleRPCQueue (Lua) <1306-1378>
+    scripts/update.lua:42 in () ? (Lua) <33-138>
