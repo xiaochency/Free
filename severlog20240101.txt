@@ -1,0 +1,121 @@
+[00:01:29]: [string "../mods/workshop-2960467149/scripts/screens..."]:320: attempt to index field 'worldcharacterselectlobby' (a nil value)
+LUA ERROR stack traceback:
+../mods/workshop-2960467149/scripts/screens/redux/lobbyscreen.lua:320 in (field) _ctor (Lua) <312-424>
+   self =
+      enabled = true
+      focus_target = false
+      shown = true
+      can_fade_alpha = true
+      title = 衣柜
+      focus_flow_args = table: 0000000012E53920
+      inst = 100685 -  (valid:true)
+      focus = false
+      focus_flow = table: 0000000012E544B0
+      name = LoadoutPanel
+      children = table: 0000000012E543C0
+      callbacks = table: 0000000012E54460
+   owner = LobbyScreen
+scripts/class.lua:191 in (field) panelfn (Lua) <181-194>
+   class_tbl = table: 000000005A4168C0
+   arg = nil
+   obj = LoadoutPanel
+../mods/workshop-2960467149/scripts/screens/redux/lobbyscreen.lua:792 in (method) ToNextPanel (Lua) <768-819>
+   self =
+      chat_sidebar = ChatSidebar
+      issoundplaying = true
+      parent = screenroot
+      callbacks = table: 000000005A416B90
+      back_button = 断开
+      panels = table: 0000000048FFC2E0
+      panel = CharacterSelectPanel
+      default_focus = panel_root
+      cb = function - ../mods/workshop-2960467149/scripts/screens/redux/lobbyscreen.lua:568
+      inst = 100049 -  (valid:true)
+      focus = true
+      next_button = 
+      handlers = table: 000000005A416FF0
+      children = table: 000000005A4162D0
+      lobbycharacter = wendy
+      focus_flow_args = table: 000000005A416410
+      focus_target = false
+      panel_title = Text - 角色选择
+      root = lobbyscreen root
+      fg = foreground
+      current_panel_index = 2
+      can_fade_alpha = true
+      profile = table: 000000006577A060
+      panel_root = panel_root
+      is_screen = true
+      enabled = false
+      focus_flow = table: 000000005A416A50
+      time_to_refresh = 0.016664694994688
+      shown = true
+      name = LobbyScreen
+   dir = 1
+   prev_panel_index = 1
+   prev_penel = CharacterSelectPanel
+../mods/workshop-2960467149/scripts/screens/redux/lobbyscreen.lua:629 in (method) onclick (Lua) <629-629>
+../mods/workshop-2960467149/scripts/screens/redux/lobbyscreen.lua:172 in (field) OnPortraitSelected (Lua) <171-173>
+   hero = wendy
+scripts/widgets/redux/characterselect.lua:66 in (field) onclick (Lua) <64-68>
+scripts/widgets/imagebutton.lua:213 in (method) OnControl (Lua) <173-220>
+   self =
+      image_normal = char_selection.tex
+      head_animstate = AnimState (0000000048654430)
+      shown = true
+      textfocuscolour = table: 0000000013AE8100
+      selected = false
+      herocharacter = wendy
+      enabled = true
+      help_message = 选择
+      image_scale = table: 000000004EA8F4A0
+      text = Text - 
+      head_anim = UIAnim
+      font = spirequal
+      name = BUTTON
+      textselectedcolour = table: 0000000013AE71B0
+      focus_flow = table: 0000000013AE7430
+      fontdisabled = spirequal
+      image_focus = char_selection_hover.tex
+      image_selected = char_selection.tex
+      textcolour = table: 0000000013AE7FC0
+      parent = CharacterSelect-cell-4
+      callbacks = table: 0000000013AE77F0
+      mouseonly = false
+      lock_img = Image - images/frontend_redux.xml:accountitem_frame_lock.tex
+      size_y = 110
+      size_x = 110
+      onclick = function - scripts/widgets/redux/characterselect.lua:64
+      inst = 100468 -  (valid:true)
+      focus = false
+      ongainfocus = function - scripts/widgets/redux/characterselect.lua:55
+      children = table: 0000000013AE7610
+      textdisabledcolour = table: 0000000013AE8420
+      focus_flow_args = table: 0000000013AE7F70
+      focus_target = false
+      atlas = images/global_redux.xml
+      normal_scale = table: 000000004EA8F4A0
+      focus_scale = table: 000000004EA8EFF0
+      move_on_click = true
+      image = Image - images/global_redux.xml:char_selection_hover.tex
+      clickoffset = (0.00, -3.00, 0.00)
+      image_offset = table: 000000004EA8F400
+      scale_on_focus = true
+      has_image_down = true
+      control = 29
+      can_fade_alpha = true
+      image_disabled = char_selecti
+[00:01:29]: [string "../mods/workshop-2960467149/scripts/screens..."]:320: attempt to index field 'worldcharacterselectlobby' (a nil value)
+LUA ERROR stack traceback:
+    ../mods/workshop-2960467149/scripts/screens/redux/lobbyscreen.lua:320 in (field) _ctor (Lua) <312-424>
+    scripts/class.lua:191 in (field) panelfn (Lua) <181-194>
+    ../mods/workshop-2960467149/scripts/screens/redux/lobbyscreen.lua:792 in (method) ToNextPanel (Lua) <768-819>
+    ../mods/workshop-2960467149/scripts/screens/redux/lobbyscreen.lua:629 in (method) onclick (Lua) <629-629>
+    ../mods/workshop-2960467149/scripts/screens/redux/lobbyscreen.lua:172 in (field) OnPortraitSelected (Lua) <171-173>
+    scripts/widgets/redux/characterselect.lua:66 in (field) onclick (Lua) <64-68>
+    scripts/widgets/imagebutton.lua:213 in (method) OnControl (Lua) <173-220>
+    scripts/widgets/widget.lua:129 in (method) OnControl (Lua) <123-137>
+    scripts/widgets/widget.lua:129 in (method) OnControl (Lua) <123-137>
+    scripts/widgets/widget.lua:129 in (method) OnControl (Lua) <123-137>
+    scripts/widgets/widget.lua:129 in (method) OnControl (Lua) <123-137>
+    scripts/widgets/widget.lua:129 in (field) OnControl (Lua) <123-137>
