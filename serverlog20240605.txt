@@ -1,0 +1,214 @@
+[17:10:35]: Could not find anim [gravedirt] in bank [hf_decor_graves]
+[17:10:41]: Serializing user: session/BEE8B8A89A7FED2D/A7H74JS5I6P3/0000000003
+[17:10:55]: Serializing user: session/BEE8B8A89A7FED2D/A7H74JS5I6P3/0000000003
+[17:10:55]: Resuming user: session/BEE8B8A89A7FED2D/A7H74JS5I6P3/0000000003
+[17:10:55]: Spawning player at: [Load] (0.25, 0.00, 10.62)	
+[17:10:55]: [RF.LOG] SPAWNED wilson (KU_9oJuMHiZ)	
+[17:10:55]: 	K: 	total_friends	 V: 	0	
+[17:10:55]: KU_9oJuMHiZ	running text command:	updateusersfriends	true	
+[17:10:55]: 	K: 	total_friends	 V: 	0	
+[17:11:03]: [RF.LOG] Starting Round: 1 Wave: 2	
+[17:11:31]: [RF.ERROR][StatTracker] tried to update ccbroken by 1 for nil but userid is nil.	
+[17:12:08]: [Steam] SendUserDisconnect for '76561199123019985'
+[17:12:08]: [Shard] (KU_tGeaBSMT) disconnected from [SHDMASTER](1)
+[17:12:09]: Serializing user: session/BEE8B8A89A7FED2D/A7MT18I2RHCT/0000000003
+[17:12:16]: New incoming connection 120.236.163.36|31479 <3113441278055621443>
+[17:12:16]: Client connected from 120.236.163.36|31479 <3113441278055621443>
+[17:12:16]: ValidateGameSessionToken GUID<3113441278055621443>
+[17:12:17]: Client authenticated: (KU_8EfLHn9b) AAA小彭怪物肉批发
+[17:12:17]: [Steam] SendUserConnectAndAuthenticate for '76561199401304590'
+[17:12:17]: [Steam] Authenticated client '76561199401304590'
+[17:12:19]: [Shard] Read save location file for (KU_8EfLHn9b)
+[17:12:32]: 	K: 	total_exp	 V: 	{["overall"]=64171,["wendy"]=64171,}	
+[17:12:32]: KU_8EfLHn9b	running text command:	updateuserexp	true	
+[17:12:32]: 	K: 	total_exp	 V: 	{["overall"]=64171,["wendy"]=64171,}	
+[17:12:32]: 	K: 	achievements	 V: 	{["kills_silver"]=42,["pitpig_silver"]=true,["kills_bronze"]=42,["kills_gold"]=42,["no_deaths_acid"]=true,["pitpig_gold"]=true,}	
+[17:12:32]: KU_8EfLHn9b	running text command:	updateusersachievements	true	
+[17:12:32]: 	K: 	achievements	 V: 	{["kills_silver"]=42,["pitpig_silver"]=true,["kills_bronze"]=42,["kills_gold"]=42,["no_deaths_acid"]=true,["pitpig_gold"]=true,}	
+[17:12:32]: Resuming user: session/BEE8B8A89A7FED2D/A7H0T9AKE4J5
+[17:12:37]: 	K: 	current_perk	 V: 	spy	
+[17:12:37]: KU_8EfLHn9b	running text command:	updateuserscurrentperk	true	
+[17:12:37]: 	K: 	current_perk	 V: 	spy	
+[17:12:40]: Spawn request: spectator from AAA小彭怪物肉批发
+[17:12:40]: Skin request: () () () () ()
+[17:12:40]: Skill Selection request: 0
+[17:12:40]: ERROR!!! Invisible werebeaver is probably about to happen!!!	
+[17:12:40]: Could not find anim [idle_loop] in bank [FROMNUM]
+[17:12:40]: Spawning player at: [Fixed] (4.00, 0.00, -28.00)	
+[17:12:40]: Serializing user: session/BEE8B8A89A7FED2D/A7H0T9AKE4J5/0000000003
+[17:12:40]: 	K: 	total_friends	 V: 	0	
+[17:12:40]: KU_8EfLHn9b	running text command:	updateusersfriends	true	
+[17:12:40]: 	K: 	total_friends	 V: 	0	
+[17:12:47]: [RF.WARNING] Attempted to create a duplicate thread with the id spell_grow_reverse_107060	
+[17:12:58]: [RF.LOG] Starting Round: 2 Wave: 1	
+[17:18:00]: 121110 - pitpig	TRIED TO GO TO INVALID STATE	land	
+[17:18:00]: 121111 - rhinocebro_franken	TRIED TO GO TO INVALID STATE	land	
+[17:18:01]: 121113 - crocommander_necro	TRIED TO GO TO INVALID STATE	land	
+[17:18:01]: 121116 - snortoise_ghost	TRIED TO GO TO INVALID STATE	land	
+[17:18:01]: 121117 - crocommander	TRIED TO GO TO INVALID STATE	land	
+[17:18:01]: 121120 - crocommander	TRIED TO GO TO INVALID STATE	land	
+[17:18:17]: Stale Component Reference: GUID 121543, ../mods/workshop-1938752683/scripts/components/armorbreak_debuff.lua:70
+[17:18:55]: New incoming connection 183.217.212.51|18059 <8161116455555679184>
+[17:18:55]: Client connected from 183.217.212.51|18059 <8161116455555679184>
+[17:18:55]: ValidateGameSessionToken GUID<8161116455555679184>
+[17:18:57]: Client authenticated: (KU_CJH79S2T) 西伯利亚监工
+[17:18:58]: [Steam] SendUserConnectAndAuthenticate for '76561199425792982'
+[17:18:58]: [Steam] Authenticated client '76561199425792982'
+[17:19:00]: [Shard] Read save location file for (KU_CJH79S2T)
+[17:19:01]: [Steam] SendUserDisconnect for '76561199425792982'
+[17:19:01]: [Shard] (KU_CJH79S2T) disconnected from [SHDMASTER](1)
+[17:19:01]: Serializing user: session/BEE8B8A89A7FED2D/A7NA7VNFP96K/0000000003
+[17:19:07]: Serializing user: session/BEE8B8A89A7FED2D/A7NA7VNFP96K/0000000003
+[17:19:07]: Resuming user: session/BEE8B8A89A7FED2D/A7NA7VNFP96K/0000000003
+[17:19:07]: Spawning player at: [Load] (5.60, 0.00, 10.96)	
+[17:19:07]: [RF.LOG] SPAWNED willow (KU_wZ_k_AJK)	
+[17:19:08]: 	K: 	total_friends	 V: 	0	
+[17:19:08]: KU_wZ_k_AJK	running text command:	updateusersfriends	true	
+[17:19:08]: 	K: 	total_friends	 V: 	0	
+[17:21:04]: New incoming connection 183.217.212.51|18079 <1290416893644384720>
+[17:21:04]: Client connected from 183.217.212.51|18079 <1290416893644384720>
+[17:21:04]: ValidateGameSessionToken GUID<1290416893644384720>
+[17:21:06]: Client authenticated: (KU_CJH79S2T) 西伯利亚监工
+[17:21:06]: [Steam] SendUserConnectAndAuthenticate for '76561199425792982'
+[17:21:07]: [Steam] Authenticated client '76561199425792982'
+[17:21:09]: [Shard] Read save location file for (KU_CJH79S2T)
+[17:21:11]: [RF.LOG] Starting Round: 3 Wave: 1	
+[17:21:17]: 	K: 	location	 V: 	{["y"]=-1.9073486328125e-006,["x"]=8.5464162826538,["z"]=10.929418563843,}	
+[17:21:17]: KU_tMQji0DJ	running text command:	pinglocation	true	
+[17:21:17]: 	K: 	location	 V: 	{["y"]=-1.9073486328125e-006,["x"]=8.5464162826538,["z"]=10.929418563843,}	
+[17:21:22]: 	K: 	total_exp	 V: 	{["wormwood"]=65118,["wanda"]=1094,["overall"]=66212,}	
+[17:21:22]: KU_CJH79S2T	running text command:	updateuserexp	true	
+[17:21:22]: 	K: 	total_exp	 V: 	{["wormwood"]=65118,["wanda"]=1094,["overall"]=66212,}	
+[17:21:22]: 	K: 	achievements	 V: 	{["kills_silver"]=8,["dt_normal"]=true,["kills_bronze"]=8,["kills_gold"]=8,["no_deaths_acid"]=true,}	
+[17:21:22]: KU_CJH79S2T	running text command:	updateusersachievements	true	
+[17:21:22]: 	K: 	achievements	 V: 	{["kills_silver"]=8,["dt_normal"]=true,["kills_bronze"]=8,["kills_gold"]=8,["no_deaths_acid"]=true,}	
+[17:21:22]: Resuming user: session/BEE8B8A89A7FED2D/A7HH6H3IBG4T
+[17:21:37]: 	K: 	current_perk	 V: 	spy	
+[17:21:37]: KU_CJH79S2T	running text command:	updateuserscurrentperk	true	
+[17:21:37]: 	K: 	current_perk	 V: 	spy	
+[17:21:38]: [RF.LOG] Starting Round: 3 Wave: 2	
+[17:21:42]: Spawn request: spectator from 西伯利亚监工
+[17:21:42]: Skin request: () () () () ()
+[17:21:42]: Skill Selection request: 0
+[17:21:42]: ERROR!!! Invisible werebeaver is probably about to happen!!!	
+[17:21:42]: Could not find anim [cheer2] in bank [FROMNUM]
+[17:21:42]: Spawning player at: [Fixed] (4.00, 0.00, -28.00)	
+[17:21:42]: Serializing user: session/BEE8B8A89A7FED2D/A7HH6H3IBG4T/0000000003
+[17:21:43]: 	K: 	total_friends	 V: 	0	
+[17:21:43]: KU_CJH79S2T	running text command:	updateusersfriends	true	
+[17:21:43]: 	K: 	total_friends	 V: 	0	
+[17:22:33]: [string "../mods/workshop-2038128735/scriptlibs/fns_..."]:320: bad argument #1 to 'SetCapsule' (number expected, got no value)
+LUA ERROR stack traceback:
+=[C]:-1 in (method) SetCapsule (C) <-1--1>
+../mods/workshop-2038128735/scriptlibs/fns_rpx.lua:320 in (field) SetScale (Lua) <311-327>
+   inst = 134989 - rhinocebro3 (valid:true)
+   scale = 0.42837499111891
+   x = 0.57499998807907
+   y = 0.57499998807907
+   z = 0.57499998807907
+../mods/workshop-2038128735/scripts/components/fission.lua:39 in (upvalue) MakeChild (Lua) <36-60>
+   parent = 131688 - rhinocebro3 (valid:true)
+   prefab = rhinocebro3
+   pos = (13.24, 0.00, 17.83) (valid:true)
+   inst = 134989 - rhinocebro3 (valid:true)
+../mods/workshop-2038128735/scripts/components/fission.lua:88 in (method) Split (Lua) <75-94>
+   self =
+      fertile = 0.26140697213388
+      layer = 1
+      prefab = rhinocebro2
+      inst = 131684 - scorpeon_cultist (valid:true)
+   parent = 131684 - scorpeon_cultist (valid:true)
+   isbossy = false
+   splitchance = 0.55555555555556
+   pos = (13.24, 0.00, 17.83) (valid:true)
+   bro = 131688 - rhinocebro3 (valid:true)
+   nchildren = 1
+   i = 1
+   child = 134988 - swineclops (valid:true)
+   broprefab = rhinocebro3
+   bropos = (-5.27, 0.00, 12.45) (valid:true)
+../mods/workshop-2038128735/scripts/components/fission.lua:2 in (local) fn (Lua) <1-3>
+   inst = 131684 - scorpeon_cultist (valid:true)
+scripts/entityscript.lua:1181 in (method) PushEvent (Lua) <1168-1195>
+   self (valid:true) =
+      GUID = 131684
+      inlimbo = false
+      brain = --brain--
+sleep time: 0.02
+Priority - RUNNING <RUNNING> (execute 2, eval in 0.05)>0.02
+   >CastSpells - READY <READY> ()>0.00
+   >Parallel - RUNNING <RUNNING> ()>0.02
+   >   >Forge Chase And Attack - READY <SUCCESS> ()>0.00
+   >   >ChaseAndAttack_Forge - RUNNING <RUNNING> ()>0.02
+   >Parallel - READY <READY> ()>0.00
+   >   >Wander - READY <READY> ()>0.00
+   >   >Wander - READY <READY> ()>0.00
+
+      sounds = table: 0x17bab370
+      last_taunt_time = 904.33338049799
+      AnimState = AnimState (0xd7da390)
+      acidimmune = true
+      spawn_info = table: 0xe981340
+      Network = Network (0xd550210)
+      bro = 131688 - rhinocebro3 (valid:true)
+      pendingtasks = table: 0xcf406c0
+      swapped = rhinocebro2
+      sg = sg="scorpeon_cultist", state="attack_spell", time=0.17, tags = "attack,spell,busy,pre_attack,"
+      spawntime = 859.36671148613
+      heal_options = table: 0xd5a7610
+      castfx = 134966 - hf_spellcast_fx (valid:true)
+      aoe_attacked_targets = table: 0xed960a0
+      spell_options = table: 0x1c6be320
+      actionreplica = table: 0x126abb40
+      event_listening = table: 0x190926d0
+      actioncomponents = table: 0x105e9020
+      fire_debuff_timer = PERIODIC 131684: 5.466667
+      lower_components_shadow = table: 0x1c2755c0
+      entity = Entity (0x1d5e2340)
+      duplicator_source = 131682 - scorpeon (valid:true)
+      prefab = scorpeon_cultist
+      forced_aggro_reset_time = 0
+      reviver = 131693 - swineclops_mummy (valid:true)
+      updatecomponents = table: 0x1d1500c0
+      persists = true
+      duplicator_count = 2
+      brainfn = table: 0xd93bf30
+      event_listeners = table: 0xc1384e0
+      DynamicShadow = DynamicShadow (0xe2638f0)
+      Transform = Transform (0x1badb920)
+      _registered = true
+      name = Scorp Cultist
+      Physics = Physics (0xcf12380)
+      replica = table: 0x1d343c60
+      SoundEmitter = SoundEmitter (0xf117760)
+      components = table: 0xfea5b50
+      builds = table: 0xc847350
+   event = death
+   data = table: 0xb3a8d90
+   listeners = table: 0x17c4a6b0
+   tocall = table: 0x18795090
+   i = 3
+   fn = function - ../mods/workshop-2038128735/scripts/components/fission.lua:1
+scripts/components/health.lua:381 in (method) SetVal (Lua) <360-398>
+   self =
+      history_rollback_dist = 10
+      GetHealthBuff = function - ../mods/workshop-1938752683/scripts/forge_main.lua:1310
+      health_history = table: 0xaa5c460
+      SetMaxHealth = function - ../mods/workshop-1938752683/scripts/forge_main.lua:1273
+      firedamagecaptimer = 0
+      takingfiredamagetim
+[17:22:33]: [string "../mods/workshop-2038128735/scriptlibs/fns_..."]:320: bad argument #1 to 'SetCapsule' (number expected, got no value)
+LUA ERROR stack traceback:
+    =[C]:-1 in (method) SetCapsule (C) <-1--1>
+    ../mods/workshop-2038128735/scriptlibs/fns_rpx.lua:320 in (field) SetScale (Lua) <311-327>
+    ../mods/workshop-2038128735/scripts/components/fission.lua:39 in (upvalue) MakeChild (Lua) <36-60>
+    ../mods/workshop-2038128735/scripts/components/fission.lua:88 in (method) Split (Lua) <75-94>
+    ../mods/workshop-2038128735/scripts/components/fission.lua:2 in (local) fn (Lua) <1-3>
+    scripts/entityscript.lua:1181 in (method) PushEvent (Lua) <1168-1195>
+    scripts/components/health.lua:381 in (method) SetVal (Lua) <360-398>
+    scripts/components/health.lua:422 in (method) DoDelta (Lua) <400-431>
+    ../mods/workshop-1938752683/scripts/forge_combat.lua:508 in (method) GetAttacked (Lua) <468-557>
+    ../mods/workshop-2633870801/scripts/prefabs/hf_lightning_staff.lua:208 in (field) fn (Lua) <199-215>
+    scripts/scheduler.lua:186 in (method) OnTick (Lua) <164-216>
+    scripts/scheduler.lua:409 in (global) RunScheduler (Lua) <407-415>
+    scripts/update.lua:240 in () ? (Lua) <224-298>
