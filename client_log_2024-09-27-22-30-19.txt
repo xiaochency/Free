@@ -1,0 +1,127 @@
+[00:02:50]: [string "../mods/workshop-1938752683/scripts/forge_l..."]:1267: attempt to index field 'perk_tracker' (a nil value)
+LUA ERROR stack traceback:
+../mods/workshop-1938752683/scripts/forge_lobby.lua:1267 in (upvalue) UpdatePlayerListing (Lua) <1250-1508>
+   widget = PlayerAvatarPortrait
+   data = table: 00000000AEEF0B10
+   empty = false
+   player = table: 00000000AEEF53E0
+   puppet = BUTTON
+   prefab = wilson
+../mods/workshop-1938752683/scripts/forge_lobby.lua:1523 in (method) Refresh (Lua) <1510-1536>
+   self =
+      shown = true
+      UpdateGameSettingsDisplay = function - ../mods/workshop-1938752683/scripts/forge_lobby.lua:1547
+      settings_root = widget
+      inst = 102957 -  (valid:true)
+      focus = false
+      parent = WaitingPanel
+      children = table: 00000000AF27A340
+      settings = table: 00000000AEEEA7B0
+      focus_flow_args = table: 00000000AF279760
+      focus_target = false
+      Refresh = function - ../mods/workshop-1938752683/scripts/forge_lobby.lua:1510
+      last_update_time = 170
+      UpdatePlayerListing = function - ../mods/workshop-1938752683/scripts/forge_lobby.lua:1195
+      owner = WaitingPanel
+      playerready_checkbox = 投票与 18/20 位玩家开始
+      can_fade_alpha = true
+      enabled = true
+      proot = ROOT
+      name = WaitingForPlayers
+      player_listing = table: 00000000AF27DA90
+      focus_flow = table: 00000000AF27A250
+      callbacks = table: 00000000AF27A2F0
+      list_root = GRID
+      players = table: 00000000AEEF0570
+   force = true
+   current_update_time = 170
+   prev_num_players = 18
+   i = 2
+   widget = PlayerAvatarPortrait
+   player = table: 00000000AEEF0B10
+scripts/screens/redux/lobbyscreen.lua:420 in (field) _ctor (Lua) <414-452>
+   self =
+      enabled = true
+      focus_target = false
+      shown = true
+      title = 正在等待其他玩家
+      can_fade_alpha = true
+      waiting_for_players = WaitingForPlayers
+      focus_flow_args = table: 00000000AF279DF0
+      inst = 102956 -  (valid:true)
+      focus = false
+      focus_flow = table: 00000000AF279CB0
+      name = WaitingPanel
+      children = table: 00000000AF279490
+      callbacks = table: 00000000AF2798F0
+   owner = LobbyScreen
+scripts/class.lua:191 in (field) panelfn (Lua) <181-194>
+   class_tbl = table: 0000000072A6DC00
+   arg = nil
+   obj = WaitingPanel
+scripts/screens/redux/lobbyscreen.lua:740 in (upvalue) _oldToNextPanel (Lua) <716-767>
+   self =
+      shown = true
+      back_button = 返回
+      panels = table: 0000000066D45380
+      fg = foreground
+      next_button = 选择
+      handlers = table: 0000000021BA3F00
+      startbutton = 生成
+      enabled = false
+      panel_title = Text - 衣柜
+      root = lobbyscreen root
+      current_panel_index = 4
+      panel_root = panel_root
+      name = LobbyScreen
+      focus_flow = table: 0000000021BA2BF0
+      countdown_started = false
+      currentskins = table: 000000006D8D3FB0
+      chat_sidebar = ChatSidebar
+      issoundplaying = true
+      lobbycharacter = spectator
+      callbacks = table: 0000000021BA0DF0
+      DisplayAnnouncement = function - ../mods/workshop-1938752683/scripts/forge_lobby.lua:287
+      parent = screenroot
+      vote_menu = LobbyVoteDialog
+      inst = 100097 -  (valid:true)
+      cb = function - scripts/screens/redux/lobbyscreen.lua:517
+      default_focus = panel_root
+      vote_root = vote_root
+      children = table: 0000000021BA0C60
+      ToNextPanel = function - ../mods/workshop-3139080374/modmain.lua:1259
+      focus_flow_args = table: 0000000021BA3EB0
+      focus_target = false
+      character_for_game = spectator
+      spawndelaytext = Text - 
+      panel = LoadoutPanel
+      announcementtext = Text - 
+      event_listeners = table: 00000000538062D0
+      can_fade_alpha = true
+      dedicated_server_icon = Image - images/servericons.xml:dedicated.tex
+      focus = true
+      is_screen = true
+      OnControl = function - ../mods/workshop-1938752683/scripts/forge_lobby.lua:129
+      countdown_time = 255
+      time_to_refresh = 0.13333319686353
+      lobby_name_text = Text - 
+      profile = table: 0
+[00:02:50]: [string "../mods/workshop-1938752683/scripts/forge_l..."]:1267: attempt to index field 'perk_tracker' (a nil value)
+LUA ERROR stack traceback:
+    ../mods/workshop-1938752683/scripts/forge_lobby.lua:1267 in (upvalue) UpdatePlayerListing (Lua) <1250-1508>
+    ../mods/workshop-1938752683/scripts/forge_lobby.lua:1523 in (method) Refresh (Lua) <1510-1536>
+    scripts/screens/redux/lobbyscreen.lua:420 in (field) _ctor (Lua) <414-452>
+    scripts/class.lua:191 in (field) panelfn (Lua) <181-194>
+    scripts/screens/redux/lobbyscreen.lua:740 in (upvalue) _oldToNextPanel (Lua) <716-767>
+    ../mods/workshop-1938752683/scripts/forge_lobby.lua:32 in (upvalue) old_ToNextPanel (Lua) <31-41>
+    ../mods/workshop-1938752683/scripts/forge_lobby.lua:162 in (upvalue) old_ToNextPanel (Lua) <161-186>
+    ../mods/workshop-3139080374/modmain.lua:1260 in (method) ToNextPanel (Lua) <1259-1265>
+    scripts/screens/redux/lobbyscreen.lua:584 in (field) onclick (Lua) <584-584>
+    scripts/widgets/imagebutton.lua:215 in (method) OnControl (Lua) <173-222>
+    scripts/widgets/widget.lua:129 in (method) OnControl (Lua) <123-137>
+    scripts/widgets/widget.lua:129 in (field) OnControl (Lua) <123-137>
+    scripts/screens/redux/lobbyscreen.lua:786 in () ? (Lua) <781-794>
+    =(tail call):-1 in ()  (tail) <-1--1>
+    scripts/frontend.lua:426 in (method) OnControl (Lua) <410-474>
+    scripts/input.lua:165 in (method) OnControl (Lua) <162-169>
+    scripts/input.lua:434 in () ? (Lua) <433-435>
