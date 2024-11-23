@@ -1,0 +1,102 @@
+[01:09:40]: [string "scripts/components/rider_replica.lua"]:249: attempt to index field 'inventoryitem' (a nil value)
+LUA ERROR stack traceback:
+scripts/components/rider_replica.lua:249 in (method) SetSaddle (Lua) <235-256>
+   self =
+      _isriding = net_bool (0x181ab2c0)
+      classified = 102448 - player_classified (valid:true)
+      inst = 102446 - wilson (valid:true)
+      _onmounthealthdelta = function - scripts/components/rider_replica.lua:8
+   saddle = 110505 - saddle_shadow(LIMBO) (valid:false)
+   old = nil
+scripts/components/rider.lua:18 in (field) ? (Lua) <17-19>
+   self =
+      inst = 102446 - wilson (valid:true)
+      target_mount = 101452 - beefalo(LIMBO) (valid:true)
+      _ = table: 0xd8e3370
+      _onSaddleChanged = function - scripts/components/rider.lua:29
+   saddle = 110505 - saddle_shadow(LIMBO) (valid:false)
+scripts/class.lua:43 in () ? (Lua) <36-45>
+   t = table: 0xd8e3340
+   k = saddle
+   v = 110505 - saddle_shadow(LIMBO) (valid:false)
+   p = table: 0x156e41d0
+   old = nil
+scripts/components/rider.lua:52 in (method) StartTracking (Lua) <48-54>
+   self =
+      inst = 102446 - wilson (valid:true)
+      target_mount = 101452 - beefalo(LIMBO) (valid:true)
+      _ = table: 0xd8e3370
+      _onSaddleChanged = function - scripts/components/rider.lua:29
+   mount = 101452 - beefalo(LIMBO) (valid:true)
+scripts/components/rider.lua:150 in (method) Mount (Lua) <67-161>
+   self =
+      inst = 102446 - wilson (valid:true)
+      target_mount = 101452 - beefalo(LIMBO) (valid:true)
+      _ = table: 0xd8e3370
+      _onSaddleChanged = function - scripts/components/rider.lua:29
+   target = 101452 - beefalo(LIMBO) (valid:true)
+   instant = nil
+   rideable = table: 0xf1aa760
+   saddler = table: 0x182b19b0
+   x = -37.810806274414
+   y = -1.0061269151151e-08
+   z = -68.89608001709
+   tx = -36.821846008301
+   ty = -1.040949371145e-08
+   tz = -69.20792388916
+scripts/actions.lua:3541 in (field) fn (Lua) <3519-3543>
+   act = 骑 101452 - beefalo(LIMBO) (valid:true)
+scripts/bufferedaction.lua:26 in (method) Do (Lua) <22-36>
+   self (valid:true) =
+      action = table: 0x191b8830
+      doer = 102446 - wilson (valid:true)
+      onfail = table: 0x17c84f40
+      doerownsobject = false
+      rotation = 0
+      onsuccess = table: 0x28c5aaa0
+      options = table: 0x12f14a60
+      target = 101452 - beefalo(LIMBO) (valid:true)
+scripts/entityscript.lua:1559 in (method) PerformBufferedAction (Lua) <1541-1574>
+   self (valid:true) =
+      _PostActivateHandshakeState_Client = 0
+      GetMoistureRateScale = function - scripts/prefabs/player_common.lua:254
+      SetCameraDistance = function - scripts/prefabs/player_common.lua:1489
+      CanSeePointOnMiniMap = function - scripts/prefabs/player_common_extensions.lua:887
+      skeleton_prefab = skeleton_player
+      EnableBoatCamera = function - scripts/prefabs/player_common.lua:904
+      MakeGenericCommander = function - scripts/prefabs/player_common_extensions.lua:898
+      wallupdatecomponents = table: 0x122fd5f0
+      IsActing = function - scripts/prefabs/player_common_extensions.lua:939
+      Light = Light (0x9c2caa0)
+      ApplySkinOverrides = function - scripts/prefabs/player_common.lua:1646
+      ResetMinimapOffset = function - scripts/prefabs/player_common.lua:1473
+      ApplyScale = function - scripts/prefabs/player_common.lua:1584
+      SetGhostMode = function - scripts/prefabs/player_common.lua:913
+      ShowActions = function - scripts/prefabs/player_common.lua:1455
+      SetGymStartState = function - scripts/prefabs/player_common.lua:55
+      Transform = Transform (0x134875a0)
+      actionreplica = table: 0x17f4d610
+      event_listening = table: 0x11ba8bb0
+      actioncomponents = table: 0xf80c260
+      SwapAllCharacteristics = function - scripts/prefabs/player_common.lua:2110
+      prefab = wilson
+      updatecomponents = table: 0x17348630
+      YOTB_issetunlocked = function - scripts/prefabs/player_common.lua:85
+      ShakeCamera = function - scripts/prefabs/player_common.lua:1525
+      YOTB_isskinunlocked = function - scripts/prefabs/player_common.lua:92
+      MiniMapEntity 
+[01:09:40]: [string "scripts/components/rider_replica.lua"]:249: attempt to index field 'inventoryitem' (a nil value)
+LUA ERROR stack traceback:
+    scripts/components/rider_replica.lua:249 in (method) SetSaddle (Lua) <235-256>
+    scripts/components/rider.lua:18 in (field) ? (Lua) <17-19>
+    scripts/class.lua:43 in () ? (Lua) <36-45>
+    scripts/components/rider.lua:52 in (method) StartTracking (Lua) <48-54>
+    scripts/components/rider.lua:150 in (method) Mount (Lua) <67-161>
+    scripts/actions.lua:3541 in (field) fn (Lua) <3519-3543>
+    scripts/bufferedaction.lua:26 in (method) Do (Lua) <22-36>
+    scripts/entityscript.lua:1559 in (method) PerformBufferedAction (Lua) <1541-1574>
+    scripts/stategraphs/SGwilson.lua:6578 in (field) fn (Lua) <6571-6580>
+    scripts/stategraph.lua:665 in (method) UpdateState (Lua) <633-677>
+    scripts/stategraph.lua:703 in (method) Update (Lua) <696-722>
+    scripts/stategraph.lua:128 in (method) Update (Lua) <109-146>
+    scripts/update.lua:288 in () ? (Lua) <224-298>
