@@ -1,0 +1,1594 @@
+[00:00:00]: PersistRootStorage is now /root/.klei//DoNotStarveTogether/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 654051
+[00:00:00]: Current time: Sun Feb 23 11:09:07 2025
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: VM-16-10-centos
+[00:00:00]: Release(Kernel) Version: 4.18.0-540.el8.x86_64
+[00:00:00]: Kernel Build Timestamp: #1 SMP Fri Feb 9 14:58:00 UTC 2024
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 654051 LINUX
+[00:00:00]: Build Date: 9891
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -console -cluster Cluster_1 -shard Master 
+[00:00:00]: [WARNING] -console has been deprecated: Use the [MISC] / console_enabled setting instead.
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (4139903808)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:3.76
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 27016)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:00]: OnLoadPermissionList: /root/.klei//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /root/.klei//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: /root/.klei//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: THREAD - started 'StreamInput' (4065315648)
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: AppVersion::GetArchitecture() x32
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:03]:   taskgrouplist:	default	联机版	
+[00:00:03]:   taskgrouplist:	classic	经典	
+[00:00:03]:   taskgrouplist:	cave_default	地下	
+[00:00:03]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:03]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:03]: Running main.lua
+	
+[00:00:03]: loaded modindex	
+[00:00:03]: WARNING: icon paths for mod 2987343164 (防卡两招RR) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:03]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:03]: [Workshop] Item query page 0, size: 7, total size: 7
+[00:00:03]: [Workshop] Item query queued IDs: 1185229307 1595631294 2287303119 2847908822 2987343164 3255911457 362175979
+[00:00:03]: [Workshop] Item query sent
+[00:00:03]: [Workshop] ItemQuery got this many results: 7, matching: 7
+[00:00:03]: [Workshop] ModQuery got 7 results
+[00:00:03]: [Workshop] ModQuery already have IDs: {95,1185229307} {1.1.5,1595631294} {0.59.9.5,2287303119} {25-2-8,2847908822} {1.8.2,2987343164} {1.0.6,3255911457} {1.4.5,362175979}
+[00:00:03]: [Workshop] ItemQuery finished all queries, moving to download phase
+[00:00:03]: [Workshop] ItemQuery finished downloading everything
+[00:00:03]: SUCCESS: Loaded modoverrides.lua	
+[00:00:03]: modoverrides.lua enabling workshop-2287303119	
+[00:00:03]: modoverrides.lua enabling workshop-1185229307	
+[00:00:03]: modoverrides.lua enabling workshop-362175979	
+[00:00:03]: modoverrides.lua enabling workshop-3255911457	
+[00:00:03]: modoverrides.lua enabling workshop-2987343164	
+[00:00:03]: modoverrides.lua enabling workshop-2847908822	
+[00:00:03]: modoverrides.lua enabling workshop-1595631294	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:00:03]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-1595631294_CLIENT	
+[00:00:03]: Loading mod: workshop-1595631294 (Smart Minisign) Version:1.1.5	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-362175979_CLIENT	
+[00:00:03]: Loading mod: workshop-362175979 (Wormhole Marks) Version:1.4.5	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-2287303119_CLIENT	
+[00:00:03]: Loading mod: workshop-2287303119 (Show Me (中文)) Version:0.59.9.5	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-2847908822_CLIENT	
+[00:00:03]: Loading mod: workshop-2847908822 ([DST] Performance Pack-性能优化包) Version:25-2-8	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-3255911457_CLIENT	
+[00:00:03]: Loading mod: workshop-3255911457 (xiaoheji11) Version:1.0.6	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-2987343164_CLIENT	
+[00:00:03]: Loading mod: workshop-2987343164 (防卡两招RR) Version:1.8.2	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-1185229307_CLIENT	
+[00:00:03]: Loading mod: workshop-1185229307 (史诗血量条) Version:95	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2287303119	
+[00:00:03]: Overriding mod workshop-2287303119's option  with value 0	
+[00:00:03]: Overriding mod workshop-2287303119's option  with value 0	
+[00:00:03]: Overriding mod workshop-2287303119's option chestR with value -1	
+[00:00:03]: Overriding mod workshop-2287303119's option food_style with value 0	
+[00:00:03]: Overriding mod workshop-2287303119's option display_hp with value 1	
+[00:00:03]: Overriding mod workshop-2287303119's option food_order with value 0	
+[00:00:03]: Overriding mod workshop-2287303119's option chestG with value -1	
+[00:00:03]: Overriding mod workshop-2287303119's option Show_range with value false	
+[00:00:03]: Overriding mod workshop-2287303119's option show_planar_resist with value true	
+[00:00:03]: Overriding mod workshop-2287303119's option T_crop with value true	
+[00:00:03]: Overriding mod workshop-2287303119's option item_info_mod with value 0	
+[00:00:03]: Overriding mod workshop-2287303119's option show_uses with value -1	
+[00:00:03]: Overriding mod workshop-2287303119's option food_estimation with value -1	
+[00:00:03]: Overriding mod workshop-2287303119's option Show_naughtiness with value false	
+[00:00:03]: Overriding mod workshop-2287303119's option show_fueled with value 3	
+[00:00:03]: Overriding mod workshop-2287303119's option show_fuel with value true	
+[00:00:03]: Overriding mod workshop-2287303119's option show_buddle_item with value 1	
+[00:00:03]: Overriding mod workshop-2287303119's option chestB with value -1	
+[00:00:03]: Overriding mod workshop-2287303119's option show_food_units with value -1	
+[00:00:03]: Overriding mod workshop-2287303119's option lang with value auto	
+[00:00:03]: Overriding mod workshop-2287303119's option show_nutrients with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-1185229307	
+[00:00:03]: Overriding mod workshop-1185229307's option WETNESS_METER with value false	
+[00:00:03]: Overriding mod workshop-1185229307's option CAMERA with value true	
+[00:00:03]: Overriding mod workshop-1185229307's option DAMAGE_RESISTANCE with value true	
+[00:00:03]: Overriding mod workshop-1185229307's option HORIZONTAL_OFFSET with value 0	
+[00:00:03]: Overriding mod workshop-1185229307's option GLOBAL with value false	
+[00:00:03]: Overriding mod workshop-1185229307's option TAG with value EPIC	
+[00:00:03]: Overriding mod workshop-1185229307's option HEADER_SERVER with value false	
+[00:00:03]: Overriding mod workshop-1185229307's option TRANSLATOR with value false	
+[00:00:03]: Overriding mod workshop-1185229307's option DAMAGE_NUMBERS with value true	
+[00:00:03]: Overriding mod workshop-1185229307's option GLOBAL_NUMBERS with value false	
+[00:00:03]: Overriding mod workshop-1185229307's option HEADER_CLIENT with value false	
+[00:00:03]: Overriding mod workshop-1185229307's option FRAME_PHASES with value true	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[00:00:03]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-3255911457	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2987343164	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2847908822	
+[00:00:03]: Overriding mod workshop-2847908822's option  with value false	
+[00:00:03]: Overriding mod workshop-2847908822's option  with value false	
+[00:00:03]: Overriding mod workshop-2847908822's option  with value false	
+[00:00:03]: Overriding mod workshop-2847908822's option performance_switch with value true	
+[00:00:03]: Overriding mod workshop-2847908822's option ai1_switch with value 1	
+[00:00:03]: Overriding mod workshop-2847908822's option perf_switch with value true	
+[00:00:03]: Overriding mod workshop-2847908822's option new_player_join_switch with value 2	
+[00:00:03]: Overriding mod workshop-2847908822's option compatible_switch with value false	
+[00:00:03]: Overriding mod workshop-2847908822's option stack_dis with value false	
+[00:00:03]: Overriding mod workshop-2847908822's option performance_tips_switch with value true	
+[00:00:03]: Overriding mod workshop-2847908822's option clean_day with value false	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-1595631294	
+[00:00:03]: Overriding mod workshop-1595631294's option SaltBox with value false	
+[00:00:03]: Overriding mod workshop-1595631294's option BundleItems with value false	
+[00:00:03]: Overriding mod workshop-1595631294's option Digornot with value false	
+[00:00:03]: Overriding mod workshop-1595631294's option ChangeSkin with value true	
+[00:00:03]: Overriding mod workshop-1595631294's option Icebox with value false	
+[00:00:03]: Overriding mod workshop-1595631294's option DragonflyChest with value false	
+[00:00:03]: Mod: workshop-1185229307 (史诗血量条)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-1185229307 (史诗血量条)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-1185229307 (史诗血量条)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-2287303119 (Show Me (中文))	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-2287303119 (Show Me (中文))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-2287303119 (Show Me (中文))	Loading modmain.lua	
+[00:00:03]: ShowMe version:	0.59.9.5	
+[00:00:03]: show_food_units	-1	-1	-1	
+[00:00:03]: show_uses	-1	-1	-1	
+[00:00:03]: Detected language for ShowMe: 	auto	zh	
+[00:00:03]: Mod: workshop-2987343164 (防卡两招RR)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-2987343164 (防卡两招RR)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-2987343164 (防卡两招RR)	Loading modmain.lua	
+[00:00:03]: modimport: ../mods/workshop-2987343164/scripts/auto_stack.lua	
+[00:00:03]: modimport: ../mods/workshop-2987343164/scripts/clean.lua	
+[00:00:03]: modimport: ../mods/workshop-2987343164/scripts/cleanplus.lua	
+[00:00:03]: modimport: ../mods/workshop-2987343164/scripts/shu.lua	
+[00:00:03]: Mod: workshop-362175979 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-362175979 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-362175979 (Wormhole Marks)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-2847908822 ([DST] Performance Pack-性能优化包)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-2847908822 ([DST] Performance Pack-性能优化包)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-2847908822 ([DST] Performance Pack-性能优化包)	Loading modmain.lua	
+[00:00:05]: modimport: ../mods/workshop-2847908822/modmain_.lua	
+[00:00:05]: modimport: ../mods/workshop-2847908822/main/lib.lua	
+[00:00:06]: modimport: ../mods/workshop-2847908822/18.lua	
+[00:00:06]: modimport: ../mods/workshop-2847908822/20.lua	
+[00:00:06]: modimport: ../mods/workshop-2847908822/1.lua	
+[00:00:07]: modimport: ../mods/workshop-2847908822/10.lua	
+[00:00:07]: modimport: ../mods/workshop-2847908822/8.lua	
+[00:00:07]: modimport: ../mods/workshop-2847908822/7.lua	
+[00:00:07]: modimport: ../mods/workshop-2847908822/4.lua	
+[00:00:07]: modimport: ../mods/workshop-2847908822/5.lua	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:00:07]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:00:07]: modimport: ../mods/workshop-2847908822/9.lua	
+[00:00:08]: modimport: ../mods/workshop-2847908822/3.lua	
+[00:00:08]: modimport: ../mods/workshop-2847908822/6.lua	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:00:09]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:00:09]: modimport: ../mods/workshop-2847908822/16.lua	
+[00:00:09]: Mod: workshop-3255911457 (xiaoheji11)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-3255911457 (xiaoheji11)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-3255911457 (xiaoheji11)	Loading modmain.lua	
+[00:00:09]: modimport: ../mods/workshop-3255911457/postinit/gps.lua	
+[00:00:09]: modimport: ../mods/workshop-3255911457/postinit/peifang.lua	
+[00:00:09]: modimport: ../mods/workshop-3255911457/postinit/jiaqiang.lua	
+[00:00:09]: modimport: ../mods/workshop-3255911457/postinit/jinggao.lua	
+[00:00:09]: modimport: ../mods/workshop-3255911457/postinit/wudi.lua	
+[00:00:09]: modimport: ../mods/workshop-3255911457/postinit/leader.lua	
+[00:00:09]: Mod: workshop-1595631294 (Smart Minisign)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-1595631294 (Smart Minisign)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-1595631294 (Smart Minisign)	Loading modmain.lua	
+[00:00:09]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:10]: LOADING LUA SUCCESS
+[00:00:10]: Registering Server mod namespace "workshop-3255911457"
+[00:00:10]: Registering Server mod namespace "showmeshint"
+[00:00:10]: Registering Server mod namespace "trash"
+[00:00:10]: Registering Server mod namespace "showme"
+[00:00:10]: Registering Client mod namespace "workshop-1185229307"
+[00:00:10]: PlayerDeaths could not load morgue	
+[00:00:10]: PlayerHistory could not load player_history	
+[00:00:10]: ServerPreferences could not load server_preferences	
+[00:00:10]: ConsoleScreenSettings could not load consolescreen	
+[00:00:10]: bloom_enabled	true	
+[00:00:10]: OnFilesLoaded()	
+[00:00:10]: OnUpdatePurchaseStateComplete	
+[00:00:10]: Klump load on boot started.	
+[00:00:10]: Klump files loaded: 	0	
+[00:00:12]: Mod: workshop-1185229307 (史诗血量条)	Registering prefabs	
+[00:00:12]: Mod: workshop-1185229307 (史诗血量条)	  Registering prefab file: prefabs/epichealth_proxy	
+[00:00:12]: Mod: workshop-1185229307 (史诗血量条)	    epichealth_proxy	
+[00:00:12]: Mod: workshop-1185229307 (史诗血量条)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-2287303119 (Show Me (中文))	Registering prefabs	
+[00:00:12]: Mod: workshop-2287303119 (Show Me (中文))	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-2987343164 (防卡两招RR)	Registering prefabs	
+[00:00:12]: Mod: workshop-2987343164 (防卡两招RR)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-362175979 (Wormhole Marks)	Registering prefabs	
+[00:00:12]: Mod: workshop-362175979 (Wormhole Marks)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-2847908822 ([DST] Performance Pack-性能优化包)	Registering prefabs	
+[00:00:12]: Mod: workshop-2847908822 ([DST] Performance Pack-性能优化包)	  Registering prefab file: prefabs/ra_w0tblgvn	
+[00:00:12]: Mod: workshop-2847908822 ([DST] Performance Pack-性能优化包)	    virtent	
+[00:00:12]: Mod: workshop-2847908822 ([DST] Performance Pack-性能优化包)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-3255911457 (xiaoheji11)	Registering prefabs	
+[00:00:12]: Mod: workshop-3255911457 (xiaoheji11)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:12]: Mod: workshop-3255911457 (xiaoheji11)	    globalposition_classified	
+[00:00:12]: Mod: workshop-3255911457 (xiaoheji11)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:12]: Mod: workshop-3255911457 (xiaoheji11)	    globalmapicon_noproxy	
+[00:00:12]: Mod: workshop-3255911457 (xiaoheji11)	  Registering prefab file: prefabs/pings	
+[00:00:12]: Mod: workshop-3255911457 (xiaoheji11)	    ping_generic	
+[00:00:12]: Mod: workshop-3255911457 (xiaoheji11)	    ping_omw	
+[00:00:12]: Mod: workshop-3255911457 (xiaoheji11)	    ping_danger	
+[00:00:12]: Mod: workshop-3255911457 (xiaoheji11)	    ping_explore	
+[00:00:12]: Mod: workshop-3255911457 (xiaoheji11)	    ping_gohere	
+[00:00:12]: Mod: workshop-3255911457 (xiaoheji11)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-1595631294 (Smart Minisign)	Registering prefabs	
+[00:00:12]: Mod: workshop-1595631294 (Smart Minisign)	  Registering default mod prefab	
+[00:00:12]: 	Load FE	
+[00:00:13]: 	Load FE: done	
+[00:00:13]: THREAD - started 'FilesExistAsyncThread' (4041206592)
+[00:00:13]: FilesExistAsyncThread started (25470 files)...
+[00:00:13]: Check for write access: TRUE
+[00:00:13]: Check for read access: TRUE
+[00:00:13]: Available disk space for save files: 46521 MB
+[00:00:13]: ModIndex: Load sequence finished successfully.	
+[00:00:13]: Reset() returning
+[00:00:13]: ... FilesExistAsyncThread complete
+[00:00:14]: [200] Account Communication Success (6)
+[00:00:14]: Cached userid (null) saved to /root/.klei//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
+[00:00:14]: Received (KU_L2d_1Kio) from TokenPurpose
+[00:00:14]: Starting Dedicated Server Game	
+[00:00:14]: Network tick rate: U=15(2), D=0
+[00:00:14]: About to start a server with the following settings:
+[00:00:14]:   Dedicated: true
+[00:00:14]:   Online: true
+[00:00:14]:   Passworded: false
+[00:00:14]:   ServerPort: 10999
+[00:00:14]:   SteamAuthPort: 8766
+[00:00:14]:   SteamMasterServerPort: 27016
+[00:00:14]:   ClanID: true
+[00:00:14]:   ClanOnly: false
+[00:00:14]:   ClanAdmin: false
+[00:00:14]:   LanOnly: false
+[00:00:14]:   FriendsOnly: false
+[00:00:14]:   EnableAutosaver: true
+[00:00:14]:   EncodeUserPath: true
+[00:00:14]:   PVP: false
+[00:00:14]:   MaxPlayers: 12
+[00:00:14]:   GameMode: survival
+[00:00:14]:   OverridenDNS: 
+[00:00:14]:   PauseWhenEmpty: true
+[00:00:14]:   IdleTimeout: 1800s
+[00:00:14]:   VoteEnabled: true
+[00:00:14]:   InternetBroadcasting: true
+[00:00:14]: Could not load mod_config_data/modconfiguration_workshop-2287303119	
+[00:00:14]: Could not load mod_config_data/modconfiguration_workshop-2847908822	
+[00:00:14]: Could not load mod_config_data/modconfiguration_workshop-3255911457	
+[00:00:14]: Could not load mod_config_data/modconfiguration_workshop-1595631294	
+[00:00:14]: Could not load mod_config_data/modconfiguration_workshop-362175979	
+[00:00:14]: Could not load mod_config_data/modconfiguration_workshop-2987343164	
+[00:00:14]: Could not load mod_config_data/modconfiguration_workshop-1185229307	
+[00:00:14]: Online Server Started on port: 10999
+[00:00:14]: SUCCESS: Loaded modoverrides.lua	
+[00:00:14]: Found a level data override file with these contents:	
+[00:00:14]: 	K: 	desc	 V: 	永不结束的饥荒沙盒模式。
+永远可以在绚丽之门复活。	
+[00:00:14]: 	K: 	hideminimap	 V: 	false	
+[00:00:14]: 	K: 	id	 V: 	ENDLESS	
+[00:00:14]: 	K: 	location	 V: 	forest	
+[00:00:14]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:14]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:14]: 	K: 	name	 V: 	无尽	
+[00:00:14]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:14]: 	K: 	override_level_string	 V: 	false	
+[00:00:14]: 	K: 	overrides	 V: 	table: 0x1587d890	
+[00:00:14]: 		K: 	alternatehunt	 V: 	default	
+[00:00:14]: 		K: 	angrybees	 V: 	rare	
+[00:00:14]: 		K: 	antliontribute	 V: 	default	
+[00:00:14]: 		K: 	autumn	 V: 	default	
+[00:00:14]: 		K: 	bananabush_portalrate	 V: 	default	
+[00:00:14]: 		K: 	basicresource_regrowth	 V: 	none	
+[00:00:14]: 		K: 	bats_setting	 V: 	default	
+[00:00:14]: 		K: 	bearger	 V: 	default	
+[00:00:14]: 		K: 	beefalo	 V: 	default	
+[00:00:14]: 		K: 	beefaloheat	 V: 	default	
+[00:00:14]: 		K: 	beequeen	 V: 	default	
+[00:00:14]: 		K: 	bees	 V: 	default	
+[00:00:14]: 		K: 	bees_setting	 V: 	default	
+[00:00:14]: 		K: 	berrybush	 V: 	default	
+[00:00:14]: 		K: 	birds	 V: 	default	
+[00:00:14]: 		K: 	boons	 V: 	default	
+[00:00:14]: 		K: 	branching	 V: 	default	
+[00:00:14]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:14]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:14]: 		K: 	butterfly	 V: 	default	
+[00:00:14]: 		K: 	buzzard	 V: 	default	
+[00:00:14]: 		K: 	cactus	 V: 	default	
+[00:00:14]: 		K: 	cactus_regrowth	 V: 	never	
+[00:00:14]: 		K: 	carrot	 V: 	default	
+[00:00:14]: 		K: 	carrots_regrowth	 V: 	never	
+[00:00:14]: 		K: 	catcoon	 V: 	default	
+[00:00:14]: 		K: 	catcoons	 V: 	default	
+[00:00:14]: 		K: 	chess	 V: 	default	
+[00:00:14]: 		K: 	cookiecutters	 V: 	default	
+[00:00:14]: 		K: 	crabking	 V: 	default	
+[00:00:14]: 		K: 	crow_carnival	 V: 	default	
+[00:00:14]: 		K: 	darkness	 V: 	default	
+[00:00:14]: 		K: 	day	 V: 	default	
+[00:00:14]: 		K: 	daywalker2	 V: 	default	
+[00:00:14]: 		K: 	deciduousmonster	 V: 	default	
+[00:00:14]: 		K: 	deciduoustree_regrowth	 V: 	never	
+[00:00:14]: 		K: 	deerclops	 V: 	default	
+[00:00:14]: 		K: 	dragonfly	 V: 	default	
+[00:00:14]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:14]: 		K: 	evergreen_regrowth	 V: 	never	
+[00:00:14]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:14]: 		K: 	eyeofterror	 V: 	default	
+[00:00:14]: 		K: 	fishschools	 V: 	default	
+[00:00:14]: 		K: 	flint	 V: 	default	
+[00:00:14]: 		K: 	flowers	 V: 	default	
+[00:00:14]: 		K: 	flowers_regrowth	 V: 	never	
+[00:00:14]: 		K: 	frograin	 V: 	never	
+[00:00:14]: 		K: 	frogs	 V: 	default	
+[00:00:14]: 		K: 	fruitfly	 V: 	default	
+[00:00:14]: 		K: 	ghostenabled	 V: 	always	
+[00:00:14]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:14]: 		K: 	gnarwail	 V: 	default	
+[00:00:14]: 		K: 	goosemoose	 V: 	default	
+[00:00:14]: 		K: 	grass	 V: 	default	
+[00:00:14]: 		K: 	grassgekkos	 V: 	never	
+[00:00:14]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:14]: 		K: 	has_ocean	 V: 	true	
+[00:00:14]: 		K: 	healthpenalty	 V: 	always	
+[00:00:14]: 		K: 	hound_mounds	 V: 	default	
+[00:00:14]: 		K: 	houndmound	 V: 	default	
+[00:00:14]: 		K: 	hounds	 V: 	default	
+[00:00:14]: 		K: 	hunger	 V: 	default	
+[00:00:14]: 		K: 	hunt	 V: 	default	
+[00:00:14]: 		K: 	junkyard	 V: 	default	
+[00:00:14]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:00:14]: 		K: 	klaus	 V: 	default	
+[00:00:14]: 		K: 	krampus	 V: 	default	
+[00:00:14]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:14]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:14]: 		K: 	liefs	 V: 	default	
+[00:00:14]: 		K: 	lightcrab_portalrate	 V: 	default	
+[00:00:14]: 		K: 	lightning	 V: 	default	
+[00:00:14]: 		K: 	lightninggoat	 V: 	default	
+[00:00:14]: 		K: 	loop	 V: 	default	
+[00:00:14]: 		K: 	lunarhail_frequency	 V: 	never	
+[00:00:14]: 		K: 	lureplants	 V: 	default	
+[00:00:14]: 		K: 	malbatross	 V: 	default	
+[00:00:14]: 		K: 	marshbush	 V: 	default	
+[00:00:14]: 		K: 	merm	 V: 	default	
+[00:00:14]: 		K: 	merms	 V: 	default	
+[00:00:14]: 		K: 	meteorshowers	 V: 	always	
+[00:00:14]: 		K: 	meteorspawner	 V: 	default	
+[00:00:14]: 		K: 	moles	 V: 	default	
+[00:00:14]: 		K: 	moles_setting	 V: 	default	
+[00:00:14]: 		K: 	monkeytail_portalrate	 V: 	default	
+[00:00:14]: 		K: 	moon_berrybush	 V: 	default	
+[00:00:14]: 		K: 	moon_bullkelp	 V: 	default	
+[00:00:14]: 		K: 	moon_carrot	 V: 	default	
+[00:00:14]: 		K: 	moon_fissure	 V: 	default	
+[00:00:14]: 		K: 	moon_fruitdragon	 V: 	default	
+[00:00:14]: 		K: 	moon_hotspring	 V: 	default	
+[00:00:14]: 		K: 	moon_rock	 V: 	default	
+[00:00:14]: 		K: 	moon_sapling	 V: 	default	
+[00:00:14]: 		K: 	moon_spider	 V: 	default	
+[00:00:14]: 		K: 	moon_spiders	 V: 	default	
+[00:00:14]: 		K: 	moon_starfish	 V: 	default	
+[00:00:14]: 		K: 	moon_tree	 V: 	default	
+[00:00:14]: 		K: 	moon_tree_regrowth	 V: 	never	
+[00:00:14]: 		K: 	mosquitos	 V: 	default	
+[00:00:14]: 		K: 	mushroom	 V: 	default	
+[00:00:14]: 		K: 	mutated_hounds	 V: 	default	
+[00:00:14]: 		K: 	no_joining_islands	 V: 	true	
+[00:00:14]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:00:14]: 		K: 	ocean_bullkelp	 V: 	default	
+[00:00:14]: 		K: 	ocean_seastack	 V: 	ocean_default	
+[00:00:14]: 		K: 	ocean_shoal	 V: 	default	
+[00:00:14]: 		K: 	ocean_waterplant	 V: 	ocean_default	
+[00:00:14]: 		K: 	ocean_wobsterden	 V: 	default	
+[00:00:14]: 		K: 	palmcone_seed_portalrate	 V: 	default	
+[00:00:14]: 		K: 	palmconetree	 V: 	default	
+[00:00:14]: 		K: 	palmconetree_regrowth	 V: 	never	
+[00:00:14]: 		K: 	penguins	 V: 	default	
+[00:00:14]: 		K: 	penguins_moon	 V: 	default	
+[00:00:14]: 		K: 	perd	 V: 	default	
+[00:00:14]: 		K: 	petrification	 V: 	default	
+[00:00:14]: 		K: 	pigs	 V: 	default	
+[00:00:14]: 		K: 	pigs_setting	 V: 	default	
+[00:00:14]: 		K: 	pirateraids	 V: 	default	
+[00:00:14]: 		K: 	ponds	 V: 	default	
+[00:00:14]: 		K: 	portal_spawnrate	 V: 	default	
+[00:00:14]: 		K: 	portalresurection	 V: 	always	
+[00:00:14]: 		K: 	powder_monkey_portalrate	 V: 	default	
+[00:00:14]: 		K: 	prefabswaps_start	 V: 	classic	
+[00:00:14]: 		K: 	rabbits	 V: 	default	
+[00:00:14]: 		K: 	rabbits_setting	 V: 	default	
+[00:00:14]: 		K: 	reeds	 V: 	default	
+[00:00:14]: 		K: 	reeds_regrowth	 V: 	never	
+[00:00:14]: 		K: 	regrowth	 V: 	never	
+[00:00:14]: 		K: 	resettime	 V: 	default	
+[00:00:14]: 		K: 	rifts_enabled	 V: 	default	
+[00:00:14]: 		K: 	rifts_frequency	 V: 	default	
+[00:00:14]: 		K: 	roads	 V: 	default	
+[00:00:14]: 		K: 	rock	 V: 	default	
+[00:00:14]: 		K: 	rock_ice	 V: 	default	
+[00:00:14]: 		K: 	saltstack_regrowth	 V: 	never	
+[00:00:14]: 		K: 	sapling	 V: 	default	
+[00:00:14]: 		K: 	season_start	 V: 	default	
+[00:00:14]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:14]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:14]: 		K: 	sharkboi	 V: 	default	
+[00:00:14]: 		K: 	sharks	 V: 	default	
+[00:00:14]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:14]: 		K: 	spawnprotection	 V: 	default	
+[00:00:14]: 		K: 	specialevent	 V: 	default	
+[00:00:14]: 		K: 	spider_warriors	 V: 	default	
+[00:00:14]: 		K: 	spiderqueen	 V: 	default	
+[00:00:14]: 		K: 	spiders	 V: 	default	
+[00:00:14]: 		K: 	spiders_setting	 V: 	default	
+[00:00:14]: 		K: 	spring	 V: 	default	
+[00:00:14]: 		K: 	squid	 V: 	default	
+[00:00:14]: 		K: 	stageplays	 V: 	default	
+[00:00:14]: 		K: 	start_location	 V: 	default	
+[00:00:14]: 		K: 	summer	 V: 	default	
+[00:00:14]: 		K: 	summerhounds	 V: 	default	
+[00:00:14]: 		K: 	tallbirds	 V: 	default	
+[00:00:14]: 		K: 	task_set	 V: 	default	
+[00:00:14]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:14]: 		K: 	tentacles	 V: 	default	
+[00:00:14]: 		K: 	terrariumchest	 V: 	default	
+[00:00:14]: 		K: 	touchstone	 V: 	default	
+[00:00:14]: 		K: 	trees	 V: 	default	
+[00:00:14]: 		K: 	tumbleweed	 V: 	default	
+[00:00:14]: 		K: 	twiggytrees_regrowth	 V: 	never	
+[00:00:14]: 		K: 	walrus	 V: 	mostly	
+[00:00:14]: 		K: 	walrus_setting	 V: 	default	
+[00:00:14]: 		K: 	wasps	 V: 	default	
+[00:00:14]: 		K: 	weather	 V: 	default	
+[00:00:14]: 		K: 	wildfires	 V: 	never	
+[00:00:14]: 		K: 	winter	 V: 	default	
+[00:00:14]: 		K: 	winterhounds	 V: 	default	
+[00:00:14]: 		K: 	winters_feast	 V: 	enabled	
+[00:00:14]: 		K: 	wobsters	 V: 	default	
+[00:00:14]: 		K: 	world_size	 V: 	medium	
+[00:00:14]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:14]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:14]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:14]: 	K: 	playstyle	 V: 	endless	
+[00:00:14]: 	K: 	random_set_pieces	 V: 	table: 0x15880480	
+[00:00:14]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:14]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:14]: 		K: 	3	 V: 	Sculptures_4	
+[00:00:14]: 		K: 	4	 V: 	Sculptures_5	
+[00:00:14]: 		K: 	5	 V: 	Chessy_1	
+[00:00:14]: 		K: 	6	 V: 	Chessy_2	
+[00:00:14]: 		K: 	7	 V: 	Chessy_3	
+[00:00:14]: 		K: 	8	 V: 	Chessy_4	
+[00:00:14]: 		K: 	9	 V: 	Chessy_5	
+[00:00:14]: 		K: 	10	 V: 	Chessy_6	
+[00:00:14]: 		K: 	11	 V: 	Maxwell1	
+[00:00:14]: 		K: 	12	 V: 	Maxwell2	
+[00:00:14]: 		K: 	13	 V: 	Maxwell3	
+[00:00:14]: 		K: 	14	 V: 	Maxwell4	
+[00:00:14]: 		K: 	15	 V: 	Maxwell6	
+[00:00:14]: 		K: 	16	 V: 	Maxwell7	
+[00:00:14]: 		K: 	17	 V: 	Warzone_1	
+[00:00:14]: 		K: 	18	 V: 	Warzone_2	
+[00:00:14]: 		K: 	19	 V: 	Warzone_3	
+[00:00:14]: 	K: 	required_prefabs	 V: 	table: 0x15886d20	
+[00:00:14]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:14]: 	K: 	required_setpieces	 V: 	table: 0x15884f10	
+[00:00:14]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:14]: 		K: 	2	 V: 	Maxwell5	
+[00:00:14]: 	K: 	settings_desc	 V: 	永不结束的饥荒沙盒模式。
+永远可以在绚丽之门复活。	
+[00:00:14]: 	K: 	settings_id	 V: 	ENDLESS	
+[00:00:14]: 	K: 	settings_name	 V: 	无尽	
+[00:00:14]: 	K: 	substitutes	 V: 	table: 0x15884da0	
+[00:00:14]: 	K: 	version	 V: 	4	
+[00:00:14]: 	K: 	worldgen_desc	 V: 	永不结束的饥荒沙盒模式。
+永远可以在绚丽之门复活。	
+[00:00:14]: 	K: 	worldgen_id	 V: 	ENDLESS	
+[00:00:14]: 	K: 	worldgen_name	 V: 	无尽	
+[00:00:14]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:14]: Overwriting savedata with level data file.	
+[00:00:14]: Not applying world gen overrides.	
+[00:00:14]: Collecting garbage...
+[00:00:14]: lua_gc took 0.09 seconds
+[00:00:14]: ~ShardLuaProxy()
+[00:00:14]: ~cEventLeaderboardProxy()
+[00:00:14]: ~ItemServerLuaProxy()
+[00:00:14]: ~InventoryLuaProxy()
+[00:00:14]: ~NetworkLuaProxy()
+[00:00:14]: ~SimLuaProxy()
+[00:00:15]: lua_close took 0.14 seconds
+[00:00:15]: ReleaseAll
+[00:00:15]: ReleaseAll Finished
+[00:00:15]: cGame::StartPlaying
+[00:00:15]: AppVersion::GetArchitecture() x32
+[00:00:15]: LOADING LUA
+[00:00:15]: DoLuaFile scripts/main.lua
+[00:00:15]: DoLuaFile loading buffer scripts/main.lua
+[00:00:15]: Translator:LoadPOFile - loading file: scripts/languages/chinese_s.po	
+[00:00:17]:   taskgrouplist:	default	联机版	
+[00:00:17]:   taskgrouplist:	classic	经典	
+[00:00:17]:   taskgrouplist:	cave_default	地下	
+[00:00:17]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:17]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:17]: Running main.lua
+	
+[00:00:17]: loaded modindex	
+[00:00:17]: WARNING: icon paths for mod 2987343164 (防卡两招RR) are not valid. Got icon_atlas="modicon.xml" and icon="modicon.tex".
+Please ensure that these point to valid files in your mod folder, or else comment out those lines from your modinfo.lua.	
+[00:00:17]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:17]: SUCCESS: Loaded modoverrides.lua	
+[00:00:17]: modoverrides.lua enabling workshop-2287303119	
+[00:00:17]: modoverrides.lua enabling workshop-1185229307	
+[00:00:17]: modoverrides.lua enabling workshop-362175979	
+[00:00:17]: modoverrides.lua enabling workshop-3255911457	
+[00:00:17]: modoverrides.lua enabling workshop-2987343164	
+[00:00:17]: modoverrides.lua enabling workshop-2847908822	
+[00:00:17]: modoverrides.lua enabling workshop-1595631294	
+[00:00:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:00:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:00:17]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:00:17]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:00:17]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:00:17]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:00:17]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-1595631294	
+[00:00:17]: Loading mod: workshop-1595631294 (Smart Minisign) Version:1.1.5	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-362175979	
+[00:00:17]: Loading mod: workshop-362175979 (Wormhole Marks) Version:1.4.5	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-2287303119	
+[00:00:17]: Loading mod: workshop-2287303119 (Show Me (中文)) Version:0.59.9.5	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-1185229307	
+[00:00:17]: Loading mod: workshop-1185229307 (史诗血量条) Version:95	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-3255911457	
+[00:00:17]: Loading mod: workshop-3255911457 (xiaoheji11) Version:1.0.6	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-2987343164	
+[00:00:17]: Loading mod: workshop-2987343164 (防卡两招RR) Version:1.8.2	
+[00:00:17]: Could not load mod_config_data/modconfiguration_workshop-2847908822	
+[00:00:17]: Loading mod: workshop-2847908822 ([DST] Performance Pack-性能优化包) Version:25-2-8	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-2287303119	
+[00:00:17]: Overriding mod workshop-2287303119's option  with value 0	
+[00:00:17]: Overriding mod workshop-2287303119's option  with value 0	
+[00:00:17]: Overriding mod workshop-2287303119's option chestR with value -1	
+[00:00:17]: Overriding mod workshop-2287303119's option food_style with value 0	
+[00:00:17]: Overriding mod workshop-2287303119's option display_hp with value 1	
+[00:00:17]: Overriding mod workshop-2287303119's option food_order with value 0	
+[00:00:17]: Overriding mod workshop-2287303119's option chestG with value -1	
+[00:00:17]: Overriding mod workshop-2287303119's option Show_range with value false	
+[00:00:17]: Overriding mod workshop-2287303119's option show_planar_resist with value true	
+[00:00:17]: Overriding mod workshop-2287303119's option T_crop with value true	
+[00:00:17]: Overriding mod workshop-2287303119's option item_info_mod with value 0	
+[00:00:17]: Overriding mod workshop-2287303119's option show_uses with value -1	
+[00:00:17]: Overriding mod workshop-2287303119's option food_estimation with value -1	
+[00:00:17]: Overriding mod workshop-2287303119's option Show_naughtiness with value false	
+[00:00:17]: Overriding mod workshop-2287303119's option show_fueled with value 3	
+[00:00:17]: Overriding mod workshop-2287303119's option show_fuel with value true	
+[00:00:17]: Overriding mod workshop-2287303119's option show_buddle_item with value 1	
+[00:00:17]: Overriding mod workshop-2287303119's option chestB with value -1	
+[00:00:17]: Overriding mod workshop-2287303119's option show_food_units with value -1	
+[00:00:17]: Overriding mod workshop-2287303119's option lang with value auto	
+[00:00:17]: Overriding mod workshop-2287303119's option show_nutrients with value 1	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-1185229307	
+[00:00:17]: Overriding mod workshop-1185229307's option WETNESS_METER with value false	
+[00:00:17]: Overriding mod workshop-1185229307's option CAMERA with value true	
+[00:00:17]: Overriding mod workshop-1185229307's option DAMAGE_RESISTANCE with value true	
+[00:00:17]: Overriding mod workshop-1185229307's option HORIZONTAL_OFFSET with value 0	
+[00:00:17]: Overriding mod workshop-1185229307's option GLOBAL with value false	
+[00:00:17]: Overriding mod workshop-1185229307's option TAG with value EPIC	
+[00:00:17]: Overriding mod workshop-1185229307's option HEADER_SERVER with value false	
+[00:00:17]: Overriding mod workshop-1185229307's option TRANSLATOR with value false	
+[00:00:17]: Overriding mod workshop-1185229307's option DAMAGE_NUMBERS with value true	
+[00:00:17]: Overriding mod workshop-1185229307's option GLOBAL_NUMBERS with value false	
+[00:00:17]: Overriding mod workshop-1185229307's option HEADER_CLIENT with value false	
+[00:00:17]: Overriding mod workshop-1185229307's option FRAME_PHASES with value true	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-362175979	
+[00:00:17]: Overriding mod workshop-362175979's option Draw over FoW with value disabled	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-3255911457	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-2987343164	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-2847908822	
+[00:00:17]: Overriding mod workshop-2847908822's option  with value false	
+[00:00:17]: Overriding mod workshop-2847908822's option  with value false	
+[00:00:17]: Overriding mod workshop-2847908822's option  with value false	
+[00:00:17]: Overriding mod workshop-2847908822's option performance_switch with value true	
+[00:00:17]: Overriding mod workshop-2847908822's option ai1_switch with value 1	
+[00:00:17]: Overriding mod workshop-2847908822's option perf_switch with value true	
+[00:00:17]: Overriding mod workshop-2847908822's option new_player_join_switch with value 2	
+[00:00:17]: Overriding mod workshop-2847908822's option compatible_switch with value false	
+[00:00:17]: Overriding mod workshop-2847908822's option stack_dis with value false	
+[00:00:17]: Overriding mod workshop-2847908822's option performance_tips_switch with value true	
+[00:00:17]: Overriding mod workshop-2847908822's option clean_day with value false	
+[00:00:17]: applying configuration_options from modoverrides.lua to mod workshop-1595631294	
+[00:00:17]: Overriding mod workshop-1595631294's option SaltBox with value false	
+[00:00:17]: Overriding mod workshop-1595631294's option BundleItems with value false	
+[00:00:17]: Overriding mod workshop-1595631294's option Digornot with value false	
+[00:00:17]: Overriding mod workshop-1595631294's option ChangeSkin with value true	
+[00:00:17]: Overriding mod workshop-1595631294's option Icebox with value false	
+[00:00:17]: Overriding mod workshop-1595631294's option DragonflyChest with value false	
+[00:00:17]: Mod: workshop-1185229307 (史诗血量条)	Loading modworldgenmain.lua	
+[00:00:17]: Mod: workshop-1185229307 (史诗血量条)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:17]: Mod: workshop-1185229307 (史诗血量条)	Loading modmain.lua	
+[00:00:17]: Mod: workshop-2287303119 (Show Me (中文))	Loading modworldgenmain.lua	
+[00:00:17]: Mod: workshop-2287303119 (Show Me (中文))	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:17]: Mod: workshop-2287303119 (Show Me (中文))	Loading modmain.lua	
+[00:00:17]: ShowMe version:	0.59.9.5	
+[00:00:17]: show_food_units	-1	-1	-1	
+[00:00:17]: show_uses	-1	-1	-1	
+[00:00:17]: Detected language for ShowMe: 	auto	zh	
+[00:00:17]: Mod: workshop-2987343164 (防卡两招RR)	Loading modworldgenmain.lua	
+[00:00:17]: Mod: workshop-2987343164 (防卡两招RR)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:17]: Mod: workshop-2987343164 (防卡两招RR)	Loading modmain.lua	
+[00:00:17]: modimport: ../mods/workshop-2987343164/scripts/auto_stack.lua	
+[00:00:17]: modimport: ../mods/workshop-2987343164/scripts/clean.lua	
+[00:00:17]: modimport: ../mods/workshop-2987343164/scripts/cleanplus.lua	
+[00:00:17]: modimport: ../mods/workshop-2987343164/scripts/shu.lua	
+[00:00:17]: Mod: workshop-362175979 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:00:17]: Mod: workshop-362175979 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:17]: Mod: workshop-362175979 (Wormhole Marks)	Loading modmain.lua	
+[00:00:17]: Mod: workshop-2847908822 ([DST] Performance Pack-性能优化包)	Loading modworldgenmain.lua	
+[00:00:17]: Mod: workshop-2847908822 ([DST] Performance Pack-性能优化包)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:17]: Mod: workshop-2847908822 ([DST] Performance Pack-性能优化包)	Loading modmain.lua	
+[00:00:19]: modimport: ../mods/workshop-2847908822/modmain_.lua	
+[00:00:19]: modimport: ../mods/workshop-2847908822/main/lib.lua	
+[00:00:20]: modimport: ../mods/workshop-2847908822/18.lua	
+[00:00:20]: modimport: ../mods/workshop-2847908822/20.lua	
+[00:00:20]: modimport: ../mods/workshop-2847908822/1.lua	
+[00:00:21]: modimport: ../mods/workshop-2847908822/10.lua	
+[00:00:21]: modimport: ../mods/workshop-2847908822/8.lua	
+[00:00:21]: modimport: ../mods/workshop-2847908822/7.lua	
+[00:00:21]: modimport: ../mods/workshop-2847908822/4.lua	
+[00:00:21]: modimport: ../mods/workshop-2847908822/5.lua	
+[00:00:21]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:00:21]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:00:21]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:00:21]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:00:21]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:00:21]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:00:21]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:00:21]: modimport: ../mods/workshop-2847908822/9.lua	
+[00:00:22]: modimport: ../mods/workshop-2847908822/3.lua	
+[00:00:23]: modimport: ../mods/workshop-2847908822/6.lua	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:00:23]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:00:23]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:00:23]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:00:23]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:00:23]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:00:23]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:00:23]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:00:23]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:00:23]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:00:23]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:00:23]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:00:23]: modimport: ../mods/workshop-2847908822/16.lua	
+[00:00:23]: Mod: workshop-3255911457 (xiaoheji11)	Loading modworldgenmain.lua	
+[00:00:23]: Mod: workshop-3255911457 (xiaoheji11)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:23]: Mod: workshop-3255911457 (xiaoheji11)	Loading modmain.lua	
+[00:00:23]: modimport: ../mods/workshop-3255911457/postinit/gps.lua	
+[00:00:23]: modimport: ../mods/workshop-3255911457/postinit/peifang.lua	
+[00:00:23]: modimport: ../mods/workshop-3255911457/postinit/jiaqiang.lua	
+[00:00:23]: modimport: ../mods/workshop-3255911457/postinit/jinggao.lua	
+[00:00:23]: modimport: ../mods/workshop-3255911457/postinit/wudi.lua	
+[00:00:23]: modimport: ../mods/workshop-3255911457/postinit/leader.lua	
+[00:00:23]: Mod: workshop-1595631294 (Smart Minisign)	Loading modworldgenmain.lua	
+[00:00:23]: Mod: workshop-1595631294 (Smart Minisign)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:23]: Mod: workshop-1595631294 (Smart Minisign)	Loading modmain.lua	
+[00:00:23]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:23]: LOADING LUA SUCCESS
+[00:00:23]: Registering Server mod namespace "workshop-3255911457"
+[00:00:23]: Registering Server mod namespace "showmeshint"
+[00:00:23]: Registering Server mod namespace "trash"
+[00:00:23]: Registering Server mod namespace "showme"
+[00:00:23]: Registering Client mod namespace "workshop-1185229307"
+[00:00:24]: PlayerDeaths could not load morgue	
+[00:00:24]: PlayerHistory could not load player_history	
+[00:00:24]: ServerPreferences could not load server_preferences	
+[00:00:24]: ConsoleScreenSettings could not load consolescreen	
+[00:00:24]: bloom_enabled	true	
+[00:00:24]: OnFilesLoaded()	
+[00:00:24]: OnUpdatePurchaseStateComplete	
+[00:00:24]: Loading world: session/34D206573542A4A3/0000000039	
+[00:00:24]: Save file is at version 5.151	
+[00:00:24]: Klump load on boot started.	
+[00:00:24]: Klump files loaded: 	0	
+[00:00:24]: 	Unload FE	
+[00:00:24]: 	Unload FE done	
+[00:00:26]: Mod: workshop-1185229307 (史诗血量条)	Registering prefabs	
+[00:00:26]: Mod: workshop-1185229307 (史诗血量条)	  Registering prefab file: prefabs/epichealth_proxy	
+[00:00:26]: Mod: workshop-1185229307 (史诗血量条)	    epichealth_proxy	
+[00:00:26]: Mod: workshop-1185229307 (史诗血量条)	  Registering default mod prefab	
+[00:00:26]: Mod: workshop-2287303119 (Show Me (中文))	Registering prefabs	
+[00:00:26]: Mod: workshop-2287303119 (Show Me (中文))	  Registering default mod prefab	
+[00:00:26]: Mod: workshop-2987343164 (防卡两招RR)	Registering prefabs	
+[00:00:26]: Mod: workshop-2987343164 (防卡两招RR)	  Registering default mod prefab	
+[00:00:26]: Mod: workshop-362175979 (Wormhole Marks)	Registering prefabs	
+[00:00:26]: Mod: workshop-362175979 (Wormhole Marks)	  Registering default mod prefab	
+[00:00:26]: Mod: workshop-2847908822 ([DST] Performance Pack-性能优化包)	Registering prefabs	
+[00:00:26]: Mod: workshop-2847908822 ([DST] Performance Pack-性能优化包)	  Registering prefab file: prefabs/ra_w0tblgvn	
+[00:00:26]: Mod: workshop-2847908822 ([DST] Performance Pack-性能优化包)	    virtent	
+[00:00:26]: Mod: workshop-2847908822 ([DST] Performance Pack-性能优化包)	  Registering default mod prefab	
+[00:00:26]: Mod: workshop-3255911457 (xiaoheji11)	Registering prefabs	
+[00:00:26]: Mod: workshop-3255911457 (xiaoheji11)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:26]: Mod: workshop-3255911457 (xiaoheji11)	    globalposition_classified	
+[00:00:26]: Mod: workshop-3255911457 (xiaoheji11)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:26]: Mod: workshop-3255911457 (xiaoheji11)	    globalmapicon_noproxy	
+[00:00:26]: Mod: workshop-3255911457 (xiaoheji11)	  Registering prefab file: prefabs/pings	
+[00:00:26]: Mod: workshop-3255911457 (xiaoheji11)	    ping_generic	
+[00:00:26]: Mod: workshop-3255911457 (xiaoheji11)	    ping_omw	
+[00:00:26]: Mod: workshop-3255911457 (xiaoheji11)	    ping_danger	
+[00:00:26]: Mod: workshop-3255911457 (xiaoheji11)	    ping_explore	
+[00:00:26]: Mod: workshop-3255911457 (xiaoheji11)	    ping_gohere	
+[00:00:26]: Mod: workshop-3255911457 (xiaoheji11)	  Registering default mod prefab	
+[00:00:26]: Mod: workshop-1595631294 (Smart Minisign)	Registering prefabs	
+[00:00:26]: Mod: workshop-1595631294 (Smart Minisign)	  Registering default mod prefab	
+[00:00:26]: 	LOAD BE	
+[00:00:36]: 	LOAD BE: done	
+[00:00:36]: Begin Session: 34D206573542A4A3
+[00:00:36]: saving to server_temp/server_save	
+[00:00:37]: Adding extra World Event: winters_feast	
+[00:00:37]: OVERRIDE: setting	regrowth	to	never	
+[00:00:37]: OVERRIDE: setting	moon_tree_regrowth	to	never	
+[00:00:37]: OVERRIDE: setting	deciduoustree_regrowth	to	never	
+[00:00:37]: OVERRIDE: setting	healthpenalty	to	always	
+[00:00:37]: OVERRIDE: setting	flowers_regrowth	to	never	
+[00:00:37]: OVERRIDE: setting	wildfires	to	never	
+[00:00:37]: OVERRIDE: setting	frograin	to	never	
+[00:00:37]: OVERRIDE: setting	meteorshowers	to	always	
+[00:00:37]: OVERRIDE: setting	lunarhail_frequency	to	never	
+[00:00:37]: OVERRIDE: setting	saltstack_regrowth	to	never	
+[00:00:37]: OVERRIDE: setting	carrots_regrowth	to	never	
+[00:00:37]: OVERRIDE: setting	lessdamagetaken	to	none	
+[00:00:37]: OVERRIDE: setting	cactus_regrowth	to	never	
+[00:00:37]: OVERRIDE: setting	evergreen_regrowth	to	never	
+[00:00:37]: OVERRIDE: setting	grassgekkos	to	never	
+[00:00:37]: OVERRIDE: setting	palmconetree_regrowth	to	never	
+[00:00:37]: OVERRIDE: setting	reeds_regrowth	to	never	
+[00:00:37]: OVERRIDE: setting	twiggytrees_regrowth	to	never	
+[00:00:37]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_1.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_2.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_3.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_4.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_5.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_6.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_7.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_8.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_9.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_10.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_11.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_12.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_13.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_14.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_15.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_16.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_17.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_18.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_19.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_20.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_21.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-362175979/images/mark_22.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-3255911457/minimap/ping_generic.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-3255911457/minimap/ping_gohere.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-3255911457/minimap/ping_explore.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-3255911457/minimap/ping_danger.xml )
+[00:00:37]: MiniMapComponent::AddAtlas( ../mods/workshop-3255911457/minimap/ping_omw.xml )
+[00:00:37]: Loading 19 new character(s)	
+[00:00:38]: Total 19 character(s) loaded	
+[00:00:38]: Loading Nav Grid	
+[00:00:38]: World generated on build 654051 with save version: 5.151, using seed: 447943214	
+[00:00:38]: setting 	summerlength	15	
+[00:00:38]: setting 	cavemoonphase	quarter	
+[00:00:38]: setting 	iscavefullmoon	false	
+[00:00:38]: setting 	isnightmaredawn	false	
+[00:00:38]: setting 	elapseddaysinseason	2	
+[00:00:38]: setting 	isfullmoon	false	
+[00:00:38]: setting 	moisture	1469.4985351562	
+[00:00:38]: setting 	springlength	20	
+[00:00:38]: setting 	islunarhailing	false	
+[00:00:38]: setting 	isnightmarewild	false	
+[00:00:38]: setting 	nightmaretimeinphase	0	
+[00:00:38]: setting 	precipitationrate	0	
+[00:00:38]: setting 	iswet	true	
+[00:00:38]: setting 	isnewmoon	false	
+[00:00:38]: setting 	israining	false	
+[00:00:38]: setting 	iswinter	false	
+[00:00:38]: setting 	isnightmarewarn	false	
+[00:00:38]: setting 	precipitation	none	
+[00:00:38]: setting 	iscavewaxingmoon	false	
+[00:00:38]: setting 	isacidraining	false	
+[00:00:38]: setting 	moonphase	quarter	
+[00:00:38]: setting 	remainingdaysinseason	18	
+[00:00:38]: setting 	temperature	11.386264028254	
+[00:00:38]: setting 	wetness	50.926959991455	
+[00:00:38]: setting 	cycles	37	
+[00:00:38]: setting 	moistureceil	3297.7504882812	
+[00:00:38]: setting 	isday	true	
+[00:00:38]: setting 	winterlength	15	
+[00:00:38]: setting 	season	spring	
+[00:00:38]: setting 	iswaxingmoon	false	
+[00:00:38]: setting 	isalterawake	false	
+[00:00:38]: setting 	isnightmarecalm	false	
+[00:00:38]: setting 	isnight	false	
+[00:00:38]: setting 	isdusk	false	
+[00:00:38]: setting 	isspring	true	
+[00:00:38]: setting 	isautumn	false	
+[00:00:38]: setting 	iscaveday	true	
+[00:00:38]: setting 	lunarhaillevel	0	
+[00:00:38]: setting 	pop	0.38546509006762	
+[00:00:38]: setting 	snowlevel	0	
+[00:00:38]: setting 	issnowcovered	false	
+[00:00:38]: setting 	autumnlength	20	
+[00:00:38]: setting 	phase	day	
+[00:00:38]: setting 	nightmaretime	0	
+[00:00:38]: setting 	issnowing	false	
+[00:00:38]: setting 	iscavedusk	false	
+[00:00:38]: setting 	nightmarephase	none	
+[00:00:38]: setting 	timeinphase	0.0067142740885416	
+[00:00:38]: setting 	seasonprogress	0.1	
+[00:00:38]: setting 	iscavenight	false	
+[00:00:38]: setting 	iscavenewmoon	false	
+[00:00:38]: setting 	issummer	false	
+[00:00:38]: setting 	cavephase	day	
+[00:00:38]: setting 	time	0.0020982106526693	
+[00:00:38]: OVERRIDE: setting	ghostenabled	to	always	
+[00:00:38]: OVERRIDE: setting	basicresource_regrowth	to	none	
+[00:00:38]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:38]: OVERRIDE: setting	spawnmode	to	fixed	
+[00:00:38]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:46]: Reconstructing topology	
+[00:00:46]: 	...Sorting points	
+[00:00:46]: 	...Sorting edges	
+[00:00:46]: 	...Connecting nodes	
+[00:00:46]: 	...Validating connections	
+[00:00:47]: 	...Housekeeping	
+[00:00:47]: 	...Done!	
+[00:00:47]: Truncating to snapshot #39...
+[00:00:47]:  - session/34D206573542A4A3/0000000005
+[00:00:47]:  - session/34D206573542A4A3/0000000015
+[00:00:47]:  - session/34D206573542A4A3/0000000002
+[00:00:47]:  - session/34D206573542A4A3/0000000021
+[00:00:47]:  - session/34D206573542A4A3/0000000026
+[00:00:47]:  - session/34D206573542A4A3/0000000007
+[00:00:47]:  - session/34D206573542A4A3/0000000034
+[00:00:47]:  - session/34D206573542A4A3/0000000003
+[00:00:47]:  - session/34D206573542A4A3/0000000024
+[00:00:47]:  - session/34D206573542A4A3/0000000008
+[00:00:47]:  - session/34D206573542A4A3/0000000013
+[00:00:47]:  - session/34D206573542A4A3/0000000032
+[00:00:47]:  - session/34D206573542A4A3/0000000018
+[00:00:47]:  - session/34D206573542A4A3/0000000006
+[00:00:47]:  - session/34D206573542A4A3/0000000033
+[00:00:47]:  - session/34D206573542A4A3/0000000031
+[00:00:47]:  - session/34D206573542A4A3/0000000011
+[00:00:47]:  - session/34D206573542A4A3/0000000019
+[00:00:47]:  - session/34D206573542A4A3/0000000009
+[00:00:47]:  - session/34D206573542A4A3/0000000016
+[00:00:47]:  - session/34D206573542A4A3/0000000020
+[00:00:47]:  - session/34D206573542A4A3/0000000017
+[00:00:47]:  - session/34D206573542A4A3/0000000022
+[00:00:47]:  - session/34D206573542A4A3/0000000004
+[00:00:47]:  - session/34D206573542A4A3/0000000028
+[00:00:47]:  - session/34D206573542A4A3/0000000027
+[00:00:47]:  - session/34D206573542A4A3/0000000030
+[00:00:47]:  - session/34D206573542A4A3/0000000014
+[00:00:47]:  - session/34D206573542A4A3/0000000012
+[00:00:47]:  - session/34D206573542A4A3/0000000023
+[00:00:47]:  - session/34D206573542A4A3/0000000029
+[00:00:47]:  - session/34D206573542A4A3/0000000010
+[00:00:47]:  - session/34D206573542A4A3/0000000025
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000034
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000033
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000032
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000031
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000030
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000029
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000028
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000027
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000026
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000025
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000024
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000023
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000022
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000021
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000020
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000019
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000018
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000017
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000016
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000015
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000014
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000013
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000012
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000011
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000010
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000009
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000008
+[00:00:47]:  - session/34D206573542A4A3/A7HTOLT6850I/0000000007
+[00:00:47]:  - session/34D206573542A4A3/A7MC3M72F7A9/0000000034
+[00:00:47]:  - session/34D206573542A4A3/A7MC3M72F7A9/0000000033
+[00:00:47]:  - session/34D206573542A4A3/A7MC3M72F7A9/0000000032
+[00:00:47]:  - session/34D206573542A4A3/A7MC3M72F7A9/0000000031
+[00:00:47]:  - session/34D206573542A4A3/A7MC3M72F7A9/0000000030
+[00:00:47]:  - session/34D206573542A4A3/A7MC3M72F7A9/0000000025
+[00:00:47]:  - session/34D206573542A4A3/A7MC3M72F7A9/0000000024
+[00:00:47]:  - session/34D206573542A4A3/A7MC3M72F7A9/0000000023
+[00:00:47]:  - session/34D206573542A4A3/A7MC3M72F7A9/0000000022
+[00:00:47]:  - session/34D206573542A4A3/A7MC3M72F7A9/0000000021
+[00:00:47]:  - session/34D206573542A4A3/A7MC3M72F7A9/0000000017
+[00:00:47]:  - session/34D206573542A4A3/A7MC3M72F7A9/0000000016
+[00:00:47]:  - session/34D206573542A4A3/A7MC3M72F7A9/0000000010
+[00:00:47]:  - session/34D206573542A4A3/A7MC3M72F7A9/0000000009
+[00:00:47]:  - session/34D206573542A4A3/A7MC3M72F7A9/0000000007
+[00:00:47]:  - session/34D206573542A4A3/A7J45EFA7SMP/0000000033
+[00:00:47]:  - session/34D206573542A4A3/A7J45EFA7SMP/0000000032
+[00:00:47]:  - session/34D206573542A4A3/A7J45EFA7SMP/0000000031
+[00:00:47]:  - session/34D206573542A4A3/A7GD745CDBVQ/0000000026
+[00:00:47]:  - session/34D206573542A4A3/A7GD745CDBVQ/0000000025
+[00:00:47]:  - session/34D206573542A4A3/A7GD745CDBVQ/0000000024
+[00:00:47]:  - session/34D206573542A4A3/A7GD745CDBVQ/0000000023
+[00:00:47]:  - session/34D206573542A4A3/A7GD745CDBVQ/0000000022
+[00:00:47]:  - session/34D206573542A4A3/A7GD745CDBVQ/0000000021
+[00:00:47]:  - session/34D206573542A4A3/A7GD745CDBVQ/0000000020
+[00:00:47]:  - session/34D206573542A4A3/A7GD745CDBVQ/0000000019
+[00:00:47]:  - session/34D206573542A4A3/A7GD745CDBVQ/0000000018
+[00:00:47]:  - session/34D206573542A4A3/A7GD745CDBVQ/0000000017
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000034
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000033
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000032
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000031
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000030
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000029
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000028
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000027
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000026
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000025
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000024
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000023
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000022
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000021
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000019
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000018
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000016
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000015
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000014
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000013
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000012
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000011
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000010
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000009
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000008
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000007
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000006
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000005
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000004
+[00:00:47]:  - session/34D206573542A4A3/A7GSFPPD7VAR/0000000003
+[00:00:47]:  - session/34D206573542A4A3/A7I48Q2S20RK/0000000034
+[00:00:47]:  - session/34D206573542A4A3/A7I48Q2S20RK/0000000033
+[00:00:47]:  - session/34D206573542A4A3/A7I48Q2S20RK/0000000032
+[00:00:47]:  - session/34D206573542A4A3/A7I48Q2S20RK/0000000031
+[00:00:47]:  - session/34D206573542A4A3/A7I48Q2S20RK/0000000030
+[00:00:47]:  - session/34D206573542A4A3/A7I48Q2S20RK/0000000029
+[00:00:47]:  - session/34D206573542A4A3/A7I48Q2S20RK/0000000028
+[00:00:47]:  - session/34D206573542A4A3/A7I48Q2S20RK/0000000027
+[00:00:47]:  - session/34D206573542A4A3/A7HNJ2T7TSDL/0000000007
+[00:00:47]:  - session/34D206573542A4A3/A7HNJ2T7TSDL/0000000006
+[00:00:47]:  - session/34D206573542A4A3/A7HNJ2T7TSDL/0000000005
+[00:00:47]:  - session/34D206573542A4A3/A7HNJ2T7TSDL/0000000004
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000034
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000033
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000032
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000031
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000030
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000029
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000028
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000027
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000026
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000025
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000024
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000023
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000022
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000021
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000020
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000019
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000018
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000017
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000016
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000015
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000014
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000013
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000012
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000011
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000010
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000009
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000008
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000007
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000006
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000005
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000004
+[00:00:47]:  - session/34D206573542A4A3/A7ILUGHR0B1A/0000000003
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000033
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000032
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000031
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000030
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000029
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000028
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000027
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000026
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000025
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000024
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000023
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000022
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000021
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000020
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000019
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000018
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000017
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000016
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000015
+[00:00:47]:  - session/34D206573542A4A3/A7MN2AD7GUEE/0000000014
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000034
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000033
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000032
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000031
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000030
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000029
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000028
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000027
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000026
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000025
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000024
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000023
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000022
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000021
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000020
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000019
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000018
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000017
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000016
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000015
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000014
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000013
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000012
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000011
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000010
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000009
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000008
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000007
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000006
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000005
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000004
+[00:00:47]:  - session/34D206573542A4A3/A7KSMORSDPRR/0000000003
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000034
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000033
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000032
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000031
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000030
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000029
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000028
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000027
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000026
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000025
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000024
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000023
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000022
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000021
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000020
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000019
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000018
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000017
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000016
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000015
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000014
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000013
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000012
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000011
+[00:00:47]:  - session/34D206573542A4A3/A7G1JTAT4U4I/0000000010
+[00:00:47]:  - session/34D206573542A4A3/A7HD8DSP07BN/0000000006
+[00:00:47]:  - session/34D206573542A4A3/A7HD8DSP07BN/0000000005
+[00:00:47]:  - session/34D206573542A4A3/A7HD8DSP07BN/0000000004
+[00:00:47]:  - session/34D206573542A4A3/A7HD8DSP7ISB/0000000034
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000027
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000026
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000025
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000024
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000023
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000022
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000021
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000020
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000019
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000018
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000017
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000016
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000015
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000014
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000013
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000012
+[00:00:47]:  - session/34D206573542A4A3/A7GLKNI7PIU0/0000000011
+[00:00:47]:  - session/34D206573542A4A3/A7N1U8RAMOKP/0000000026
+[00:00:47]:  - session/34D206573542A4A3/A7N1U8RAMOKP/0000000025
+[00:00:47]:  - session/34D206573542A4A3/A7N1U8RAMOKP/0000000024
+[00:00:47]:  - session/34D206573542A4A3/A7N1U8RAMOKP/0000000023
+[00:00:47]:  - session/34D206573542A4A3/A7N1U8RAMOKP/0000000022
+[00:00:47]:  - session/34D206573542A4A3/A7N1U8RAMOKP/0000000021
+[00:00:47]:  - session/34D206573542A4A3/A7N1U8RAMOKP/0000000020
+[00:00:47]:  - session/34D206573542A4A3/A7H9K9DNVOVD/0000000021
+[00:00:47]:  - session/34D206573542A4A3/A7H9K9DNVOVD/0000000020
+[00:00:47]:  - session/34D206573542A4A3/A7LH6IPPJCF5/0000000015
+[00:00:47]:  - session/34D206573542A4A3/A7LH6IPPJCF5/0000000014
+[00:00:47]:  - session/34D206573542A4A3/A7HBIF7MNDOF/0000000040
+[00:00:47]:  - session/34D206573542A4A3/A7HBIF7MNDOF/0000000034
+[00:00:47]:  - session/34D206573542A4A3/A7HBIF7MNDOF/0000000033
+[00:00:47]:  - session/34D206573542A4A3/A7HBIF7MNDOF/0000000032
+[00:00:47]:  - session/34D206573542A4A3/A7HBIF7MNDOF/0000000031
+[00:00:47]:  - session/34D206573542A4A3/A7HBIF7MNDOF/0000000030
+[00:00:47]:  - session/34D206573542A4A3/A7HBIF7MNDOF/0000000029
+[00:00:47]:  - session/34D206573542A4A3/A7HBIF7MNDOF/0000000028
+[00:00:47]:  - session/34D206573542A4A3/A7HBIF7MNDOF/0000000027
+[00:00:47]:  - session/34D206573542A4A3/A7HBIF7MNDOF/0000000026
+[00:00:47]:    282 file(s) removed
+[00:00:47]:  > session/34D206573542A4A3/A7MC3M72F7A9/savelocation
+[00:00:47]:  > session/34D206573542A4A3/A7GD745CDBVQ/savelocation
+[00:00:47]:  > session/34D206573542A4A3/A7GSFPPD7VAR/savelocation
+[00:00:47]:    3 file(s) updated
+[00:00:47]: Restoring user: session/34D206573542A4A3/A7KSMORSDPRR/0000000039	
+[00:00:47]: Restoring user: session/34D206573542A4A3/A7GSFPPD7VAR/0000000039	
+[00:00:47]: Restoring user: session/34D206573542A4A3/A7G1JTAT4U4I/0000000039	
+[00:00:47]: Restoring user: session/34D206573542A4A3/A7HTOLT6850I/0000000039	
+[00:00:47]: Restoring user: session/34D206573542A4A3/A7HBIF7MNDOF/0000000039	
+[00:00:47]: Restoring user: session/34D206573542A4A3/A7I48Q2S20RK/0000000039	
+[00:00:47]: Restoring user: session/34D206573542A4A3/A7MC3M72F7A9/0000000039	
+[00:00:47]: Serializing user: session/34D206573542A4A3/A7G1JTAT4U4I/0000000040
+[00:00:47]: Serializing user: session/34D206573542A4A3/A7HTOLT6850I/0000000040
+[00:00:47]: Serializing user: session/34D206573542A4A3/A7GSFPPD7VAR/0000000040
+[00:00:47]: Serializing user: session/34D206573542A4A3/A7MC3M72F7A9/0000000040
+[00:00:47]: Serializing user: session/34D206573542A4A3/A7I48Q2S20RK/0000000040
+[00:00:47]: Serializing user: session/34D206573542A4A3/A7KSMORSDPRR/0000000040
+[00:00:47]: Serializing user: session/34D206573542A4A3/A7HBIF7MNDOF/0000000040
+[00:00:47]: 1 uploads added to server. From server_temp
+[00:00:47]: About to start a shard with these settings:
+[00:00:47]:   ShardName: [SHDMASTER]
+[00:00:47]:   ShardID: 1
+[00:00:47]:   ShardRole: MASTER
+[00:00:47]:   MasterHost: (null)
+[00:00:47]:   MasterBind: 127.0.0.1
+[00:00:47]:   MasterPort: 10888
+[00:00:47]: [Shard] Starting master server
+[00:00:47]: [Shard] Shard server started on port: 10888
+[00:00:47]: Telling Client our new session identifier: 34D206573542A4A3
+[00:00:47]: Check for write access: TRUE
+[00:00:47]: Check for read access: TRUE
+[00:00:47]: Available disk space for save files: 46634 MB
+[00:00:47]: ModIndex: Load sequence finished successfully.	
+[00:00:47]: Reset() returning
+[00:00:47]: New incoming connection 211.90.250.238|36222 <2062395874665817097>
+[00:00:47]: Client connected from 211.90.250.238|36222 <2062395874665817097>
+[00:00:47]: ValidateGameSessionToken GUID<2062395874665817097>
+[00:00:47]: New incoming connection 223.104.54.245|51214 <8871943047720197338>
+[00:00:47]: Client connected from 223.104.54.245|51214 <8871943047720197338>
+[00:00:47]: ValidateGameSessionToken GUID<8871943047720197338>
+[00:00:47]: New incoming connection 122.112.141.221|10692 <8975141391548591173>
+[00:00:47]: Client connected from 122.112.141.221|10692 <8975141391548591173>
+[00:00:47]: ValidateGameSessionToken GUID<8975141391548591173>
+[00:00:48]: Validating portal[5] <-> 1353743380[5] (inactive)	
+[00:00:48]: Validating portal[3] <-> 1353743380[3] (inactive)	
+[00:00:48]: Validating portal[7] <-> 1353743380[7] (inactive)	
+[00:00:48]: Validating portal[1] <-> 1353743380[1] (inactive)	
+[00:00:48]: Validating portal[8] <-> 1353743380[8] (inactive)	
+[00:00:48]: Validating portal[10] <-> 1353743380[10] (inactive)	
+[00:00:48]: Validating portal[4] <-> 1353743380[4] (inactive)	
+[00:00:48]: Validating portal[2] <-> 1353743380[2] (inactive)	
+[00:00:48]: Validating portal[9] <-> 1353743380[9] (inactive)	
+[00:00:48]: Validating portal[6] <-> 1353743380[6] (inactive)	
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Could not find anim build FROMNUM
+[00:00:48]: Server registered via geo DNS in ap-southeast-1
+[00:00:48]: Client authenticated: (KU_dBOtnkTx) 路鸣泽
+[00:00:48]: Sim paused
+[00:00:56]: [Shard] Secondary shard Caves(1353743380) connected: [LAN] 127.0.0.1
+[00:00:57]: [Shard] Secondary Caves(1353743380) ready!
+[00:00:57]: World 1353743380 is now connected	
+[00:00:57]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[00:00:57]: [SyncWorldSettings] Sending master world option darkness = default to secondary shards.	
+[00:00:57]: [SyncWorldSettings] Sending master world option resettime = default to secondary shards.	
+[00:00:57]: [SyncWorldSettings] Sending master world option hunger = default to secondary shards.	
+[00:00:57]: [SyncWorldSettings] Sending master world option healthpenalty = always to secondary shards.	
+[00:00:57]: [SyncWorldSettings] Sending master world option temperaturedamage = default to secondary shards.	
+[00:00:57]: [SyncWorldSettings] Sending master world option spawnmode = fixed to secondary shards.	
+[00:00:57]: [SyncWorldSettings] Sending master world option ghostenabled = always to secondary shards.	
+[00:00:57]: [SyncWorldSettings] Sending master world option shadowcreatures = default to secondary shards.	
+[00:00:57]: [SyncWorldSettings] Sending master world option brightmarecreatures = default to secondary shards.	
+[00:00:57]: [SyncWorldSettings] Sending master world option lessdamagetaken = none to secondary shards.	
+[00:00:57]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:00:57]: [SyncWorldSettings] Sending master world option basicresource_regrowth = none to secondary shards.	
+[00:00:57]: [SyncWorldSettings] Sending master world option krampus = default to secondary shards.	
+[00:00:57]: [SyncWorldSettings] Sending master world option dropeverythingondespawn = default to secondary shards.	
+[00:00:57]: Validating portal[5] <-> 1353743380[5] (disabled)	
+[00:00:57]: Validating portal[3] <-> 1353743380[3] (disabled)	
+[00:00:57]: Validating portal[7] <-> 1353743380[7] (disabled)	
+[00:00:57]: Validating portal[1] <-> 1353743380[1] (active)	
+[00:00:57]: Validating portal[8] <-> 1353743380[8] (active)	
+[00:00:57]: Validating portal[10] <-> 1353743380[10] (active)	
+[00:00:57]: Validating portal[4] <-> 1353743380[4] (disabled)	
+[00:00:57]: Validating portal[2] <-> 1353743380[2] (disabled)	
+[00:00:57]: Validating portal[9] <-> 1353743380[9] (active)	
+[00:00:57]: Validating portal[6] <-> 1353743380[6] (active)	
+[00:00:57]: [Shard] Secondary shard 'Caves(1353743380)' restarting...
+[00:00:57]: World 1353743380 is now disconnected	
+[00:00:57]: Validating portal[5] <-> 1353743380[5] (inactive)	
+[00:00:57]: Validating portal[3] <-> 1353743380[3] (inactive)	
+[00:00:57]: Validating portal[7] <-> 1353743380[7] (inactive)	
+[00:00:57]: Validating portal[1] <-> 1353743380[1] (inactive)	
+[00:00:57]: Validating portal[8] <-> 1353743380[8] (inactive)	
+[00:00:57]: Validating portal[10] <-> 1353743380[10] (inactive)	
+[00:00:57]: Validating portal[4] <-> 1353743380[4] (inactive)	
+[00:00:57]: Validating portal[2] <-> 1353743380[2] (inactive)	
+[00:00:57]: Validating portal[9] <-> 1353743380[9] (inactive)	
+[00:00:57]: Validating portal[6] <-> 1353743380[6] (inactive)	
+[00:00:59]: New incoming connection 123.128.49.80|25214 <998992046392802546>
+[00:00:59]: Client connected from 123.128.49.80|25214 <998992046392802546>
+[00:00:59]: ValidateGameSessionToken GUID<998992046392802546>
+[00:00:59]: Client authenticated: (KU_FSLwP1GI) 地球上头
+[00:00:59]: [Steam] SendUserConnectAndAuthenticate for '76561199046336431'
+[00:00:59]: [Steam] Authenticated client '76561199046336431'
+[00:01:00]: There is no active event to validate against.
+[00:01:00]: [Shard] Read save location file for (KU_FSLwP1GI)
+[00:01:01]: [Steam] SendUserConnectAndAuthenticate for '76561199152048144'
+[00:01:01]: [Steam] Authenticated client '76561199152048144'
+[00:01:06]: There is no active event to validate against.
+[00:01:06]: [Shard] Read save location file for (KU_dBOtnkTx)
+[00:01:18]: [Shard] Secondary Caves(1353743380) ready!
+[00:01:18]: World 1353743380 is now connected	
+[00:01:18]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Sending master world option darkness = default to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Sending master world option resettime = default to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Sending master world option hunger = default to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Sending master world option healthpenalty = always to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Sending master world option temperaturedamage = default to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Sending master world option spawnmode = fixed to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Sending master world option ghostenabled = always to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Sending master world option shadowcreatures = default to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Sending master world option brightmarecreatures = default to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Sending master world option lessdamagetaken = none to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Sending master world option basicresource_regrowth = none to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Sending master world option krampus = default to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Sending master world option dropeverythingondespawn = default to secondary shards.	
+[00:01:18]: Validating portal[5] <-> 1353743380[5] (disabled)	
+[00:01:18]: Validating portal[3] <-> 1353743380[3] (disabled)	
+[00:01:18]: Validating portal[7] <-> 1353743380[7] (disabled)	
+[00:01:18]: Validating portal[1] <-> 1353743380[1] (active)	
+[00:01:18]: Validating portal[8] <-> 1353743380[8] (active)	
+[00:01:18]: Validating portal[10] <-> 1353743380[10] (active)	
+[00:01:18]: Validating portal[4] <-> 1353743380[4] (disabled)	
+[00:01:18]: Validating portal[2] <-> 1353743380[2] (disabled)	
+[00:01:18]: Validating portal[9] <-> 1353743380[9] (active)	
+[00:01:18]: Validating portal[6] <-> 1353743380[6] (active)	
+[00:01:18]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Resyncing master world option darkness = default to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Resyncing master world option resettime = default to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Resyncing master world option hunger = default to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Resyncing master world option healthpenalty = always to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Resyncing master world option temperaturedamage = default to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Resyncing master world option spawnmode = fixed to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Resyncing master world option ghostenabled = always to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Resyncing master world option shadowcreatures = default to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Resyncing master world option brightmarecreatures = default to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Resyncing master world option lessdamagetaken = none to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = none to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Resyncing master world option krampus = default to secondary shards.	
+[00:01:18]: [SyncWorldSettings] Resyncing master world option dropeverythingondespawn = default to secondary shards.	
+[00:01:20]: New incoming connection 223.160.170.22|4206 <3907004860613827067>
+[00:01:20]: Client connected from 223.160.170.22|4206 <3907004860613827067>
+[00:01:20]: ValidateGameSessionToken GUID<3907004860613827067>
+[00:01:20]: Client authenticated: (KU_77voq_rR) 艾雅法拉
+[00:01:20]: [Steam] SendUserConnectAndAuthenticate for '76561199067344593'
+[00:01:21]: [Steam] Authenticated client '76561199067344593'
+[00:01:22]: There is no active event to validate against.
+[00:01:22]: [Shard] Read save location file for (KU_77voq_rR)
+[00:01:29]: Resuming user: session/34D206573542A4A3/A7HTOLT6850I/0000000040
+[00:01:29]: Spawning player at: [Load] (475.43, 0.00, 216.90)	
+[00:01:29]: Sim unpaused
+[00:01:47]: Resuming user: session/34D206573542A4A3/A7GSFPPD7VAR/0000000040
+[00:01:47]: Spawning player at: [Load] (49.58, 0.00, -138.57)	
+[00:02:04]: [Steam] SendUserDisconnect for '76561199152048144'
+[00:02:04]: Connection lost to 122.112.141.221|10692 <8975141391548591173>
+[00:02:04]: [Shard] (KU_dBOtnkTx) disconnected from [SHDMASTER](1)
+[00:02:22]: New incoming connection 122.112.141.221|49757 <8426935145426184784>
+[00:02:22]: Client connected from 122.112.141.221|49757 <8426935145426184784>
+[00:02:22]: ValidateGameSessionToken GUID<8426935145426184784>
+[00:02:23]: Client authenticated: (KU_dBOtnkTx) 路鸣泽
+[00:02:23]: [Steam] SendUserConnectAndAuthenticate for '76561199152048144'
+[00:02:23]: [Steam] Authenticated client '76561199152048144'
+[00:02:25]: There is no active event to validate against.
+[00:02:25]: [Shard] Read save location file for (KU_dBOtnkTx)
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-1595631294	
+[00:02:28]: ModIndex:GetModsToLoad inserting moddir, 	workshop-362175979	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2287303119	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-1185229307	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-3255911457	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2987343164	
+[00:02:28]: ModIndex:GetModsToLoad inserting forcedmoddir, 	workshop-2847908822	
+[00:02:31]: New incoming connection 163.142.242.23|6997 <2932454159816750401>
+[00:02:31]: Client connected from 163.142.242.23|6997 <2932454159816750401>
+[00:02:31]: ValidateGameSessionToken GUID<2932454159816750401>
+[00:02:31]: Client authenticated: (KU_LnRtDpvM) Ricardo
+[00:02:31]: [Steam] SendUserConnectAndAuthenticate for '76561198883445911'
+[00:02:31]: [Steam] Authenticated client '76561198883445911'
+[00:02:32]: There is no active event to validate against.
+[00:02:32]: [Shard] Read save location file for (KU_LnRtDpvM)
+[00:02:44]: [Steam] SendUserDisconnect for '76561198883445911'
+[00:02:44]: [Shard] (KU_LnRtDpvM) disconnected from [SHDMASTER](1)
+[00:02:45]: [Steam] SendUserDisconnect for '76561198146225521'
+[00:02:46]: Resuming user: session/34D206573542A4A3/A7KSMORSDPRR/0000000040
+[00:02:46]: Spawning player at: [Load] (8.58, -0.00, 485.19)	
+[00:03:44]: New incoming connection 114.222.238.154|52076 <8061549136619733039>
+[00:03:44]: Client connected from 114.222.238.154|52076 <8061549136619733039>
+[00:03:44]: ValidateGameSessionToken GUID<8061549136619733039>
+[00:03:45]: Client authenticated: (KU_p1sE9vr9) 冰镇柠檬汁
+[00:03:45]: [Steam] SendUserConnectAndAuthenticate for '76561198121421112'
+[00:03:46]: [Steam] Authenticated client '76561198121421112'
+[00:03:47]: New incoming connection 211.90.250.238|2502 <8653508054792292952>
+[00:03:47]: Client connected from 211.90.250.238|2502 <8653508054792292952>
+[00:03:47]: ValidateGameSessionToken GUID<8653508054792292952>
+[00:03:47]: There is no active event to validate against.
+[00:03:47]: [Shard] Read save location file for (KU_p1sE9vr9)
+[00:03:47]: Client authenticated: (KU_0PzLqdYI) vanvee
+[00:03:48]: [Steam] SendUserConnectAndAuthenticate for '76561198146225521'
+[00:03:48]: [Steam] Authenticated client '76561198146225521'
+[00:03:50]: There is no active event to validate against.
+[00:03:50]: [Shard] Read save location file for (KU_0PzLqdYI)
+[00:04:02]: Could not find anim build FROMNUM
+[00:04:10]: Resuming user: session/34D206573542A4A3/A7G1JTAT4U4I/0000000040
+[00:04:10]: Spawning player at: [Load] (-85.48, 0.00, 416.06)	
+[00:04:24]: Resuming user: session/34D206573542A4A3/A7MC3M72F7A9/0000000040
+[00:04:24]: Spawning player at: [Load] (51.15, 0.00, -131.68)	
+[00:04:28]: [Steam] SendUserDisconnect for '76561199208643982'
+[00:04:57]: New incoming connection 223.104.54.245|51234 <8426935168939120242>
+[00:04:57]: Client connected from 223.104.54.245|51234 <8426935168939120242>
+[00:04:57]: ValidateGameSessionToken GUID<8426935168939120242>
+[00:04:58]: Client authenticated: (KU_H4Q5mGDq) 旁白
+[00:04:59]: [Steam] SendUserConnectAndAuthenticate for '76561199208643982'
+[00:04:59]: [Steam] Authenticated client '76561199208643982'
+[00:05:00]: There is no active event to validate against.
+[00:05:00]: [Shard] Read save location file for (KU_H4Q5mGDq)
+[00:05:16]: [string "scripts/stategraphs/SGmerm.lua"]:393: attempt to index a nil value
+LUA ERROR stack traceback:
+scripts/stategraphs/SGmerm.lua:393 in (field) fn (Lua) <392-398>
+   inst = 105934 - mermguard (valid:true)
+scripts/stategraph.lua:665 in (method) UpdateState (Lua) <633-677>
+   self =
+      tags = table: 0x2a6d6470
+      mem = table: 0x26eee3f0
+      statemem = table: 0x2a6d6440
+      currentstate = table: 0x254eca80
+      timelineindex = 3
+      timeinstate = 0.33333335071802
+      sg = Stategraph : merm
+      inst = 105934 - mermguard (valid:true)
+      lastupdatetime = 227.23334518448
+      bufferedevents = table: 0x27c312e0
+      statestarttime = 226.90001183376
+      laststate = table: 0x25514180
+   dt = 0.26666668057442
+   startstate = table: 0x254eca80
+   idx = 2
+   old_time = 0.33333335071802
+   extra_time = 1.7384688077993e-08
+scripts/stategraph.lua:703 in (method) Update (Lua) <696-722>
+   self =
+      tags = table: 0x2a6d6470
+      mem = table: 0x26eee3f0
+      statemem = table: 0x2a6d6440
+      currentstate = table: 0x254eca80
+      timelineindex = 3
+      timeinstate = 0.33333335071802
+      sg = Stategraph : merm
+      inst = 105934 - mermguard (valid:true)
+      lastupdatetime = 227.23334518448
+      bufferedevents = table: 0x27c312e0
+      statestarttime = 226.90001183376
+      laststate = table: 0x25514180
+   dt = 0.26666668057442
+scripts/stategraph.lua:128 in (method) Update (Lua) <109-146>
+   self =
+      updaters = table: 0x28b650a0
+      OnEnterNewState = function - scripts/stategraph.lua:27
+      tickwaiters = table: 0x15a281b0
+      haveEvents = table: 0xb1e0810
+      hibernaters = table: 0x15a281e0
+      instances = table: 0x15a28130
+   current_tick = 6817
+   waiters = table: 0x1147b6f0
+   updaters = table: 0x33c69880
+   k = sg="merm", state="eat", time=0.33, tags = "busy,"
+   v = true
+   prefab = mermguard
+scripts/update.lua:288 in (local) j (Lua) <224-298>
+   dt = 0.033333335071802
+   tick = 6817
+   i = 6817
+../mods/workshop-2847908822/modmain_.lua:1 in () ? (Lua) <1-1>
+   d = function - =[C]:-1
+   f = table: 0x15377fd0
+   g = table: 0x138c1e20
+   h = table: 0x138c25c0
+   y = nil
+   j = function - scripts/update.lua:224
+   z = nil
+   A = nil
+   B = nil
+   p = nil
+   C = nil
+   n = 302.9804469943
+   l = table: 0x23eb17c0
+   D = nil
+   E = nil
+   o = nil
+   F = nil
+   G = nil
+   H = nil
+   I = nil
+   J = nil
+=(tail call):-1 in ()  (tail) <-1--1>
+
+[00:05:16]: [string "scripts/stategraphs/SGmerm.lua"]:393: attempt to index a nil value
+LUA ERROR stack traceback:
+    scripts/stategraphs/SGmerm.lua:393 in (field) fn (Lua) <392-398>
+    scripts/stategraph.lua:665 in (method) UpdateState (Lua) <633-677>
+    scripts/stategraph.lua:703 in (method) Update (Lua) <696-722>
+    scripts/stategraph.lua:128 in (method) Update (Lua) <109-146>
+    scripts/update.lua:288 in (local) j (Lua) <224-298>
+    ../mods/workshop-2847908822/modmain_.lua:1 in () ? (Lua) <1-1>
+    =(tail call):-1 in ()  (tail) <-1--1>
+	
