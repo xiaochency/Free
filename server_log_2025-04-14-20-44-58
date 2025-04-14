@@ -1,0 +1,119 @@
+[14:39:07]: Activating portal[1] to 1	
+[14:39:07]: Serializing user: session/91F590E89A9622C5/A7N74GMJIKB5/0000000009
+[14:39:07]: [Shard] Migration request: (KU_voGjEL5b) to [SHDMASTER](1)
+[14:39:07]: [Shard] #12 <- session/91F590E89A9622C5/A7N74GMJIKB5/0000000009
+[14:39:07]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[14:39:07]: [Steam] SendUserDisconnect for '76561198901873425'
+[14:39:14]: [string "scripts/entityscript.lua"]:1273: attempt to call method 'Get' (a nil value)
+LUA ERROR stack traceback:
+scripts/entityscript.lua:1273 in (method) GetAngleToPoint (Lua) <1269-1279>
+   self (valid:true) =
+      GUID = 135091
+      inlimbo = false
+      AddTag = function - ../mods/workshop-1185229307/modmain.lua:42
+      brain = --brain--
+sleep time: 0.00
+Priority - READY <READY> ()>0.00
+   >Parallel - READY <READY> ()>0.00
+   >   >Isn't Jumping - READY <READY> ()>0.00
+   >   >Priority - READY <READY> ()>0.00
+   >   >   >Parallel - READY <READY> ()>0.00
+   >   >   >   >Just Spawned - READY <READY> ()>0.00
+   >   >   >   >PanicAndAvoid - READY <READY> ()>0.00
+   >   >   >RunAway - READY <READY> ()>0.00
+   >   >   >FailIfSuccess - READY <READY> ()>0.00
+   >   >   >   >Spy For Mimicables - READY <READY> ()>0.00
+   >   >   >FailIfSuccess - READY <READY> ()>0.00
+   >   >   >   >Block While Doing Mimic Action - READY <READY> ()>0.00
+   >   >   >Wander - READY <READY> ()>0.00
+
+      _toggle_tail_event = table: 0x1d864e90
+      AnimState = AnimState (0x119a90e0)
+      Network = Network (0x119a9180)
+      scrapbook_inspectonseen = true
+      pendingtasks = table: 0xb146d70
+      sg = sg="itemmimic_revealed", state="try_mimic", time=335.60, tags = "busy,jumping,"
+      spawntime = 2384.1001243405
+      moving_cheak_task = PERIODIC 135091: 3.000000
+      moving_cheak_log = table: 0x269f57f0
+      scrapbook_anim = eye_idle
+      actionreplica = table: 0x2c559df0
+      event_listening = table: 0x2ad3f310
+      actioncomponents = table: 0x2d94e4e0
+      lower_components_shadow = table: 0x2c559e70
+      entity = Entity (0x2e6ab5a0)
+      prefab = itemmimic_revealed
+      OnEntitySleep = function - ../mods/workshop-2847908822/10.lua:156
+      bufferedaction = ACTION 119845 - torch (valid:false)
+      persists = true
+      _mimicry_queued = false
+      brainfn = table: 0xaad24c0
+      SoundEmitter = SoundEmitter (0x119a9140)
+      OnEntityWake = function - ../mods/workshop-2847908822/9.lua:1
+      Transform = Transform (0x297ece50)
+      event_listeners = table: 0xd263ce0
+      Physics = Physics (0x119a9120)
+      replica = table: 0x297ecdf0
+      components = table: 0x2c559ef0
+      name = 拟态蠕虫
+   x = 119845 - torch (valid:false)
+   y = nil
+   z = nil
+scripts/entityscript.lua:1294 in (method) ForceFacePoint (Lua) <1293-1295>
+   self (valid:true) =
+      GUID = 135091
+      inlimbo = false
+      AddTag = function - ../mods/workshop-1185229307/modmain.lua:42
+      brain = --brain--
+sleep time: 0.00
+Priority - READY <READY> ()>0.00
+   >Parallel - READY <READY> ()>0.00
+   >   >Isn't Jumping - READY <READY> ()>0.00
+   >   >Priority - READY <READY> ()>0.00
+   >   >   >Parallel - READY <READY> ()>0.00
+   >   >   >   >Just Spawned - READY <READY> ()>0.00
+   >   >   >   >PanicAndAvoid - READY <READY> ()>0.00
+   >   >   >RunAway - READY <READY> ()>0.00
+   >   >   >FailIfSuccess - READY <READY> ()>0.00
+   >   >   >   >Spy For Mimicables - READY <READY> ()>0.00
+   >   >   >FailIfSuccess - READY <READY> ()>0.00
+   >   >   >   >Block While Doing Mimic Action - READY <READY> ()>0.00
+   >   >   >Wander - READY <READY> ()>0.00
+
+      _toggle_tail_event = table: 0x1d864e90
+      AnimState = AnimState (0x119a90e0)
+      Network = Network (0x119a9180)
+      scrapbook_inspectonseen = true
+      pendingtasks = table: 0xb146d70
+      sg = sg="itemmimic_revealed", state="try_mimic", time=335.60, tags = "busy,jumping,"
+      spawntime = 2384.1001243405
+      moving_cheak_task = PERIODIC 135091: 3.000000
+      moving_cheak_log = table: 0x269f57f0
+      scrapbook_anim = eye_idle
+      actionreplica = table: 0x2c559df0
+      event_listening = table: 0x2ad3f310
+      actioncomponents = table: 0x2d94e4e0
+      lower_components_shadow = table: 0x2c559e70
+      entity = Entity (0x2e6ab5a0)
+      prefab = itemmimic_revealed
+      OnEntitySleep = function - ../mods/workshop-2847908822/10.lua:156
+      bufferedaction = ACTION 119845 - torch (valid:false)
+      persists = true
+      _mimicry_queued = false
+      brainfn = table: 0xaad24c0
+      S
+[14:39:14]: [string "scripts/entityscript.lua"]:1273: attempt to call method 'Get' (a nil value)
+LUA ERROR stack traceback:
+    scripts/entityscript.lua:1273 in (method) GetAngleToPoint (Lua) <1269-1279>
+    scripts/entityscript.lua:1294 in (method) ForceFacePoint (Lua) <1293-1295>
+    scripts/stategraphs/SGitemmimic_revealed.lua:124 in (field) onenter (Lua) <102-126>
+    scripts/stategraph.lua:591 in (method) GoToState (Lua) <529-600>
+    scripts/stategraphs/SGitemmimic_revealed.lua:93 in () ? (Lua) <92-94>
+    =(tail call):-1 in ()  (tail) <-1--1>
+    scripts/stategraph.lua:465 in (method) HandleEvent (Lua) <463-471>
+    scripts/stategraph.lua:479 in (method) HandleEvents (Lua) <473-488>
+    scripts/stategraph.lua:154 in (method) UpdateEvents (Lua) <148-157>
+    scripts/stategraph.lua:145 in (method) Update (Lua) <109-146>
+    scripts/update.lua:288 in (upvalue) old_update (Lua) <224-298>
+    update:6 in () ? (Lua) <4-11>
+	
